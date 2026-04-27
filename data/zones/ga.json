@@ -1,0 +1,130 @@
+{
+  "meta": {
+    "schemaVersion": 2,
+    "parent": "ga"
+  },
+  "zones": [
+    {
+      "id": "ga-1",
+      "name": "Estuaire",
+      "level": "state",
+      "parent": "ga",
+      "hasChildren": false,
+      "geo": {
+        "lat": 0.39,
+        "lng": 9.45,
+        "flag": "🏴",
+        "region": "Africa"
+      },
+      "accessTier": "restricted",
+      "biome": "Urban Megacity",
+      "lore": "Estuaire is a curated regional zone in Gabon.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 1870,
+          "annual_usd": 22440
+        },
+        "language": {
+          "primary": "French",
+          "others": [],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Energy",
+            "Forestry",
+            "Services",
+            "Logistics"
+          ],
+          "degreeRequired": false
+        },
+        "health": "insurance_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local settlement",
+          "detail": "Local security, permits, and demand shape progression speed.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 52,
+        "cost": 70,
+        "safety": 68,
+        "quality": 72,
+        "language": 32,
+        "security": 52
+      },
+      "population": 1000000,
+      "currency": "XAF"
+    },
+    {
+      "id": "ga-8",
+      "name": "Ogooue-Maritime",
+      "level": "state",
+      "parent": "ga",
+      "hasChildren": false,
+      "geo": {
+        "lat": -1.56,
+        "lng": 9.26,
+        "flag": "🏴",
+        "region": "Africa"
+      },
+      "accessTier": "open",
+      "biome": "Coastal Frontier",
+      "lore": "Ogooue-Maritime is a curated regional zone in Gabon.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 1530,
+          "annual_usd": 18360
+        },
+        "language": {
+          "primary": "French",
+          "others": [],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Energy",
+            "Forestry",
+            "Services",
+            "Logistics"
+          ],
+          "degreeRequired": false
+        },
+        "health": "insurance_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local settlement",
+          "detail": "Local security, permits, and demand shape progression speed.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 30,
+        "cost": 40,
+        "safety": 72,
+        "quality": 62,
+        "language": 36,
+        "security": 66
+      },
+      "population": 220000,
+      "currency": "XAF"
+    }
+  ]
+}

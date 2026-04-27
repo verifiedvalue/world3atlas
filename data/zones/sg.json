@@ -1,0 +1,164 @@
+{
+  "meta": {
+    "schemaVersion": 2,
+    "parent": "sg"
+  },
+  "zones": [
+    {
+      "id": "sg-cen",
+      "name": "Central Core",
+      "level": "state",
+      "parent": "sg",
+      "hasChildren": false,
+      "geo": {
+        "lat": 1.302,
+        "lng": 103.84,
+        "flag": "🏴",
+        "region": "Asia"
+      },
+      "accessTier": "locked",
+      "biome": "Financial Citadel",
+      "lore": "Central Core acts as a major progression zone inside Singapore, with region-specific economy and entry friction.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 4956,
+          "annual_usd": 59472
+        },
+        "language": {
+          "primary": "English",
+          "others": [
+            "Mandarin",
+            "Malay",
+            "Tamil"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Finance",
+            "Tech",
+            "Biotech",
+            "Logistics",
+            "Law"
+          ],
+          "degreeRequired": true
+        },
+        "health": "insurance_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "regional_path",
+          "type": "hard",
+          "label": "Singapore national immigration route",
+          "detail": "Regional entry relies on national rules plus local employer or economic fit.",
+          "options": [
+            "Employment Pass (EP)",
+            "S Pass",
+            "EntrePass (Entrepreneurs)",
+            "ONE Pass"
+          ]
+        },
+        {
+          "id": "local_settlement",
+          "type": "soft",
+          "label": "Local settlement readiness",
+          "detail": "Housing search, registration, and language adaptation significantly affect first-year outcomes.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 84,
+        "cost": 98,
+        "safety": 98,
+        "quality": 94,
+        "language": 9,
+        "security": 26
+      },
+      "population": 1776000,
+      "currency": "SGD"
+    },
+    {
+      "id": "sg-we",
+      "name": "West Innovation Belt",
+      "level": "state",
+      "parent": "sg",
+      "hasChildren": false,
+      "geo": {
+        "lat": 1.344,
+        "lng": 103.69,
+        "flag": "🏴",
+        "region": "Asia"
+      },
+      "accessTier": "restricted",
+      "biome": "Tech Nexus",
+      "lore": "West Innovation Belt acts as a major progression zone inside Singapore, with region-specific economy and entry friction.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 3696,
+          "annual_usd": 44352
+        },
+        "language": {
+          "primary": "English",
+          "others": [
+            "Mandarin",
+            "Malay",
+            "Tamil"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Finance",
+            "Tech",
+            "Biotech",
+            "Logistics",
+            "Law"
+          ],
+          "degreeRequired": true
+        },
+        "health": "insurance_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "regional_path",
+          "type": "hard",
+          "label": "Singapore national immigration route",
+          "detail": "Regional entry relies on national rules plus local employer or economic fit.",
+          "options": [
+            "Employment Pass (EP)",
+            "S Pass",
+            "EntrePass (Entrepreneurs)",
+            "ONE Pass"
+          ]
+        },
+        {
+          "id": "local_settlement",
+          "type": "soft",
+          "label": "Local settlement readiness",
+          "detail": "Housing search, registration, and language adaptation significantly affect first-year outcomes.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 74,
+        "cost": 86,
+        "safety": 95,
+        "quality": 86,
+        "language": 3,
+        "security": 34
+      },
+      "population": 1065600,
+      "currency": "SGD"
+    }
+  ]
+}

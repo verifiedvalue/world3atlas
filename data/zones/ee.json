@@ -1,0 +1,136 @@
+{
+  "meta": {
+    "schemaVersion": 2,
+    "parent": "ee"
+  },
+  "zones": [
+    {
+      "id": "ee-har",
+      "name": "Harju County",
+      "level": "state",
+      "parent": "ee",
+      "hasChildren": false,
+      "geo": {
+        "lat": 59.437,
+        "lng": 24.753,
+        "flag": "🏴",
+        "region": "Europe"
+      },
+      "accessTier": "restricted",
+      "biome": "Tech Nexus",
+      "lore": "Harju County is a curated sub-region within Estonia.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 1440,
+          "annual_usd": 17280
+        },
+        "language": {
+          "primary": "Estonian",
+          "others": [
+            "English",
+            "Russian"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Software",
+            "Cybersecurity",
+            "Digital Business",
+            "Fintech"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local labor fit",
+          "detail": "Local demand and housing/settlement dynamics impact progression speed.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 46,
+        "cost": 48,
+        "safety": 84,
+        "quality": 80,
+        "language": 40,
+        "security": 58
+      },
+      "population": 650000,
+      "currency": "EUR"
+    },
+    {
+      "id": "ee-tar",
+      "name": "Tartu County",
+      "level": "state",
+      "parent": "ee",
+      "hasChildren": false,
+      "geo": {
+        "lat": 58.378,
+        "lng": 26.729,
+        "flag": "🏴",
+        "region": "Europe"
+      },
+      "accessTier": "open",
+      "biome": "Cultural Heartland",
+      "lore": "Tartu County is a curated sub-region within Estonia.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 1440,
+          "annual_usd": 17280
+        },
+        "language": {
+          "primary": "Estonian",
+          "others": [
+            "English",
+            "Russian"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Software",
+            "Cybersecurity",
+            "Digital Business",
+            "Fintech"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local labor fit",
+          "detail": "Local demand and housing/settlement dynamics impact progression speed.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 34,
+        "cost": 34,
+        "safety": 86,
+        "quality": 78,
+        "language": 42,
+        "security": 64
+      },
+      "population": 160000,
+      "currency": "EUR"
+    }
+  ]
+}

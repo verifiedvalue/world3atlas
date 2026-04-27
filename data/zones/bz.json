@@ -1,0 +1,134 @@
+{
+  "meta": {
+    "schemaVersion": 2,
+    "parent": "bz"
+  },
+  "zones": [
+    {
+      "id": "bz-bz",
+      "name": "Belize District",
+      "level": "state",
+      "parent": "bz",
+      "hasChildren": false,
+      "geo": {
+        "lat": 17.5,
+        "lng": -88.2,
+        "flag": "🏴",
+        "region": "Americas"
+      },
+      "accessTier": "restricted",
+      "biome": "Coastal Haven",
+      "lore": "Belize District is a curated regional zone in Belize.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 1080,
+          "annual_usd": 12960
+        },
+        "language": {
+          "primary": "English",
+          "others": [
+            "Spanish"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Tourism",
+            "Hospitality",
+            "Marine Services",
+            "Agriculture"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local settlement",
+          "detail": "Local permits, safety, and labor demand shape progression speed.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 42,
+        "cost": 48,
+        "safety": 60,
+        "quality": 64,
+        "language": 8,
+        "security": 66
+      },
+      "population": 110000,
+      "currency": "BZD"
+    },
+    {
+      "id": "bz-cy",
+      "name": "Cayo District",
+      "level": "state",
+      "parent": "bz",
+      "hasChildren": false,
+      "geo": {
+        "lat": 17.15,
+        "lng": -89.07,
+        "flag": "🏴",
+        "region": "Americas"
+      },
+      "accessTier": "open",
+      "biome": "Rainforest Enclave",
+      "lore": "Cayo District is a curated regional zone in Belize.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 1080,
+          "annual_usd": 12960
+        },
+        "language": {
+          "primary": "English",
+          "others": [
+            "Spanish"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Tourism",
+            "Hospitality",
+            "Marine Services",
+            "Agriculture"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local settlement",
+          "detail": "Local permits, safety, and labor demand shape progression speed.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 26,
+        "cost": 30,
+        "safety": 66,
+        "quality": 56,
+        "language": 12,
+        "security": 76
+      },
+      "population": 100000,
+      "currency": "BZD"
+    }
+  ]
+}

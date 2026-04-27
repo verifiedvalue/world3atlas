@@ -1,0 +1,280 @@
+{
+  "meta": {
+    "schemaVersion": 2,
+    "parent": "us-ca"
+  },
+  "zones": [
+    {
+      "id": "us-ca-sf",
+      "name": "San Francisco",
+      "level": "city",
+      "parent": "us-ca",
+      "hasChildren": false,
+      "geo": {
+        "lat": 37.77,
+        "lng": -122.42,
+        "flag": "🏙️",
+        "region": "Americas"
+      },
+      "accessTier": "fortress",
+      "biome": "Tech Nexus",
+      "lore": "The endgame zone of the American tech world. Six-figure salaries are entry-level. Fog rolls in every evening as if the city itself wants to obscure the rent prices.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 7200,
+          "annual_usd": 86400
+        },
+        "language": {
+          "primary": "English",
+          "others": [
+            "Cantonese",
+            "Spanish",
+            "Mandarin"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Software Engineering",
+            "AI/ML",
+            "VC/Finance",
+            "Biotech"
+          ],
+          "degreeRequired": false
+        },
+        "health": "insurance_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "fed_work_auth",
+          "type": "hard",
+          "label": "Federal Work Authorization",
+          "detail": "US work visa or citizenship required.",
+          "options": []
+        },
+        {
+          "id": "housing_budget",
+          "type": "hard",
+          "label": "Secure Housing (Median 1BR: $3,200/month)",
+          "detail": "SF has one of the most competitive rental markets globally.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 96,
+        "cost": 99,
+        "safety": 48,
+        "quality": 78,
+        "language": 5,
+        "security": 28
+      },
+      "population": 874000,
+      "currency": "USD"
+    },
+    {
+      "id": "us-ca-la",
+      "name": "Los Angeles",
+      "level": "city",
+      "parent": "us-ca",
+      "hasChildren": false,
+      "geo": {
+        "lat": 34.05,
+        "lng": -118.24,
+        "flag": "🏙️",
+        "region": "Americas"
+      },
+      "accessTier": "locked",
+      "biome": "Urban Megacity",
+      "lore": "The city of angels and gridlocked freeways. Entertainment capital of the world, perpetual sunshine, and costs that sting even six-figure earners. Traffic is a permanent debuff.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 6000,
+          "annual_usd": 72000
+        },
+        "language": {
+          "primary": "English",
+          "others": [
+            "Spanish",
+            "Korean",
+            "Mandarin"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Entertainment",
+            "Tech",
+            "Healthcare",
+            "Real Estate",
+            "Fashion"
+          ],
+          "degreeRequired": false
+        },
+        "health": "insurance_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "fed_work_auth",
+          "type": "hard",
+          "label": "Federal Work Authorization",
+          "detail": "US work visa or citizenship required.",
+          "options": []
+        },
+        {
+          "id": "vehicle",
+          "type": "hard",
+          "label": "Personal Vehicle Required",
+          "detail": "LA's public transit is sparse. A car is essentially mandatory.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 88,
+        "cost": 92,
+        "safety": 52,
+        "quality": 70,
+        "language": 5,
+        "security": 28
+      },
+      "population": 3900000,
+      "currency": "USD"
+    },
+    {
+      "id": "us-ca-sd",
+      "name": "San Diego",
+      "level": "city",
+      "parent": "us-ca",
+      "hasChildren": false,
+      "geo": {
+        "lat": 32.72,
+        "lng": -117.16,
+        "flag": "🏙️",
+        "region": "Americas"
+      },
+      "accessTier": "locked",
+      "biome": "Coastal Haven",
+      "lore": "Arguably the best weather on the continent, every single day of the year. Housing costs have caught up to the lifestyle premium significantly.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 5100,
+          "annual_usd": 61200
+        },
+        "language": {
+          "primary": "English",
+          "others": [
+            "Spanish"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Defense/Military",
+            "Biotech",
+            "Tourism",
+            "Tech",
+            "Healthcare"
+          ],
+          "degreeRequired": false
+        },
+        "health": "insurance_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "fed_work_auth",
+          "type": "hard",
+          "label": "Federal Work Authorization",
+          "detail": "US work visa or citizenship required.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 80,
+        "cost": 88,
+        "safety": 68,
+        "quality": 82,
+        "language": 5,
+        "security": 28
+      },
+      "population": 1385000,
+      "currency": "USD"
+    },
+    {
+      "id": "us-ca-sac",
+      "name": "Sacramento",
+      "level": "city",
+      "parent": "us-ca",
+      "hasChildren": false,
+      "geo": {
+        "lat": 38.58,
+        "lng": -121.49,
+        "flag": "🏙️",
+        "region": "Americas"
+      },
+      "accessTier": "restricted",
+      "biome": "Cultural Heartland",
+      "lore": "The state capital — often overlooked, increasingly discovered. Sacramento offers California culture at a 40% discount to the Bay. Remote workers fleeing SF have made it a rising zone.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 3800,
+          "annual_usd": 45600
+        },
+        "language": {
+          "primary": "English",
+          "others": [
+            "Spanish"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Government",
+            "Healthcare",
+            "Agriculture",
+            "Tech (remote)"
+          ],
+          "degreeRequired": false
+        },
+        "health": "insurance_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "fed_work_auth",
+          "type": "hard",
+          "label": "Federal Work Authorization",
+          "detail": "US work visa or citizenship required.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 62,
+        "cost": 65,
+        "safety": 55,
+        "quality": 68,
+        "language": 5,
+        "security": 28
+      },
+      "population": 524000,
+      "currency": "USD"
+    }
+  ]
+}

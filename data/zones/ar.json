@@ -1,0 +1,130 @@
+{
+  "meta": {
+    "schemaVersion": 2,
+    "parent": "ar"
+  },
+  "zones": [
+    {
+      "id": "ar-ba",
+      "name": "Buenos Aires Province",
+      "level": "state",
+      "parent": "ar",
+      "hasChildren": false,
+      "geo": {
+        "lat": -34.92,
+        "lng": -57.95,
+        "flag": "🏴",
+        "region": "Americas"
+      },
+      "accessTier": "restricted",
+      "biome": "Urban Megacity",
+      "lore": "Buenos Aires Province is a primary progression route within Argentina.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 810,
+          "annual_usd": 9720
+        },
+        "language": {
+          "primary": "Spanish",
+          "others": [],
+          "test": "DELE",
+          "level": "A2"
+        },
+        "skills": {
+          "preferred": [
+            "Agribusiness",
+            "Tech",
+            "Energy",
+            "Manufacturing"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_permit",
+          "type": "hard",
+          "label": "National pathway + local fit",
+          "detail": "Most outcomes depend on national eligibility plus local labor demand.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 44,
+        "cost": 42,
+        "safety": 50,
+        "quality": 70,
+        "language": 42,
+        "security": 60
+      },
+      "population": 17700000,
+      "currency": "ARS"
+    },
+    {
+      "id": "ar-cb",
+      "name": "Cordoba",
+      "level": "state",
+      "parent": "ar",
+      "hasChildren": false,
+      "geo": {
+        "lat": -31.42,
+        "lng": -64.18,
+        "flag": "🏴",
+        "region": "Americas"
+      },
+      "accessTier": "open",
+      "biome": "Industrial Heartland",
+      "lore": "Cordoba is a primary progression route within Argentina.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 810,
+          "annual_usd": 9720
+        },
+        "language": {
+          "primary": "Spanish",
+          "others": [],
+          "test": "DELE",
+          "level": "A2"
+        },
+        "skills": {
+          "preferred": [
+            "Agribusiness",
+            "Tech",
+            "Energy",
+            "Manufacturing"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_permit",
+          "type": "hard",
+          "label": "National pathway + local fit",
+          "detail": "Most outcomes depend on national eligibility plus local labor demand.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 32,
+        "cost": 28,
+        "safety": 58,
+        "quality": 64,
+        "language": 38,
+        "security": 68
+      },
+      "population": 3900000,
+      "currency": "ARS"
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "meta": {
+    "schemaVersion": 2,
+    "parent": "za"
+  },
+  "zones": [
+    {
+      "id": "za-gp",
+      "name": "Gauteng",
+      "level": "state",
+      "parent": "za",
+      "hasChildren": false,
+      "geo": {
+        "lat": -26.204,
+        "lng": 28.047,
+        "flag": "🏴",
+        "region": "Africa"
+      },
+      "accessTier": "open",
+      "biome": "Urban Megacity",
+      "lore": "Gauteng acts as a major progression zone inside South Africa, with region-specific economy and entry friction.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 708,
+          "annual_usd": 8496
+        },
+        "language": {
+          "primary": "English",
+          "others": [
+            "Zulu",
+            "Xhosa",
+            "Afrikaans"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Tech",
+            "Mining",
+            "Agriculture",
+            "Healthcare",
+            "Finance"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "regional_path",
+          "type": "hard",
+          "label": "South Africa national immigration route",
+          "detail": "Regional entry relies on national rules plus local employer or economic fit.",
+          "options": [
+            "Critical Skills Work Visa",
+            "General Work Visa",
+            "Corporate Visa"
+          ]
+        },
+        {
+          "id": "local_settlement",
+          "type": "soft",
+          "label": "Local settlement readiness",
+          "detail": "Housing search, registration, and language adaptation significantly affect first-year outcomes.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 36,
+        "cost": 30,
+        "safety": 30,
+        "quality": 54,
+        "language": 9,
+        "security": 72
+      },
+      "population": 18030000,
+      "currency": "ZAR"
+    },
+    {
+      "id": "za-wc",
+      "name": "Western Cape",
+      "level": "state",
+      "parent": "za",
+      "hasChildren": false,
+      "geo": {
+        "lat": -33.924,
+        "lng": 18.424,
+        "flag": "🏴",
+        "region": "Africa"
+      },
+      "accessTier": "open",
+      "biome": "Coastal Haven",
+      "lore": "Western Cape acts as a major progression zone inside South Africa, with region-specific economy and entry friction.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 528,
+          "annual_usd": 6336
+        },
+        "language": {
+          "primary": "English",
+          "others": [
+            "Zulu",
+            "Xhosa",
+            "Afrikaans"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Tech",
+            "Mining",
+            "Agriculture",
+            "Healthcare",
+            "Finance"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "regional_path",
+          "type": "hard",
+          "label": "South Africa national immigration route",
+          "detail": "Regional entry relies on national rules plus local employer or economic fit.",
+          "options": [
+            "Critical Skills Work Visa",
+            "General Work Visa",
+            "Corporate Visa"
+          ]
+        },
+        {
+          "id": "local_settlement",
+          "type": "soft",
+          "label": "Local settlement readiness",
+          "detail": "Housing search, registration, and language adaptation significantly affect first-year outcomes.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 26,
+        "cost": 16,
+        "safety": 26,
+        "quality": 46,
+        "language": 3,
+        "security": 72
+      },
+      "population": 10818000,
+      "currency": "ZAR"
+    }
+  ]
+}

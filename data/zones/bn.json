@@ -1,0 +1,134 @@
+{
+  "meta": {
+    "schemaVersion": 2,
+    "parent": "bn"
+  },
+  "zones": [
+    {
+      "id": "bn-bm",
+      "name": "Brunei-Muara",
+      "level": "state",
+      "parent": "bn",
+      "hasChildren": false,
+      "geo": {
+        "lat": 4.94,
+        "lng": 114.95,
+        "flag": "🏴",
+        "region": "Asia"
+      },
+      "accessTier": "restricted",
+      "biome": "Urban Outpost",
+      "lore": "Brunei-Muara is a curated regional zone in Brunei.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 2860,
+          "annual_usd": 34320
+        },
+        "language": {
+          "primary": "Malay",
+          "others": [
+            "English"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Energy",
+            "Public Services",
+            "Finance",
+            "Logistics"
+          ],
+          "degreeRequired": false
+        },
+        "health": "insurance_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local settlement",
+          "detail": "Local permits, safety, and labor demand shape progression speed.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 56,
+        "cost": 62,
+        "safety": 90,
+        "quality": 82,
+        "language": 22,
+        "security": 38
+      },
+      "population": 320000,
+      "currency": "BND"
+    },
+    {
+      "id": "bn-bs",
+      "name": "Belait",
+      "level": "state",
+      "parent": "bn",
+      "hasChildren": false,
+      "geo": {
+        "lat": 4.58,
+        "lng": 114.17,
+        "flag": "🏴",
+        "region": "Asia"
+      },
+      "accessTier": "open",
+      "biome": "Industrial Heartland",
+      "lore": "Belait is a curated regional zone in Brunei.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 2340,
+          "annual_usd": 28080
+        },
+        "language": {
+          "primary": "Malay",
+          "others": [
+            "English"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Energy",
+            "Public Services",
+            "Finance",
+            "Logistics"
+          ],
+          "degreeRequired": false
+        },
+        "health": "insurance_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local settlement",
+          "detail": "Local permits, safety, and labor demand shape progression speed.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 38,
+        "cost": 42,
+        "safety": 92,
+        "quality": 76,
+        "language": 26,
+        "security": 54
+      },
+      "population": 73000,
+      "currency": "BND"
+    }
+  ]
+}

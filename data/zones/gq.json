@@ -1,0 +1,136 @@
+{
+  "meta": {
+    "schemaVersion": 2,
+    "parent": "gq"
+  },
+  "zones": [
+    {
+      "id": "gq-bn",
+      "name": "Bioko Norte",
+      "level": "state",
+      "parent": "gq",
+      "hasChildren": false,
+      "geo": {
+        "lat": 3.75,
+        "lng": 8.78,
+        "flag": "🏴",
+        "region": "Africa"
+      },
+      "accessTier": "restricted",
+      "biome": "Island Outpost",
+      "lore": "Bioko Norte is a curated regional zone in Equatorial Guinea.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 1650,
+          "annual_usd": 19800
+        },
+        "language": {
+          "primary": "Spanish",
+          "others": [
+            "French",
+            "Portuguese"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Energy",
+            "Construction",
+            "Services",
+            "Logistics"
+          ],
+          "degreeRequired": false
+        },
+        "health": "insurance_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local settlement",
+          "detail": "Local security, permits, and demand shape progression speed.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 56,
+        "cost": 74,
+        "safety": 58,
+        "quality": 66,
+        "language": 34,
+        "security": 46
+      },
+      "population": 320000,
+      "currency": "XAF"
+    },
+    {
+      "id": "gq-kn",
+      "name": "Kie-Ntem",
+      "level": "state",
+      "parent": "gq",
+      "hasChildren": false,
+      "geo": {
+        "lat": 2.03,
+        "lng": 11.33,
+        "flag": "🏴",
+        "region": "Africa"
+      },
+      "accessTier": "open",
+      "biome": "Rainforest Enclave",
+      "lore": "Kie-Ntem is a curated regional zone in Equatorial Guinea.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 1350,
+          "annual_usd": 16200
+        },
+        "language": {
+          "primary": "Spanish",
+          "others": [
+            "French",
+            "Portuguese"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Energy",
+            "Construction",
+            "Services",
+            "Logistics"
+          ],
+          "degreeRequired": false
+        },
+        "health": "insurance_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local settlement",
+          "detail": "Local security, permits, and demand shape progression speed.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 34,
+        "cost": 46,
+        "safety": 64,
+        "quality": 56,
+        "language": 38,
+        "security": 62
+      },
+      "population": 200000,
+      "currency": "XAF"
+    }
+  ]
+}

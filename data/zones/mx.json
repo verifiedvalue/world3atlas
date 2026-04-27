@@ -1,0 +1,330 @@
+{
+  "meta": {
+    "schemaVersion": 2,
+    "parent": "mx"
+  },
+  "zones": [
+    {
+      "id": "mx-cmx",
+      "name": "Mexico City",
+      "level": "state",
+      "parent": "mx",
+      "hasChildren": false,
+      "geo": {
+        "lat": 19.43,
+        "lng": -99.13,
+        "flag": "🏴",
+        "region": "Americas"
+      },
+      "accessTier": "restricted",
+      "biome": "Urban Megacity",
+      "lore": "One of the world's largest metro zones — culture, traffic, and altitude form a unique difficulty cocktail.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 1200,
+          "annual_usd": 14400
+        },
+        "language": {
+          "primary": "Spanish",
+          "others": [
+            "Nahuatl"
+          ],
+          "test": "DELE",
+          "level": "A2"
+        },
+        "skills": {
+          "preferred": [
+            "Finance",
+            "Media",
+            "Tech",
+            "Logistics"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "visa",
+          "type": "hard",
+          "label": "Temporary Resident (TR) Path",
+          "detail": "National visa rules; CDMX is common hub for remote workers registering locally.",
+          "options": [
+            "Temporary Resident",
+            "Tourist (no work)"
+          ]
+        }
+      ],
+      "difficulty": {
+        "overall": 38,
+        "cost": 35,
+        "safety": 45,
+        "quality": 72,
+        "language": 40,
+        "security": 72
+      },
+      "population": 22000000,
+      "currency": "MXN"
+    },
+    {
+      "id": "mx-jal",
+      "name": "Jalisco",
+      "level": "state",
+      "parent": "mx",
+      "hasChildren": false,
+      "geo": {
+        "lat": 20.56,
+        "lng": -103.35,
+        "flag": "🏴",
+        "region": "Americas"
+      },
+      "accessTier": "open",
+      "biome": "Cultural Heartland",
+      "lore": "Guadalajara anchors Mexico's Silicon Valley narrative — growing tech scene with lower CoL than CDMX.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 950,
+          "annual_usd": 11400
+        },
+        "language": {
+          "primary": "Spanish",
+          "others": [],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Tech",
+            "Manufacturing",
+            "Agri-food",
+            "Remote Work"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "visa",
+          "type": "hard",
+          "label": "Residency aligned with national law",
+          "detail": "Same federal temporary resident thresholds; local ecosystem favors bilingual tech roles.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 30,
+        "cost": 28,
+        "safety": 52,
+        "quality": 70,
+        "language": 38,
+        "security": 76
+      },
+      "population": 8400000,
+      "currency": "MXN"
+    },
+    {
+      "id": "mx-nl",
+      "name": "Nuevo León",
+      "level": "state",
+      "parent": "mx",
+      "hasChildren": false,
+      "geo": {
+        "lat": 25.59,
+        "lng": -100.01,
+        "flag": "🏴",
+        "region": "Americas"
+      },
+      "accessTier": "restricted",
+      "biome": "Industrial Heartland",
+      "lore": "Monterrey is the northern industrial fortress — manufacturing, finance, and US supply-chain proximity.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 1400,
+          "annual_usd": 16800
+        },
+        "language": {
+          "primary": "Spanish",
+          "others": [
+            "English"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Manufacturing",
+            "Auto",
+            "Finance",
+            "Engineering"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "visa",
+          "type": "hard",
+          "label": "Work authorization under federal scheme",
+          "detail": "Employer-sponsored processes common for industrial roles.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 36,
+        "cost": 38,
+        "safety": 55,
+        "quality": 74,
+        "language": 32,
+        "security": 74
+      },
+      "population": 5800000,
+      "currency": "MXN"
+    },
+    {
+      "id": "mx-pue",
+      "name": "Puebla",
+      "level": "state",
+      "parent": "mx",
+      "hasChildren": false,
+      "geo": {
+        "lat": 19.041,
+        "lng": -98.206,
+        "flag": "🏴",
+        "region": "Americas"
+      },
+      "accessTier": "open",
+      "biome": "Cultural Heartland",
+      "lore": "Historic manufacturing and service center with lower living costs than central megacity zones.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 800,
+          "annual_usd": 9600
+        },
+        "language": {
+          "primary": "Spanish",
+          "others": [
+            "Nahuatl"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Manufacturing",
+            "Education",
+            "Services",
+            "Logistics"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "residence",
+          "type": "hard",
+          "label": "Temporary Resident route",
+          "detail": "Federal temporary resident thresholds apply with lower monthly burn rate in-region.",
+          "options": [
+            "Temporary Resident",
+            "Permanent Resident"
+          ]
+        }
+      ],
+      "difficulty": {
+        "overall": 28,
+        "cost": 24,
+        "safety": 46,
+        "quality": 64,
+        "language": 36,
+        "security": 78
+      },
+      "population": 6600000,
+      "currency": "MXN"
+    },
+    {
+      "id": "mx-bcn",
+      "name": "Baja California",
+      "level": "state",
+      "parent": "mx",
+      "hasChildren": false,
+      "geo": {
+        "lat": 30.8406,
+        "lng": -115.2838,
+        "flag": "🏴",
+        "region": "Americas"
+      },
+      "accessTier": "restricted",
+      "biome": "Border Territory",
+      "lore": "Cross-border manufacturing and logistics zone centered on Tijuana-Mexicali corridors.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 1100,
+          "annual_usd": 13200
+        },
+        "language": {
+          "primary": "Spanish",
+          "others": [
+            "English"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Manufacturing",
+            "Logistics",
+            "Healthcare",
+            "Bilingual services"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "work_auth",
+          "type": "hard",
+          "label": "Federal work authorization",
+          "detail": "Employer-backed paths are common in maquila and trade-linked sectors.",
+          "options": [
+            "Temporary Resident",
+            "Employer-backed work authorization"
+          ]
+        }
+      ],
+      "difficulty": {
+        "overall": 34,
+        "cost": 36,
+        "safety": 42,
+        "quality": 68,
+        "language": 30,
+        "security": 76
+      },
+      "population": 3800000,
+      "currency": "MXN"
+    }
+  ]
+}

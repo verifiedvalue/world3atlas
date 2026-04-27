@@ -1,0 +1,136 @@
+{
+  "meta": {
+    "schemaVersion": 2,
+    "parent": "cy"
+  },
+  "zones": [
+    {
+      "id": "cy-01",
+      "name": "Nicosia District",
+      "level": "state",
+      "parent": "cy",
+      "hasChildren": false,
+      "geo": {
+        "lat": 35.18,
+        "lng": 33.38,
+        "flag": "🏴",
+        "region": "Europe"
+      },
+      "accessTier": "restricted",
+      "biome": "Cultural Heartland",
+      "lore": "Nicosia District is a curated regional zone in Cyprus.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 2200,
+          "annual_usd": 26400
+        },
+        "language": {
+          "primary": "Greek",
+          "others": [
+            "English",
+            "Turkish"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Finance",
+            "Shipping",
+            "Tourism",
+            "Tech"
+          ],
+          "degreeRequired": false
+        },
+        "health": "insurance_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local settlement",
+          "detail": "Local compliance and labor demand shape onboarding speed.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 50,
+        "cost": 62,
+        "safety": 80,
+        "quality": 78,
+        "language": 28,
+        "security": 54
+      },
+      "population": 350000,
+      "currency": "EUR"
+    },
+    {
+      "id": "cy-02",
+      "name": "Limassol District",
+      "level": "state",
+      "parent": "cy",
+      "hasChildren": false,
+      "geo": {
+        "lat": 34.68,
+        "lng": 33.04,
+        "flag": "🏴",
+        "region": "Europe"
+      },
+      "accessTier": "open",
+      "biome": "Coastal Haven",
+      "lore": "Limassol District is a curated regional zone in Cyprus.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 1800,
+          "annual_usd": 21600
+        },
+        "language": {
+          "primary": "Greek",
+          "others": [
+            "English",
+            "Turkish"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Finance",
+            "Shipping",
+            "Tourism",
+            "Tech"
+          ],
+          "degreeRequired": false
+        },
+        "health": "insurance_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local settlement",
+          "detail": "Local compliance and labor demand shape onboarding speed.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 34,
+        "cost": 46,
+        "safety": 84,
+        "quality": 74,
+        "language": 32,
+        "security": 66
+      },
+      "population": 270000,
+      "currency": "EUR"
+    }
+  ]
+}

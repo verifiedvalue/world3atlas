@@ -1,0 +1,134 @@
+{
+  "meta": {
+    "schemaVersion": 2,
+    "parent": "kw"
+  },
+  "zones": [
+    {
+      "id": "kw-ku",
+      "name": "Capital Governorate",
+      "level": "state",
+      "parent": "kw",
+      "hasChildren": false,
+      "geo": {
+        "lat": 29.37,
+        "lng": 47.98,
+        "flag": "🏴",
+        "region": "Middle East"
+      },
+      "accessTier": "restricted",
+      "biome": "Financial Citadel",
+      "lore": "Capital Governorate is a curated regional zone in Kuwait.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 3080,
+          "annual_usd": 36960
+        },
+        "language": {
+          "primary": "Arabic",
+          "others": [
+            "English"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Energy",
+            "Healthcare",
+            "Construction",
+            "Finance"
+          ],
+          "degreeRequired": false
+        },
+        "health": "insurance_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local settlement",
+          "detail": "Local permitting and labor demand determine onboarding pace.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 60,
+        "cost": 74,
+        "safety": 84,
+        "quality": 80,
+        "language": 28,
+        "security": 38
+      },
+      "population": 500000,
+      "currency": "KWD"
+    },
+    {
+      "id": "kw-ha",
+      "name": "Hawalli Governorate",
+      "level": "state",
+      "parent": "kw",
+      "hasChildren": false,
+      "geo": {
+        "lat": 29.33,
+        "lng": 48.03,
+        "flag": "🏴",
+        "region": "Middle East"
+      },
+      "accessTier": "open",
+      "biome": "Urban Megacity",
+      "lore": "Hawalli Governorate is a curated regional zone in Kuwait.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 2520,
+          "annual_usd": 30240
+        },
+        "language": {
+          "primary": "Arabic",
+          "others": [
+            "English"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Energy",
+            "Healthcare",
+            "Construction",
+            "Finance"
+          ],
+          "degreeRequired": false
+        },
+        "health": "insurance_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local settlement",
+          "detail": "Local permitting and labor demand determine onboarding pace.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 42,
+        "cost": 52,
+        "safety": 86,
+        "quality": 72,
+        "language": 32,
+        "security": 52
+      },
+      "population": 950000,
+      "currency": "KWD"
+    }
+  ]
+}

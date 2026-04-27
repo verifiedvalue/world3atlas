@@ -1,0 +1,136 @@
+{
+  "meta": {
+    "schemaVersion": 2,
+    "parent": "cd"
+  },
+  "zones": [
+    {
+      "id": "cd-kn",
+      "name": "Kinshasa",
+      "level": "state",
+      "parent": "cd",
+      "hasChildren": false,
+      "geo": {
+        "lat": -4.44,
+        "lng": 15.27,
+        "flag": "🏴",
+        "region": "Africa"
+      },
+      "accessTier": "fortress",
+      "biome": "Urban Megacity",
+      "lore": "Kinshasa is a curated regional zone in Democratic Republic of the Congo.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 405,
+          "annual_usd": 4860
+        },
+        "language": {
+          "primary": "French",
+          "others": [
+            "Lingala",
+            "Swahili"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Mining",
+            "Humanitarian",
+            "Logistics",
+            "Public Health"
+          ],
+          "degreeRequired": false
+        },
+        "health": "proof_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local settlement",
+          "detail": "Local security, permits, and demand shape progression speed.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 96,
+        "cost": 12,
+        "safety": 8,
+        "quality": 24,
+        "language": 38,
+        "security": 10
+      },
+      "population": 17000000,
+      "currency": "CDF"
+    },
+    {
+      "id": "cd-hk",
+      "name": "Haut-Katanga",
+      "level": "state",
+      "parent": "cd",
+      "hasChildren": false,
+      "geo": {
+        "lat": -11.66,
+        "lng": 27.48,
+        "flag": "🏴",
+        "region": "Africa"
+      },
+      "accessTier": "fortress",
+      "biome": "Industrial Heartland",
+      "lore": "Haut-Katanga is a curated regional zone in Democratic Republic of the Congo.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 405,
+          "annual_usd": 4860
+        },
+        "language": {
+          "primary": "French",
+          "others": [
+            "Lingala",
+            "Swahili"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Mining",
+            "Humanitarian",
+            "Logistics",
+            "Public Health"
+          ],
+          "degreeRequired": false
+        },
+        "health": "proof_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local settlement",
+          "detail": "Local security, permits, and demand shape progression speed.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 90,
+        "cost": 8,
+        "safety": 12,
+        "quality": 18,
+        "language": 42,
+        "security": 16
+      },
+      "population": 9000000,
+      "currency": "CDF"
+    }
+  ]
+}

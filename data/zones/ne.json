@@ -1,0 +1,134 @@
+{
+  "meta": {
+    "schemaVersion": 2,
+    "parent": "ne"
+  },
+  "zones": [
+    {
+      "id": "ne-8",
+      "name": "Niamey",
+      "level": "state",
+      "parent": "ne",
+      "hasChildren": false,
+      "geo": {
+        "lat": 13.51,
+        "lng": 2.13,
+        "flag": "🏴",
+        "region": "Africa"
+      },
+      "accessTier": "fortress",
+      "biome": "Urban Outpost",
+      "lore": "Niamey is a curated regional zone in Niger.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 270,
+          "annual_usd": 3240
+        },
+        "language": {
+          "primary": "French",
+          "others": [
+            "Hausa"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Humanitarian",
+            "Agriculture",
+            "Logistics",
+            "Public Health"
+          ],
+          "degreeRequired": false
+        },
+        "health": "proof_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local settlement",
+          "detail": "Local security, permits, and demand shape progression speed.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 96,
+        "cost": 8,
+        "safety": 6,
+        "quality": 18,
+        "language": 40,
+        "security": 8
+      },
+      "population": 1400000,
+      "currency": "XOF"
+    },
+    {
+      "id": "ne-2",
+      "name": "Agadez",
+      "level": "state",
+      "parent": "ne",
+      "hasChildren": false,
+      "geo": {
+        "lat": 16.97,
+        "lng": 7.99,
+        "flag": "🏴",
+        "region": "Africa"
+      },
+      "accessTier": "fortress",
+      "biome": "Desert Outpost",
+      "lore": "Agadez is a curated regional zone in Niger.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 270,
+          "annual_usd": 3240
+        },
+        "language": {
+          "primary": "French",
+          "others": [
+            "Hausa"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Humanitarian",
+            "Agriculture",
+            "Logistics",
+            "Public Health"
+          ],
+          "degreeRequired": false
+        },
+        "health": "proof_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local settlement",
+          "detail": "Local security, permits, and demand shape progression speed.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 94,
+        "cost": 4,
+        "safety": 8,
+        "quality": 14,
+        "language": 44,
+        "security": 12
+      },
+      "population": 700000,
+      "currency": "XOF"
+    }
+  ]
+}

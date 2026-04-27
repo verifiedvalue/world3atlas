@@ -1,0 +1,134 @@
+{
+  "meta": {
+    "schemaVersion": 2,
+    "parent": "tn"
+  },
+  "zones": [
+    {
+      "id": "tn-11",
+      "name": "Tunis",
+      "level": "state",
+      "parent": "tn",
+      "hasChildren": false,
+      "geo": {
+        "lat": 36.8,
+        "lng": 10.18,
+        "flag": "🏴",
+        "region": "Africa"
+      },
+      "accessTier": "restricted",
+      "biome": "Urban Megacity",
+      "lore": "Tunis is a curated regional zone in Tunisia.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 720,
+          "annual_usd": 8640
+        },
+        "language": {
+          "primary": "Arabic",
+          "others": [
+            "French"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Manufacturing",
+            "Tourism",
+            "IT Services",
+            "Trade"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local settlement",
+          "detail": "Local administration and labor demand influence progression speed.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 38,
+        "cost": 30,
+        "safety": 60,
+        "quality": 62,
+        "language": 40,
+        "security": 66
+      },
+      "population": 2700000,
+      "currency": "TND"
+    },
+    {
+      "id": "tn-61",
+      "name": "Sfax",
+      "level": "state",
+      "parent": "tn",
+      "hasChildren": false,
+      "geo": {
+        "lat": 34.74,
+        "lng": 10.76,
+        "flag": "🏴",
+        "region": "Africa"
+      },
+      "accessTier": "open",
+      "biome": "Industrial Heartland",
+      "lore": "Sfax is a curated regional zone in Tunisia.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 720,
+          "annual_usd": 8640
+        },
+        "language": {
+          "primary": "Arabic",
+          "others": [
+            "French"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Manufacturing",
+            "Tourism",
+            "IT Services",
+            "Trade"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local settlement",
+          "detail": "Local administration and labor demand influence progression speed.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 24,
+        "cost": 18,
+        "safety": 66,
+        "quality": 54,
+        "language": 44,
+        "security": 74
+      },
+      "population": 1000000,
+      "currency": "TND"
+    }
+  ]
+}

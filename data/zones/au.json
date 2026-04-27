@@ -1,0 +1,266 @@
+{
+  "meta": {
+    "schemaVersion": 2,
+    "parent": "au"
+  },
+  "zones": [
+    {
+      "id": "au-nsw",
+      "name": "New South Wales",
+      "level": "state",
+      "parent": "au",
+      "hasChildren": false,
+      "geo": {
+        "lat": -33.868,
+        "lng": 151.209,
+        "flag": "🏴",
+        "region": "Oceania"
+      },
+      "accessTier": "locked",
+      "biome": "Urban Megacity",
+      "lore": "Sydney anchors the finance and services endgame but carries one of the steepest housing difficulty curves.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 3600,
+          "annual_usd": 43200
+        },
+        "language": {
+          "primary": "English",
+          "others": [],
+          "test": "IELTS / PTE",
+          "level": "6.5 IELTS"
+        },
+        "skills": {
+          "preferred": [
+            "Finance",
+            "Tech",
+            "Healthcare",
+            "Construction"
+          ],
+          "degreeRequired": false
+        },
+        "health": "insurance_required",
+        "age": {
+          "min": null,
+          "max": 45
+        }
+      },
+      "quests": [
+        {
+          "id": "nomination",
+          "type": "hard",
+          "label": "State nomination (190/491) or employer sponsor",
+          "detail": "NSW runs highly competitive occupation rounds for nominated visas.",
+          "options": [
+            "Subclass 190",
+            "Subclass 491",
+            "Subclass 482"
+          ]
+        }
+      ],
+      "difficulty": {
+        "overall": 68,
+        "cost": 82,
+        "safety": 86,
+        "quality": 88,
+        "language": 5,
+        "security": 42
+      },
+      "population": 8200000,
+      "currency": "AUD"
+    },
+    {
+      "id": "au-vic",
+      "name": "Victoria",
+      "level": "state",
+      "parent": "au",
+      "hasChildren": false,
+      "geo": {
+        "lat": -37.814,
+        "lng": 144.963,
+        "flag": "🏴",
+        "region": "Oceania"
+      },
+      "accessTier": "restricted",
+      "biome": "Cultural Heartland",
+      "lore": "Melbourne's education, healthcare, and creative sectors make it a balanced high-opportunity route.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 3200,
+          "annual_usd": 38400
+        },
+        "language": {
+          "primary": "English",
+          "others": [],
+          "test": "IELTS / PTE",
+          "level": "6.0 IELTS"
+        },
+        "skills": {
+          "preferred": [
+            "Education",
+            "Healthcare",
+            "Tech",
+            "Research"
+          ],
+          "degreeRequired": false
+        },
+        "health": "insurance_required",
+        "age": {
+          "min": null,
+          "max": 45
+        }
+      },
+      "quests": [
+        {
+          "id": "nomination",
+          "type": "hard",
+          "label": "Victoria skilled nomination",
+          "detail": "Priority often given to health, STEM, and digital occupations.",
+          "options": [
+            "Subclass 190",
+            "Subclass 491"
+          ]
+        }
+      ],
+      "difficulty": {
+        "overall": 60,
+        "cost": 70,
+        "safety": 84,
+        "quality": 87,
+        "language": 5,
+        "security": 44
+      },
+      "population": 7000000,
+      "currency": "AUD"
+    },
+    {
+      "id": "au-qld",
+      "name": "Queensland",
+      "level": "state",
+      "parent": "au",
+      "hasChildren": false,
+      "geo": {
+        "lat": -27.469,
+        "lng": 153.025,
+        "flag": "🏴",
+        "region": "Oceania"
+      },
+      "accessTier": "restricted",
+      "biome": "Tropical Sanctuary",
+      "lore": "Brisbane and the Gold Coast blend growth and livability with lower costs than Sydney.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 2700,
+          "annual_usd": 32400
+        },
+        "language": {
+          "primary": "English",
+          "others": [],
+          "test": "IELTS / PTE",
+          "level": "6.0 IELTS"
+        },
+        "skills": {
+          "preferred": [
+            "Construction",
+            "Healthcare",
+            "Tourism",
+            "Mining"
+          ],
+          "degreeRequired": false
+        },
+        "health": "insurance_required",
+        "age": {
+          "min": null,
+          "max": 45
+        }
+      },
+      "quests": [
+        {
+          "id": "regional",
+          "type": "hard",
+          "label": "Regional sponsorship pathways",
+          "detail": "Regional visas provide additional points and faster pathways in selected zones.",
+          "options": [
+            "Subclass 491",
+            "Subclass 482",
+            "Subclass 186"
+          ]
+        }
+      ],
+      "difficulty": {
+        "overall": 52,
+        "cost": 60,
+        "safety": 82,
+        "quality": 82,
+        "language": 5,
+        "security": 48
+      },
+      "population": 5600000,
+      "currency": "AUD"
+    },
+    {
+      "id": "au-wa",
+      "name": "Western Australia",
+      "level": "state",
+      "parent": "au",
+      "hasChildren": false,
+      "geo": {
+        "lat": -31.952,
+        "lng": 115.861,
+        "flag": "🏴",
+        "region": "Oceania"
+      },
+      "accessTier": "restricted",
+      "biome": "Desert Outpost",
+      "lore": "Perth's mining and energy economy offers high earning potential for specialized classes.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 3000,
+          "annual_usd": 36000
+        },
+        "language": {
+          "primary": "English",
+          "others": [],
+          "test": "IELTS / PTE",
+          "level": "6.0 IELTS"
+        },
+        "skills": {
+          "preferred": [
+            "Mining",
+            "Energy",
+            "Engineering",
+            "Logistics"
+          ],
+          "degreeRequired": false
+        },
+        "health": "insurance_required",
+        "age": {
+          "min": null,
+          "max": 45
+        }
+      },
+      "quests": [
+        {
+          "id": "state_list",
+          "type": "hard",
+          "label": "WA Skilled Migration Occupation List",
+          "detail": "Eligibility tracks WA in-demand occupations and invitation rounds.",
+          "options": [
+            "Subclass 190",
+            "Subclass 491"
+          ]
+        }
+      ],
+      "difficulty": {
+        "overall": 56,
+        "cost": 58,
+        "safety": 84,
+        "quality": 80,
+        "language": 5,
+        "security": 45
+      },
+      "population": 3000000,
+      "currency": "AUD"
+    }
+  ]
+}

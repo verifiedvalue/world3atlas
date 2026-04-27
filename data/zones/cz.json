@@ -1,0 +1,152 @@
+{
+  "meta": {
+    "schemaVersion": 2,
+    "parent": "cz"
+  },
+  "zones": [
+    {
+      "id": "cz-pr",
+      "name": "Prague Region",
+      "level": "state",
+      "parent": "cz",
+      "hasChildren": false,
+      "geo": {
+        "lat": 50.075,
+        "lng": 14.438,
+        "flag": "🏴",
+        "region": "Europe"
+      },
+      "accessTier": "restricted",
+      "biome": "Cultural Heartland",
+      "lore": "Prague Region acts as a major progression zone inside Czech Republic, with region-specific economy and entry friction.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 1770,
+          "annual_usd": 21240
+        },
+        "language": {
+          "primary": "Czech",
+          "others": [],
+          "test": "CCE",
+          "level": "A1"
+        },
+        "skills": {
+          "preferred": [
+            "Tech",
+            "Manufacturing",
+            "Engineering",
+            "Finance"
+          ],
+          "degreeRequired": false
+        },
+        "health": "insurance_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "regional_path",
+          "type": "hard",
+          "label": "Czech Republic national immigration route",
+          "detail": "Regional entry relies on national rules plus local employer or economic fit.",
+          "options": [
+            "Employee Card",
+            "EU Blue Card",
+            "Intra-company Transfer Permit"
+          ]
+        },
+        {
+          "id": "local_settlement",
+          "type": "soft",
+          "label": "Local settlement readiness",
+          "detail": "Housing search, registration, and language adaptation significantly affect first-year outcomes.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 48,
+        "cost": 50,
+        "safety": 84,
+        "quality": 78,
+        "language": 72,
+        "security": 54
+      },
+      "population": 3270000,
+      "currency": "CZK"
+    },
+    {
+      "id": "cz-jm",
+      "name": "South Moravian",
+      "level": "state",
+      "parent": "cz",
+      "hasChildren": false,
+      "geo": {
+        "lat": 49.195,
+        "lng": 16.606,
+        "flag": "🏴",
+        "region": "Europe"
+      },
+      "accessTier": "restricted",
+      "biome": "Industrial Heartland",
+      "lore": "South Moravian acts as a major progression zone inside Czech Republic, with region-specific economy and entry friction.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 1320,
+          "annual_usd": 15840
+        },
+        "language": {
+          "primary": "Czech",
+          "others": [],
+          "test": "CCE",
+          "level": "A1"
+        },
+        "skills": {
+          "preferred": [
+            "Tech",
+            "Manufacturing",
+            "Engineering",
+            "Finance"
+          ],
+          "degreeRequired": false
+        },
+        "health": "insurance_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "regional_path",
+          "type": "hard",
+          "label": "Czech Republic national immigration route",
+          "detail": "Regional entry relies on national rules plus local employer or economic fit.",
+          "options": [
+            "Employee Card",
+            "EU Blue Card",
+            "Intra-company Transfer Permit"
+          ]
+        },
+        {
+          "id": "local_settlement",
+          "type": "soft",
+          "label": "Local settlement readiness",
+          "detail": "Housing search, registration, and language adaptation significantly affect first-year outcomes.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 38,
+        "cost": 36,
+        "safety": 80,
+        "quality": 70,
+        "language": 66,
+        "security": 54
+      },
+      "population": 1962000,
+      "currency": "CZK"
+    }
+  ]
+}

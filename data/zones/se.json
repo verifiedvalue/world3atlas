@@ -1,0 +1,154 @@
+{
+  "meta": {
+    "schemaVersion": 2,
+    "parent": "se"
+  },
+  "zones": [
+    {
+      "id": "se-ab",
+      "name": "Stockholm County",
+      "level": "state",
+      "parent": "se",
+      "hasChildren": false,
+      "geo": {
+        "lat": 59.329,
+        "lng": 18.068,
+        "flag": "🏴",
+        "region": "Europe"
+      },
+      "accessTier": "restricted",
+      "biome": "Nordic Citadel",
+      "lore": "Stockholm County acts as a major progression zone inside Sweden, with region-specific economy and entry friction.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 3186,
+          "annual_usd": 38232
+        },
+        "language": {
+          "primary": "Swedish",
+          "others": [],
+          "test": "SFI / TISUS",
+          "level": "A2"
+        },
+        "skills": {
+          "preferred": [
+            "Tech",
+            "Engineering",
+            "Healthcare",
+            "Research",
+            "Design"
+          ],
+          "degreeRequired": true
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "regional_path",
+          "type": "hard",
+          "label": "Sweden national immigration route",
+          "detail": "Regional entry relies on national rules plus local employer or economic fit.",
+          "options": [
+            "Work Permit (employment offer)",
+            "EU Blue Card",
+            "EU Citizen (no visa)"
+          ]
+        },
+        {
+          "id": "local_settlement",
+          "type": "soft",
+          "label": "Local settlement readiness",
+          "detail": "Housing search, registration, and language adaptation significantly affect first-year outcomes.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 62,
+        "cost": 73,
+        "safety": 82,
+        "quality": 92,
+        "language": 24,
+        "security": 50
+      },
+      "population": 3150000,
+      "currency": "SEK"
+    },
+    {
+      "id": "se-o",
+      "name": "Vastra Gotaland",
+      "level": "state",
+      "parent": "se",
+      "hasChildren": false,
+      "geo": {
+        "lat": 57.708,
+        "lng": 11.974,
+        "flag": "🏴",
+        "region": "Europe"
+      },
+      "accessTier": "restricted",
+      "biome": "Coastal Haven",
+      "lore": "Vastra Gotaland acts as a major progression zone inside Sweden, with region-specific economy and entry friction.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 2376,
+          "annual_usd": 28512
+        },
+        "language": {
+          "primary": "Swedish",
+          "others": [],
+          "test": "SFI / TISUS",
+          "level": "A2"
+        },
+        "skills": {
+          "preferred": [
+            "Tech",
+            "Engineering",
+            "Healthcare",
+            "Research",
+            "Design"
+          ],
+          "degreeRequired": true
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "regional_path",
+          "type": "hard",
+          "label": "Sweden national immigration route",
+          "detail": "Regional entry relies on national rules plus local employer or economic fit.",
+          "options": [
+            "Work Permit (employment offer)",
+            "EU Blue Card",
+            "EU Citizen (no visa)"
+          ]
+        },
+        {
+          "id": "local_settlement",
+          "type": "soft",
+          "label": "Local settlement readiness",
+          "detail": "Housing search, registration, and language adaptation significantly affect first-year outcomes.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 52,
+        "cost": 59,
+        "safety": 78,
+        "quality": 84,
+        "language": 18,
+        "security": 50
+      },
+      "population": 1890000,
+      "currency": "SEK"
+    }
+  ]
+}

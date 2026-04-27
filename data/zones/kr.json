@@ -1,0 +1,156 @@
+{
+  "meta": {
+    "schemaVersion": 2,
+    "parent": "kr"
+  },
+  "zones": [
+    {
+      "id": "kr-11",
+      "name": "Seoul Capital Area",
+      "level": "state",
+      "parent": "kr",
+      "hasChildren": false,
+      "geo": {
+        "lat": 37.566,
+        "lng": 126.978,
+        "flag": "🏴",
+        "region": "Asia"
+      },
+      "accessTier": "restricted",
+      "biome": "Tech Nexus",
+      "lore": "Seoul Capital Area acts as a major progression zone inside South Korea, with region-specific economy and entry friction.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 2596,
+          "annual_usd": 31152
+        },
+        "language": {
+          "primary": "Korean",
+          "others": [],
+          "test": "TOPIK",
+          "level": "TOPIK II (Level 4)"
+        },
+        "skills": {
+          "preferred": [
+            "Tech",
+            "Engineering",
+            "Teaching (ESL)",
+            "Finance",
+            "Research"
+          ],
+          "degreeRequired": true
+        },
+        "health": "insurance_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "regional_path",
+          "type": "hard",
+          "label": "South Korea national immigration route",
+          "detail": "Regional entry relies on national rules plus local employer or economic fit.",
+          "options": [
+            "E-7 Work Visa",
+            "E-2 English Teacher Visa",
+            "D-8 Corporate Investment",
+            "F-2 Residency"
+          ]
+        },
+        {
+          "id": "local_settlement",
+          "type": "soft",
+          "label": "Local settlement readiness",
+          "detail": "Housing search, registration, and language adaptation significantly affect first-year outcomes.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 64,
+        "cost": 66,
+        "safety": 92,
+        "quality": 86,
+        "language": 92,
+        "security": 42
+      },
+      "population": 15510000,
+      "currency": "KRW"
+    },
+    {
+      "id": "kr-26",
+      "name": "Busan Corridor",
+      "level": "state",
+      "parent": "kr",
+      "hasChildren": false,
+      "geo": {
+        "lat": 35.179,
+        "lng": 129.075,
+        "flag": "🏴",
+        "region": "Asia"
+      },
+      "accessTier": "restricted",
+      "biome": "Industrial Heartland",
+      "lore": "Busan Corridor acts as a major progression zone inside South Korea, with region-specific economy and entry friction.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 1936,
+          "annual_usd": 23232
+        },
+        "language": {
+          "primary": "Korean",
+          "others": [],
+          "test": "TOPIK",
+          "level": "TOPIK II (Level 4)"
+        },
+        "skills": {
+          "preferred": [
+            "Tech",
+            "Engineering",
+            "Teaching (ESL)",
+            "Finance",
+            "Research"
+          ],
+          "degreeRequired": true
+        },
+        "health": "insurance_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "regional_path",
+          "type": "hard",
+          "label": "South Korea national immigration route",
+          "detail": "Regional entry relies on national rules plus local employer or economic fit.",
+          "options": [
+            "E-7 Work Visa",
+            "E-2 English Teacher Visa",
+            "D-8 Corporate Investment",
+            "F-2 Residency"
+          ]
+        },
+        {
+          "id": "local_settlement",
+          "type": "soft",
+          "label": "Local settlement readiness",
+          "detail": "Housing search, registration, and language adaptation significantly affect first-year outcomes.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 54,
+        "cost": 52,
+        "safety": 88,
+        "quality": 78,
+        "language": 86,
+        "security": 42
+      },
+      "population": 9306000,
+      "currency": "KRW"
+    }
+  ]
+}

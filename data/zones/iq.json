@@ -1,0 +1,134 @@
+{
+  "meta": {
+    "schemaVersion": 2,
+    "parent": "iq"
+  },
+  "zones": [
+    {
+      "id": "iq-bg",
+      "name": "Baghdad Governorate",
+      "level": "state",
+      "parent": "iq",
+      "hasChildren": false,
+      "geo": {
+        "lat": 33.31,
+        "lng": 44.36,
+        "flag": "🏴",
+        "region": "Middle East"
+      },
+      "accessTier": "fortress",
+      "biome": "Urban Megacity",
+      "lore": "Baghdad Governorate is a curated regional zone in Iraq.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 810,
+          "annual_usd": 9720
+        },
+        "language": {
+          "primary": "Arabic",
+          "others": [
+            "Kurdish"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Energy",
+            "Construction",
+            "Logistics",
+            "Healthcare"
+          ],
+          "degreeRequired": false
+        },
+        "health": "proof_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local settlement",
+          "detail": "Local permitting and labor demand determine onboarding pace.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 90,
+        "cost": 26,
+        "safety": 18,
+        "quality": 36,
+        "language": 42,
+        "security": 16
+      },
+      "population": 8500000,
+      "currency": "IQD"
+    },
+    {
+      "id": "iq-ar",
+      "name": "Erbil Governorate",
+      "level": "state",
+      "parent": "iq",
+      "hasChildren": false,
+      "geo": {
+        "lat": 36.19,
+        "lng": 44.01,
+        "flag": "🏴",
+        "region": "Middle East"
+      },
+      "accessTier": "restricted",
+      "biome": "Border Territory",
+      "lore": "Erbil Governorate is a curated regional zone in Iraq.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 810,
+          "annual_usd": 9720
+        },
+        "language": {
+          "primary": "Arabic",
+          "others": [
+            "Kurdish"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Energy",
+            "Construction",
+            "Logistics",
+            "Healthcare"
+          ],
+          "degreeRequired": false
+        },
+        "health": "proof_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local settlement",
+          "detail": "Local permitting and labor demand determine onboarding pace.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 70,
+        "cost": 24,
+        "safety": 40,
+        "quality": 46,
+        "language": 44,
+        "security": 32
+      },
+      "population": 2200000,
+      "currency": "IQD"
+    }
+  ]
+}

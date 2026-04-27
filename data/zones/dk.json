@@ -1,0 +1,134 @@
+{
+  "meta": {
+    "schemaVersion": 2,
+    "parent": "dk"
+  },
+  "zones": [
+    {
+      "id": "dk-h",
+      "name": "Capital Region",
+      "level": "state",
+      "parent": "dk",
+      "hasChildren": false,
+      "geo": {
+        "lat": 55.676,
+        "lng": 12.568,
+        "flag": "🏴",
+        "region": "Europe"
+      },
+      "accessTier": "restricted",
+      "biome": "Urban Megacity",
+      "lore": "Capital Region is a strategic regional zone within Denmark.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 3192,
+          "annual_usd": 38304
+        },
+        "language": {
+          "primary": "Danish",
+          "others": [
+            "English"
+          ],
+          "test": "PD3",
+          "level": "B1"
+        },
+        "skills": {
+          "preferred": [
+            "Tech",
+            "Pharma",
+            "Engineering",
+            "Wind Energy"
+          ],
+          "degreeRequired": true
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local conditions",
+          "detail": "Local employer demand and settlement logistics materially affect outcomes.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 64,
+        "cost": 78,
+        "safety": 90,
+        "quality": 94,
+        "language": 60,
+        "security": 42
+      },
+      "population": 1900000,
+      "currency": "DKK"
+    },
+    {
+      "id": "dk-m",
+      "name": "Central Denmark",
+      "level": "state",
+      "parent": "dk",
+      "hasChildren": false,
+      "geo": {
+        "lat": 56.162,
+        "lng": 10.204,
+        "flag": "🏴",
+        "region": "Europe"
+      },
+      "accessTier": "restricted",
+      "biome": "Cultural Heartland",
+      "lore": "Central Denmark is a strategic regional zone within Denmark.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 2520,
+          "annual_usd": 30240
+        },
+        "language": {
+          "primary": "Danish",
+          "others": [
+            "English"
+          ],
+          "test": "PD3",
+          "level": "B1"
+        },
+        "skills": {
+          "preferred": [
+            "Tech",
+            "Pharma",
+            "Engineering",
+            "Wind Energy"
+          ],
+          "degreeRequired": true
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local conditions",
+          "detail": "Local employer demand and settlement logistics materially affect outcomes.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 50,
+        "cost": 60,
+        "safety": 92,
+        "quality": 90,
+        "language": 54,
+        "security": 50
+      },
+      "population": 1300000,
+      "currency": "DKK"
+    }
+  ]
+}

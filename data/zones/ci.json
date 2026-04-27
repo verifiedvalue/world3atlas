@@ -1,0 +1,130 @@
+{
+  "meta": {
+    "schemaVersion": 2,
+    "parent": "ci"
+  },
+  "zones": [
+    {
+      "id": "ci-ab",
+      "name": "Abidjan District",
+      "level": "state",
+      "parent": "ci",
+      "hasChildren": false,
+      "geo": {
+        "lat": 5.36,
+        "lng": -4.008,
+        "flag": "🏴",
+        "region": "Africa"
+      },
+      "accessTier": "restricted",
+      "biome": "Urban Megacity",
+      "lore": "Abidjan District is a curated regional zone in Cote d'Ivoire.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 495,
+          "annual_usd": 5940
+        },
+        "language": {
+          "primary": "French",
+          "others": [],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Trade",
+            "Agribusiness",
+            "Construction",
+            "Logistics"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local setup",
+          "detail": "Local demand, docs, and settlement friction determine onboarding speed.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 34,
+        "cost": 22,
+        "safety": 50,
+        "quality": 56,
+        "language": 32,
+        "security": 70
+      },
+      "population": 6300000,
+      "currency": "XOF"
+    },
+    {
+      "id": "ci-ym",
+      "name": "Yamoussoukro District",
+      "level": "state",
+      "parent": "ci",
+      "hasChildren": false,
+      "geo": {
+        "lat": 6.827,
+        "lng": -5.289,
+        "flag": "🏴",
+        "region": "Africa"
+      },
+      "accessTier": "open",
+      "biome": "Cultural Heartland",
+      "lore": "Yamoussoukro District is a curated regional zone in Cote d'Ivoire.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 495,
+          "annual_usd": 5940
+        },
+        "language": {
+          "primary": "French",
+          "others": [],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Trade",
+            "Agribusiness",
+            "Construction",
+            "Logistics"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local setup",
+          "detail": "Local demand, docs, and settlement friction determine onboarding speed.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 20,
+        "cost": 12,
+        "safety": 56,
+        "quality": 48,
+        "language": 34,
+        "security": 76
+      },
+      "population": 400000,
+      "currency": "XOF"
+    }
+  ]
+}

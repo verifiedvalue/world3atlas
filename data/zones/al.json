@@ -1,0 +1,136 @@
+{
+  "meta": {
+    "schemaVersion": 2,
+    "parent": "al"
+  },
+  "zones": [
+    {
+      "id": "al-tr",
+      "name": "Tirana County",
+      "level": "state",
+      "parent": "al",
+      "hasChildren": false,
+      "geo": {
+        "lat": 41.33,
+        "lng": 19.82,
+        "flag": "🏴",
+        "region": "Europe"
+      },
+      "accessTier": "restricted",
+      "biome": "Urban Megacity",
+      "lore": "Tirana County is a curated regional zone in Albania.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 900,
+          "annual_usd": 10800
+        },
+        "language": {
+          "primary": "Albanian",
+          "others": [
+            "English",
+            "Italian"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Tourism",
+            "Services",
+            "Construction",
+            "IT Support"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local settlement",
+          "detail": "Local compliance and labor demand shape onboarding speed.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 40,
+        "cost": 30,
+        "safety": 66,
+        "quality": 66,
+        "language": 42,
+        "security": 66
+      },
+      "population": 900000,
+      "currency": "ALL"
+    },
+    {
+      "id": "al-vl",
+      "name": "Vlore County",
+      "level": "state",
+      "parent": "al",
+      "hasChildren": false,
+      "geo": {
+        "lat": 40.47,
+        "lng": 19.49,
+        "flag": "🏴",
+        "region": "Europe"
+      },
+      "accessTier": "open",
+      "biome": "Coastal Haven",
+      "lore": "Vlore County is a curated regional zone in Albania.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 900,
+          "annual_usd": 10800
+        },
+        "language": {
+          "primary": "Albanian",
+          "others": [
+            "English",
+            "Italian"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Tourism",
+            "Services",
+            "Construction",
+            "IT Support"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local settlement",
+          "detail": "Local compliance and labor demand shape onboarding speed.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 24,
+        "cost": 18,
+        "safety": 72,
+        "quality": 60,
+        "language": 46,
+        "security": 76
+      },
+      "population": 190000,
+      "currency": "ALL"
+    }
+  ]
+}

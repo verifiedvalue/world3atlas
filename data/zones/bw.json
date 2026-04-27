@@ -1,0 +1,134 @@
+{
+  "meta": {
+    "schemaVersion": 2,
+    "parent": "bw"
+  },
+  "zones": [
+    {
+      "id": "bw-se",
+      "name": "South East District",
+      "level": "state",
+      "parent": "bw",
+      "hasChildren": false,
+      "geo": {
+        "lat": -24.65,
+        "lng": 25.91,
+        "flag": "🏴",
+        "region": "Africa"
+      },
+      "accessTier": "open",
+      "biome": "Urban Megacity",
+      "lore": "South East District is a curated regional zone in Botswana.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 1080,
+          "annual_usd": 12960
+        },
+        "language": {
+          "primary": "English",
+          "others": [
+            "Setswana"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Mining",
+            "Healthcare",
+            "Public Services",
+            "Logistics"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local settlement",
+          "detail": "Local administration and labor demand influence progression speed.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 38,
+        "cost": 42,
+        "safety": 74,
+        "quality": 66,
+        "language": 14,
+        "security": 66
+      },
+      "population": 500000,
+      "currency": "BWP"
+    },
+    {
+      "id": "bw-no",
+      "name": "North East District",
+      "level": "state",
+      "parent": "bw",
+      "hasChildren": false,
+      "geo": {
+        "lat": -20.16,
+        "lng": 27.5,
+        "flag": "🏴",
+        "region": "Africa"
+      },
+      "accessTier": "open",
+      "biome": "Steppe Frontier",
+      "lore": "North East District is a curated regional zone in Botswana.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 1080,
+          "annual_usd": 12960
+        },
+        "language": {
+          "primary": "English",
+          "others": [
+            "Setswana"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Mining",
+            "Healthcare",
+            "Public Services",
+            "Logistics"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local settlement",
+          "detail": "Local administration and labor demand influence progression speed.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 22,
+        "cost": 24,
+        "safety": 78,
+        "quality": 60,
+        "language": 18,
+        "security": 76
+      },
+      "population": 220000,
+      "currency": "BWP"
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "meta": {
+    "schemaVersion": 2,
+    "parent": "br"
+  },
+  "zones": [
+    {
+      "id": "br-sp",
+      "name": "Sao Paulo",
+      "level": "state",
+      "parent": "br",
+      "hasChildren": false,
+      "geo": {
+        "lat": -23.55,
+        "lng": -46.63,
+        "flag": "🏴",
+        "region": "Americas"
+      },
+      "accessTier": "restricted",
+      "biome": "Financial Citadel",
+      "lore": "Sao Paulo acts as a major progression zone inside Brazil, with region-specific economy and entry friction.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 826,
+          "annual_usd": 9912
+        },
+        "language": {
+          "primary": "Portuguese",
+          "others": [],
+          "test": "CELPE-Bras",
+          "level": "A2"
+        },
+        "skills": {
+          "preferred": [
+            "Remote Work",
+            "Tech",
+            "Agriculture",
+            "Mining",
+            "Tourism"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "regional_path",
+          "type": "hard",
+          "label": "Brazil national immigration route",
+          "detail": "Regional entry relies on national rules plus local employer or economic fit.",
+          "options": [
+            "Permanent Visa (Investment)",
+            "Retirement Visa",
+            "Digital Nomad / Tourist (90 days)"
+          ]
+        },
+        {
+          "id": "local_settlement",
+          "type": "soft",
+          "label": "Local settlement readiness",
+          "detail": "Housing search, registration, and language adaptation significantly affect first-year outcomes.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 36,
+        "cost": 33,
+        "safety": 40,
+        "quality": 59,
+        "language": 49,
+        "security": 77
+      },
+      "population": 64590000,
+      "currency": "BRL"
+    },
+    {
+      "id": "br-rj",
+      "name": "Rio de Janeiro",
+      "level": "state",
+      "parent": "br",
+      "hasChildren": false,
+      "geo": {
+        "lat": -22.906,
+        "lng": -43.172,
+        "flag": "🏴",
+        "region": "Americas"
+      },
+      "accessTier": "open",
+      "biome": "Coastal Haven",
+      "lore": "Rio de Janeiro acts as a major progression zone inside Brazil, with region-specific economy and entry friction.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 616,
+          "annual_usd": 7392
+        },
+        "language": {
+          "primary": "Portuguese",
+          "others": [],
+          "test": "CELPE-Bras",
+          "level": "A2"
+        },
+        "skills": {
+          "preferred": [
+            "Remote Work",
+            "Tech",
+            "Agriculture",
+            "Mining",
+            "Tourism"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "regional_path",
+          "type": "hard",
+          "label": "Brazil national immigration route",
+          "detail": "Regional entry relies on national rules plus local employer or economic fit.",
+          "options": [
+            "Permanent Visa (Investment)",
+            "Retirement Visa",
+            "Digital Nomad / Tourist (90 days)"
+          ]
+        },
+        {
+          "id": "local_settlement",
+          "type": "soft",
+          "label": "Local settlement readiness",
+          "detail": "Housing search, registration, and language adaptation significantly affect first-year outcomes.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 26,
+        "cost": 19,
+        "safety": 36,
+        "quality": 51,
+        "language": 43,
+        "security": 77
+      },
+      "population": 38754000,
+      "currency": "BRL"
+    }
+  ]
+}

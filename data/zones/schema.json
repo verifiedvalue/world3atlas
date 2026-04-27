@@ -1,0 +1,89 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://worldzone.local/schema/zone-v2.json",
+  "title": "WorldZone zone document",
+  "description": "Version 2 zone atlas entry (country, admin region, or city).",
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "level",
+    "geo",
+    "accessTier",
+    "biome",
+    "lore",
+    "stats",
+    "quests",
+    "difficulty",
+    "population",
+    "currency"
+  ],
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+    "name": { "type": "string", "minLength": 1 },
+    "level": { "type": "string", "enum": ["country", "state", "city"] },
+    "parent": { "type": ["string", "null"] },
+    "hasChildren": { "type": "boolean" },
+    "childrenFile": { "type": "string", "description": "Basename under data/zones/ (without .json)" },
+    "geo": {
+      "type": "object",
+      "required": ["lat", "lng"],
+      "properties": {
+        "lat": { "type": "number" },
+        "lng": { "type": "number" },
+        "flag": { "type": "string" },
+        "region": { "type": "string" }
+      }
+    },
+    "accessTier": {
+      "type": "string",
+      "enum": ["open", "restricted", "locked", "fortress"]
+    },
+    "biome": { "type": "string" },
+    "lore": { "type": "string" },
+    "stats": { "type": "object" },
+    "quests": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "type", "label", "detail", "options"],
+        "properties": {
+          "id": { "type": "string" },
+          "type": { "type": "string", "enum": ["hard", "soft", "optional"] },
+          "label": { "type": "string" },
+          "detail": { "type": "string" },
+          "options": { "type": "array", "items": { "type": "string" } }
+        }
+      }
+    },
+    "difficulty": {
+      "type": "object",
+      "required": ["overall", "cost", "security", "safety", "quality", "language"],
+      "properties": {
+        "overall": {
+          "type": "number",
+          "description": "Aggregate settlement strain (0=easy, 100=extreme). Drives MMO tier labels; UI overall ring averages factor scores instead."
+        },
+        "cost": {
+          "type": "number",
+          "description": "Cost-of-living strain for budgeting (0=cheap, 100=very expensive). UI Affluence bar uses stats.wealth.monthly_usd instead."
+        },
+        "security": {
+          "type": "number",
+          "description": "Readiness 0–100: borders, documentation, and institutional predictability for settlement (higher = better). Replaces legacy difficulty.access as (100 − access strain)."
+        },
+        "safety": { "type": "number" },
+        "quality": { "type": "number" },
+        "language": { "type": "number" }
+      }
+    },
+    "population": { "type": "number" },
+    "currency": { "type": "string" },
+    "sources": {
+      "type": "array",
+      "items": { "type": "object" },
+      "description": "Optional citations for legal/factual claims (Phase 2+)"
+    }
+  },
+  "additionalProperties": true
+}

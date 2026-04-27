@@ -1,0 +1,134 @@
+{
+  "meta": {
+    "schemaVersion": 2,
+    "parent": "sn"
+  },
+  "zones": [
+    {
+      "id": "sn-dk",
+      "name": "Dakar Region",
+      "level": "state",
+      "parent": "sn",
+      "hasChildren": false,
+      "geo": {
+        "lat": 14.692,
+        "lng": -17.446,
+        "flag": "🏴",
+        "region": "Africa"
+      },
+      "accessTier": "restricted",
+      "biome": "Urban Megacity",
+      "lore": "Dakar Region is a curated regional zone in Senegal.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 495,
+          "annual_usd": 5940
+        },
+        "language": {
+          "primary": "French",
+          "others": [
+            "Wolof"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Trade",
+            "Services",
+            "Logistics",
+            "Fisheries"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local setup",
+          "detail": "Local demand, docs, and settlement friction determine onboarding speed.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 32,
+        "cost": 20,
+        "safety": 60,
+        "quality": 58,
+        "language": 32,
+        "security": 70
+      },
+      "population": 4000000,
+      "currency": "XOF"
+    },
+    {
+      "id": "sn-th",
+      "name": "Thies Region",
+      "level": "state",
+      "parent": "sn",
+      "hasChildren": false,
+      "geo": {
+        "lat": 14.788,
+        "lng": -16.926,
+        "flag": "🏴",
+        "region": "Africa"
+      },
+      "accessTier": "open",
+      "biome": "Cultural Heartland",
+      "lore": "Thies Region is a curated regional zone in Senegal.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 495,
+          "annual_usd": 5940
+        },
+        "language": {
+          "primary": "French",
+          "others": [
+            "Wolof"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Trade",
+            "Services",
+            "Logistics",
+            "Fisheries"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local setup",
+          "detail": "Local demand, docs, and settlement friction determine onboarding speed.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 18,
+        "cost": 10,
+        "safety": 64,
+        "quality": 50,
+        "language": 34,
+        "security": 78
+      },
+      "population": 2200000,
+      "currency": "XOF"
+    }
+  ]
+}

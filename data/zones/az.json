@@ -1,0 +1,136 @@
+{
+  "meta": {
+    "schemaVersion": 2,
+    "parent": "az"
+  },
+  "zones": [
+    {
+      "id": "az-ba",
+      "name": "Baku",
+      "level": "state",
+      "parent": "az",
+      "hasChildren": false,
+      "geo": {
+        "lat": 40.409,
+        "lng": 49.867,
+        "flag": "🏴",
+        "region": "Asia"
+      },
+      "accessTier": "restricted",
+      "biome": "Financial Citadel",
+      "lore": "Baku is a curated regional zone in Azerbaijan.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 1080,
+          "annual_usd": 12960
+        },
+        "language": {
+          "primary": "Azerbaijani",
+          "others": [
+            "Russian",
+            "English"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Energy",
+            "Logistics",
+            "Construction",
+            "Services"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local settlement",
+          "detail": "Local permitting and labor demand determine onboarding pace.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 48,
+        "cost": 38,
+        "safety": 66,
+        "quality": 68,
+        "language": 46,
+        "security": 52
+      },
+      "population": 2300000,
+      "currency": "AZN"
+    },
+    {
+      "id": "az-ga",
+      "name": "Ganja",
+      "level": "state",
+      "parent": "az",
+      "hasChildren": false,
+      "geo": {
+        "lat": 40.683,
+        "lng": 46.36,
+        "flag": "🏴",
+        "region": "Asia"
+      },
+      "accessTier": "open",
+      "biome": "Industrial Heartland",
+      "lore": "Ganja is a curated regional zone in Azerbaijan.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 1080,
+          "annual_usd": 12960
+        },
+        "language": {
+          "primary": "Azerbaijani",
+          "others": [
+            "Russian",
+            "English"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Energy",
+            "Logistics",
+            "Construction",
+            "Services"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local settlement",
+          "detail": "Local permitting and labor demand determine onboarding pace.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 32,
+        "cost": 24,
+        "safety": 72,
+        "quality": 60,
+        "language": 50,
+        "security": 64
+      },
+      "population": 330000,
+      "currency": "AZN"
+    }
+  ]
+}

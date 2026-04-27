@@ -1,0 +1,136 @@
+{
+  "meta": {
+    "schemaVersion": 2,
+    "parent": "bi"
+  },
+  "zones": [
+    {
+      "id": "bi-bj",
+      "name": "Bujumbura Mairie",
+      "level": "state",
+      "parent": "bi",
+      "hasChildren": false,
+      "geo": {
+        "lat": -3.38,
+        "lng": 29.36,
+        "flag": "🏴",
+        "region": "Africa"
+      },
+      "accessTier": "open",
+      "biome": "Urban Outpost",
+      "lore": "Bujumbura Mairie is a curated regional zone in Burundi.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 270,
+          "annual_usd": 3240
+        },
+        "language": {
+          "primary": "Kirundi",
+          "others": [
+            "French",
+            "English"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Agriculture",
+            "Trade",
+            "Public Health",
+            "Education"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local settlement",
+          "detail": "Local permits, safety, and labor demand shape progression speed.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 34,
+        "cost": 10,
+        "safety": 48,
+        "quality": 36,
+        "language": 34,
+        "security": 68
+      },
+      "population": 1100000,
+      "currency": "BIF"
+    },
+    {
+      "id": "bi-gi",
+      "name": "Gitega Province",
+      "level": "state",
+      "parent": "bi",
+      "hasChildren": false,
+      "geo": {
+        "lat": -3.42,
+        "lng": 29.93,
+        "flag": "🏴",
+        "region": "Africa"
+      },
+      "accessTier": "open",
+      "biome": "Highland Frontier",
+      "lore": "Gitega Province is a curated regional zone in Burundi.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 270,
+          "annual_usd": 3240
+        },
+        "language": {
+          "primary": "Kirundi",
+          "others": [
+            "French",
+            "English"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Agriculture",
+            "Trade",
+            "Public Health",
+            "Education"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local settlement",
+          "detail": "Local permits, safety, and labor demand shape progression speed.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 20,
+        "cost": 6,
+        "safety": 52,
+        "quality": 30,
+        "language": 38,
+        "security": 78
+      },
+      "population": 1000000,
+      "currency": "BIF"
+    }
+  ]
+}

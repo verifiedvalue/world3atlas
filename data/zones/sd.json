@@ -1,0 +1,134 @@
+{
+  "meta": {
+    "schemaVersion": 2,
+    "parent": "sd"
+  },
+  "zones": [
+    {
+      "id": "sd-kh",
+      "name": "Khartoum State",
+      "level": "state",
+      "parent": "sd",
+      "hasChildren": false,
+      "geo": {
+        "lat": 15.5,
+        "lng": 32.56,
+        "flag": "🏴",
+        "region": "Africa"
+      },
+      "accessTier": "fortress",
+      "biome": "Urban Megacity",
+      "lore": "Khartoum State is a curated regional zone in Sudan.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 360,
+          "annual_usd": 4320
+        },
+        "language": {
+          "primary": "Arabic",
+          "others": [
+            "English"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Humanitarian",
+            "Healthcare",
+            "Logistics",
+            "Agriculture"
+          ],
+          "degreeRequired": false
+        },
+        "health": "proof_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local settlement",
+          "detail": "Local administration and labor demand influence progression speed.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 94,
+        "cost": 14,
+        "safety": 8,
+        "quality": 24,
+        "language": 44,
+        "security": 12
+      },
+      "population": 8300000,
+      "currency": "SDG"
+    },
+    {
+      "id": "sd-gd",
+      "name": "Gedaref State",
+      "level": "state",
+      "parent": "sd",
+      "hasChildren": false,
+      "geo": {
+        "lat": 14.04,
+        "lng": 35.38,
+        "flag": "🏴",
+        "region": "Africa"
+      },
+      "accessTier": "fortress",
+      "biome": "Steppe Frontier",
+      "lore": "Gedaref State is a curated regional zone in Sudan.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 360,
+          "annual_usd": 4320
+        },
+        "language": {
+          "primary": "Arabic",
+          "others": [
+            "English"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Humanitarian",
+            "Healthcare",
+            "Logistics",
+            "Agriculture"
+          ],
+          "degreeRequired": false
+        },
+        "health": "proof_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local settlement",
+          "detail": "Local administration and labor demand influence progression speed.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 88,
+        "cost": 8,
+        "safety": 12,
+        "quality": 20,
+        "language": 48,
+        "security": 18
+      },
+      "population": 2300000,
+      "currency": "SDG"
+    }
+  ]
+}

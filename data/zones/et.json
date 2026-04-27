@@ -1,0 +1,134 @@
+{
+  "meta": {
+    "schemaVersion": 2,
+    "parent": "et"
+  },
+  "zones": [
+    {
+      "id": "et-aa",
+      "name": "Addis Ababa",
+      "level": "state",
+      "parent": "et",
+      "hasChildren": false,
+      "geo": {
+        "lat": 8.98,
+        "lng": 38.79,
+        "flag": "🏴",
+        "region": "Africa"
+      },
+      "accessTier": "restricted",
+      "biome": "Urban Megacity",
+      "lore": "Addis Ababa is a curated regional zone in Ethiopia.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 405,
+          "annual_usd": 4860
+        },
+        "language": {
+          "primary": "Amharic",
+          "others": [
+            "English"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Construction",
+            "Logistics",
+            "Agriculture",
+            "Services"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local settlement",
+          "detail": "Local administration and labor demand influence progression speed.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 36,
+        "cost": 20,
+        "safety": 48,
+        "quality": 50,
+        "language": 40,
+        "security": 66
+      },
+      "population": 5400000,
+      "currency": "ETB"
+    },
+    {
+      "id": "et-or",
+      "name": "Oromia",
+      "level": "state",
+      "parent": "et",
+      "hasChildren": false,
+      "geo": {
+        "lat": 8.98,
+        "lng": 39,
+        "flag": "🏴",
+        "region": "Africa"
+      },
+      "accessTier": "open",
+      "biome": "Highland Frontier",
+      "lore": "Oromia is a curated regional zone in Ethiopia.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 405,
+          "annual_usd": 4860
+        },
+        "language": {
+          "primary": "Amharic",
+          "others": [
+            "English"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Construction",
+            "Logistics",
+            "Agriculture",
+            "Services"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local settlement",
+          "detail": "Local administration and labor demand influence progression speed.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 22,
+        "cost": 10,
+        "safety": 54,
+        "quality": 42,
+        "language": 44,
+        "security": 74
+      },
+      "population": 38000000,
+      "currency": "ETB"
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "meta": {
+    "schemaVersion": 2,
+    "parent": "jm"
+  },
+  "zones": [
+    {
+      "id": "jm-01",
+      "name": "Kingston",
+      "level": "state",
+      "parent": "jm",
+      "hasChildren": false,
+      "geo": {
+        "lat": 17.971,
+        "lng": -76.793,
+        "flag": "🏴",
+        "region": "Americas"
+      },
+      "accessTier": "restricted",
+      "biome": "Urban Megacity",
+      "lore": "Kingston is a curated regional zone in Jamaica.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 990,
+          "annual_usd": 11880
+        },
+        "language": {
+          "primary": "English",
+          "others": [
+            "Jamaican Patois"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Tourism",
+            "BPO",
+            "Logistics",
+            "Creative Industries"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local settlement",
+          "detail": "Local labor demand and compliance shape early progression.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 42,
+        "cost": 46,
+        "safety": 46,
+        "quality": 64,
+        "language": 10,
+        "security": 66
+      },
+      "population": 670000,
+      "currency": "JMD"
+    },
+    {
+      "id": "jm-06",
+      "name": "Saint Ann",
+      "level": "state",
+      "parent": "jm",
+      "hasChildren": false,
+      "geo": {
+        "lat": 18.41,
+        "lng": -77.2,
+        "flag": "🏴",
+        "region": "Americas"
+      },
+      "accessTier": "open",
+      "biome": "Coastal Haven",
+      "lore": "Saint Ann is a curated regional zone in Jamaica.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 990,
+          "annual_usd": 11880
+        },
+        "language": {
+          "primary": "English",
+          "others": [
+            "Jamaican Patois"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Tourism",
+            "BPO",
+            "Logistics",
+            "Creative Industries"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local settlement",
+          "detail": "Local labor demand and compliance shape early progression.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 26,
+        "cost": 30,
+        "safety": 54,
+        "quality": 56,
+        "language": 14,
+        "security": 76
+      },
+      "population": 170000,
+      "currency": "JMD"
+    }
+  ]
+}

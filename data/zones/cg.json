@@ -1,0 +1,134 @@
+{
+  "meta": {
+    "schemaVersion": 2,
+    "parent": "cg"
+  },
+  "zones": [
+    {
+      "id": "cg-bzv",
+      "name": "Brazzaville",
+      "level": "state",
+      "parent": "cg",
+      "hasChildren": false,
+      "geo": {
+        "lat": -4.27,
+        "lng": 15.28,
+        "flag": "🏴",
+        "region": "Africa"
+      },
+      "accessTier": "restricted",
+      "biome": "Urban Megacity",
+      "lore": "Brazzaville is a curated regional zone in Republic of the Congo.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 675,
+          "annual_usd": 8100
+        },
+        "language": {
+          "primary": "French",
+          "others": [
+            "Lingala"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Energy",
+            "Trade",
+            "Services",
+            "Logistics"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local settlement",
+          "detail": "Local security, permits, and demand shape progression speed.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 42,
+        "cost": 34,
+        "safety": 52,
+        "quality": 54,
+        "language": 34,
+        "security": 60
+      },
+      "population": 2400000,
+      "currency": "XAF"
+    },
+    {
+      "id": "cg-pnr",
+      "name": "Pointe-Noire",
+      "level": "state",
+      "parent": "cg",
+      "hasChildren": false,
+      "geo": {
+        "lat": -4.78,
+        "lng": 11.86,
+        "flag": "🏴",
+        "region": "Africa"
+      },
+      "accessTier": "open",
+      "biome": "Coastal Frontier",
+      "lore": "Pointe-Noire is a curated regional zone in Republic of the Congo.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 675,
+          "annual_usd": 8100
+        },
+        "language": {
+          "primary": "French",
+          "others": [
+            "Lingala"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Energy",
+            "Trade",
+            "Services",
+            "Logistics"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local settlement",
+          "detail": "Local security, permits, and demand shape progression speed.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 26,
+        "cost": 22,
+        "safety": 58,
+        "quality": 46,
+        "language": 38,
+        "security": 70
+      },
+      "population": 1400000,
+      "currency": "XAF"
+    }
+  ]
+}

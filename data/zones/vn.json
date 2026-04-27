@@ -1,0 +1,134 @@
+{
+  "meta": {
+    "schemaVersion": 2,
+    "parent": "vn"
+  },
+  "zones": [
+    {
+      "id": "vn-hn",
+      "name": "Hanoi",
+      "level": "state",
+      "parent": "vn",
+      "hasChildren": false,
+      "geo": {
+        "lat": 21.028,
+        "lng": 105.834,
+        "flag": "🏴",
+        "region": "Asia"
+      },
+      "accessTier": "restricted",
+      "biome": "Cultural Heartland",
+      "lore": "Hanoi is a strategic regional zone within Vietnam.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 675,
+          "annual_usd": 8100
+        },
+        "language": {
+          "primary": "Vietnamese",
+          "others": [
+            "English"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Manufacturing",
+            "Tech",
+            "Education",
+            "Logistics"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local conditions",
+          "detail": "Local employer demand and settlement logistics materially affect outcomes.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 40,
+        "cost": 28,
+        "safety": 64,
+        "quality": 66,
+        "language": 44,
+        "security": 64
+      },
+      "population": 8500000,
+      "currency": "VND"
+    },
+    {
+      "id": "vn-sg",
+      "name": "Ho Chi Minh City",
+      "level": "state",
+      "parent": "vn",
+      "hasChildren": false,
+      "geo": {
+        "lat": 10.823,
+        "lng": 106.629,
+        "flag": "🏴",
+        "region": "Asia"
+      },
+      "accessTier": "restricted",
+      "biome": "Tech Nexus",
+      "lore": "Ho Chi Minh City is a strategic regional zone within Vietnam.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 675,
+          "annual_usd": 8100
+        },
+        "language": {
+          "primary": "Vietnamese",
+          "others": [
+            "English"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Manufacturing",
+            "Tech",
+            "Education",
+            "Logistics"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local conditions",
+          "detail": "Local employer demand and settlement logistics materially affect outcomes.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 42,
+        "cost": 30,
+        "safety": 58,
+        "quality": 68,
+        "language": 42,
+        "security": 62
+      },
+      "population": 9400000,
+      "currency": "VND"
+    }
+  ]
+}

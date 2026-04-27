@@ -1,0 +1,130 @@
+{
+  "meta": {
+    "schemaVersion": 2,
+    "parent": "cl"
+  },
+  "zones": [
+    {
+      "id": "cl-rm",
+      "name": "Santiago Metropolitan",
+      "level": "state",
+      "parent": "cl",
+      "hasChildren": false,
+      "geo": {
+        "lat": -33.45,
+        "lng": -70.66,
+        "flag": "🏴",
+        "region": "Americas"
+      },
+      "accessTier": "restricted",
+      "biome": "Urban Megacity",
+      "lore": "Santiago Metropolitan is a strategic regional zone within Chile.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 1080,
+          "annual_usd": 12960
+        },
+        "language": {
+          "primary": "Spanish",
+          "others": [],
+          "test": "DELE",
+          "level": "A2"
+        },
+        "skills": {
+          "preferred": [
+            "Mining",
+            "Energy",
+            "Tech",
+            "Logistics"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local conditions",
+          "detail": "Local employer demand and settlement logistics materially affect outcomes.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 46,
+        "cost": 44,
+        "safety": 62,
+        "quality": 76,
+        "language": 40,
+        "security": 62
+      },
+      "population": 8200000,
+      "currency": "CLP"
+    },
+    {
+      "id": "cl-vs",
+      "name": "Valparaiso",
+      "level": "state",
+      "parent": "cl",
+      "hasChildren": false,
+      "geo": {
+        "lat": -33.05,
+        "lng": -71.62,
+        "flag": "🏴",
+        "region": "Americas"
+      },
+      "accessTier": "open",
+      "biome": "Coastal Haven",
+      "lore": "Valparaiso is a strategic regional zone within Chile.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 1080,
+          "annual_usd": 12960
+        },
+        "language": {
+          "primary": "Spanish",
+          "others": [],
+          "test": "DELE",
+          "level": "A2"
+        },
+        "skills": {
+          "preferred": [
+            "Mining",
+            "Energy",
+            "Tech",
+            "Logistics"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local conditions",
+          "detail": "Local employer demand and settlement logistics materially affect outcomes.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 30,
+        "cost": 28,
+        "safety": 68,
+        "quality": 70,
+        "language": 38,
+        "security": 70
+      },
+      "population": 1900000,
+      "currency": "CLP"
+    }
+  ]
+}

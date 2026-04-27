@@ -1,0 +1,156 @@
+{
+  "meta": {
+    "schemaVersion": 2,
+    "parent": "id"
+  },
+  "zones": [
+    {
+      "id": "id-jk",
+      "name": "Jakarta",
+      "level": "state",
+      "parent": "id",
+      "hasChildren": false,
+      "geo": {
+        "lat": -6.208,
+        "lng": 106.845,
+        "flag": "🏴",
+        "region": "Asia"
+      },
+      "accessTier": "restricted",
+      "biome": "Urban Megacity",
+      "lore": "Jakarta acts as a major progression zone inside Indonesia, with region-specific economy and entry friction.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 826,
+          "annual_usd": 9912
+        },
+        "language": {
+          "primary": "Indonesian",
+          "others": [
+            "Javanese"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Remote Work",
+            "Tourism",
+            "Teaching",
+            "IT"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": 30,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "regional_path",
+          "type": "hard",
+          "label": "Indonesia national immigration route",
+          "detail": "Regional entry relies on national rules plus local employer or economic fit.",
+          "options": [
+            "Second Home Visa",
+            "KITAS (Temporary Stay Permit)",
+            "Retirement KITAS"
+          ]
+        },
+        {
+          "id": "local_settlement",
+          "type": "soft",
+          "label": "Local settlement readiness",
+          "detail": "Housing search, registration, and language adaptation significantly affect first-year outcomes.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 32,
+        "cost": 26,
+        "safety": 62,
+        "quality": 62,
+        "language": 52,
+        "security": 74
+      },
+      "population": 82650000,
+      "currency": "IDR"
+    },
+    {
+      "id": "id-ba",
+      "name": "Bali",
+      "level": "state",
+      "parent": "id",
+      "hasChildren": false,
+      "geo": {
+        "lat": -8.409,
+        "lng": 115.188,
+        "flag": "🏴",
+        "region": "Asia"
+      },
+      "accessTier": "open",
+      "biome": "Tropical Sanctuary",
+      "lore": "Bali acts as a major progression zone inside Indonesia, with region-specific economy and entry friction.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 616,
+          "annual_usd": 7392
+        },
+        "language": {
+          "primary": "Indonesian",
+          "others": [
+            "Javanese"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Remote Work",
+            "Tourism",
+            "Teaching",
+            "IT"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": 30,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "regional_path",
+          "type": "hard",
+          "label": "Indonesia national immigration route",
+          "detail": "Regional entry relies on national rules plus local employer or economic fit.",
+          "options": [
+            "Second Home Visa",
+            "KITAS (Temporary Stay Permit)",
+            "Retirement KITAS"
+          ]
+        },
+        {
+          "id": "local_settlement",
+          "type": "soft",
+          "label": "Local settlement readiness",
+          "detail": "Housing search, registration, and language adaptation significantly affect first-year outcomes.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 22,
+        "cost": 12,
+        "safety": 58,
+        "quality": 54,
+        "language": 46,
+        "security": 74
+      },
+      "population": 49590000,
+      "currency": "IDR"
+    }
+  ]
+}

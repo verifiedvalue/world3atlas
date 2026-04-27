@@ -1,0 +1,136 @@
+{
+  "meta": {
+    "schemaVersion": 2,
+    "parent": "il"
+  },
+  "zones": [
+    {
+      "id": "il-ta",
+      "name": "Tel Aviv District",
+      "level": "state",
+      "parent": "il",
+      "hasChildren": false,
+      "geo": {
+        "lat": 32.085,
+        "lng": 34.781,
+        "flag": "🏴",
+        "region": "Middle East"
+      },
+      "accessTier": "locked",
+      "biome": "Tech Nexus",
+      "lore": "Tel Aviv District is a curated regional zone in Israel.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 3300,
+          "annual_usd": 39600
+        },
+        "language": {
+          "primary": "Hebrew",
+          "others": [
+            "Arabic",
+            "English"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Software",
+            "Cybersecurity",
+            "Biotech",
+            "Defense Tech"
+          ],
+          "degreeRequired": true
+        },
+        "health": "insurance_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local settlement",
+          "detail": "Local labor demand and administrative requirements shape progression speed.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 70,
+        "cost": 90,
+        "safety": 64,
+        "quality": 88,
+        "language": 52,
+        "security": 38
+      },
+      "population": 1500000,
+      "currency": "ILS"
+    },
+    {
+      "id": "il-jer",
+      "name": "Jerusalem District",
+      "level": "state",
+      "parent": "il",
+      "hasChildren": false,
+      "geo": {
+        "lat": 31.768,
+        "lng": 35.214,
+        "flag": "🏴",
+        "region": "Middle East"
+      },
+      "accessTier": "restricted",
+      "biome": "Cultural Heartland",
+      "lore": "Jerusalem District is a curated regional zone in Israel.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 3300,
+          "annual_usd": 39600
+        },
+        "language": {
+          "primary": "Hebrew",
+          "others": [
+            "Arabic",
+            "English"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Software",
+            "Cybersecurity",
+            "Biotech",
+            "Defense Tech"
+          ],
+          "degreeRequired": true
+        },
+        "health": "insurance_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local settlement",
+          "detail": "Local labor demand and administrative requirements shape progression speed.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 56,
+        "cost": 70,
+        "safety": 64,
+        "quality": 80,
+        "language": 56,
+        "security": 44
+      },
+      "population": 1250000,
+      "currency": "ILS"
+    }
+  ]
+}

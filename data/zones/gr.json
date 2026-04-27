@@ -1,0 +1,134 @@
+{
+  "meta": {
+    "schemaVersion": 2,
+    "parent": "gr"
+  },
+  "zones": [
+    {
+      "id": "gr-a1",
+      "name": "Attica",
+      "level": "state",
+      "parent": "gr",
+      "hasChildren": false,
+      "geo": {
+        "lat": 37.98,
+        "lng": 23.73,
+        "flag": "🏴",
+        "region": "Europe"
+      },
+      "accessTier": "restricted",
+      "biome": "Urban Megacity",
+      "lore": "Attica is a curated sub-region within Greece.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 1350,
+          "annual_usd": 16200
+        },
+        "language": {
+          "primary": "Greek",
+          "others": [
+            "English"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Tourism",
+            "Shipping",
+            "Tech",
+            "Services"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local labor fit",
+          "detail": "Local demand and housing/settlement dynamics impact progression speed.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 48,
+        "cost": 50,
+        "safety": 70,
+        "quality": 76,
+        "language": 50,
+        "security": 58
+      },
+      "population": 3800000,
+      "currency": "EUR"
+    },
+    {
+      "id": "gr-b",
+      "name": "Central Macedonia",
+      "level": "state",
+      "parent": "gr",
+      "hasChildren": false,
+      "geo": {
+        "lat": 40.64,
+        "lng": 22.94,
+        "flag": "🏴",
+        "region": "Europe"
+      },
+      "accessTier": "open",
+      "biome": "Cultural Heartland",
+      "lore": "Central Macedonia is a curated sub-region within Greece.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 1350,
+          "annual_usd": 16200
+        },
+        "language": {
+          "primary": "Greek",
+          "others": [
+            "English"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Tourism",
+            "Shipping",
+            "Tech",
+            "Services"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local labor fit",
+          "detail": "Local demand and housing/settlement dynamics impact progression speed.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 34,
+        "cost": 34,
+        "safety": 76,
+        "quality": 70,
+        "language": 46,
+        "security": 66
+      },
+      "population": 1800000,
+      "currency": "EUR"
+    }
+  ]
+}

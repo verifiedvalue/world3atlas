@@ -1,0 +1,134 @@
+{
+  "meta": {
+    "schemaVersion": 2,
+    "parent": "td"
+  },
+  "zones": [
+    {
+      "id": "td-ndj",
+      "name": "N'Djamena",
+      "level": "state",
+      "parent": "td",
+      "hasChildren": false,
+      "geo": {
+        "lat": 12.13,
+        "lng": 15.04,
+        "flag": "🏴",
+        "region": "Africa"
+      },
+      "accessTier": "fortress",
+      "biome": "Urban Outpost",
+      "lore": "N'Djamena is a curated regional zone in Chad.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 288,
+          "annual_usd": 3456
+        },
+        "language": {
+          "primary": "French",
+          "others": [
+            "Arabic"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Humanitarian",
+            "Energy",
+            "Logistics",
+            "Public Health"
+          ],
+          "degreeRequired": false
+        },
+        "health": "proof_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local settlement",
+          "detail": "Local security, permits, and demand shape progression speed.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 97,
+        "cost": 10,
+        "safety": 5,
+        "quality": 16,
+        "language": 42,
+        "security": 6
+      },
+      "population": 1500000,
+      "currency": "XAF"
+    },
+    {
+      "id": "td-mo",
+      "name": "Moyen-Chari",
+      "level": "state",
+      "parent": "td",
+      "hasChildren": false,
+      "geo": {
+        "lat": 9,
+        "lng": 18.4,
+        "flag": "🏴",
+        "region": "Africa"
+      },
+      "accessTier": "fortress",
+      "biome": "Steppe Frontier",
+      "lore": "Moyen-Chari is a curated regional zone in Chad.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 288,
+          "annual_usd": 3456
+        },
+        "language": {
+          "primary": "French",
+          "others": [
+            "Arabic"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Humanitarian",
+            "Energy",
+            "Logistics",
+            "Public Health"
+          ],
+          "degreeRequired": false
+        },
+        "health": "proof_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local settlement",
+          "detail": "Local security, permits, and demand shape progression speed.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 95,
+        "cost": 6,
+        "safety": 6,
+        "quality": 12,
+        "language": 46,
+        "security": 10
+      },
+      "population": 800000,
+      "currency": "XAF"
+    }
+  ]
+}

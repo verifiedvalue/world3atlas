@@ -1,0 +1,136 @@
+{
+  "meta": {
+    "schemaVersion": 2,
+    "parent": "dj"
+  },
+  "zones": [
+    {
+      "id": "dj-dj",
+      "name": "Djibouti City",
+      "level": "state",
+      "parent": "dj",
+      "hasChildren": false,
+      "geo": {
+        "lat": 11.59,
+        "lng": 43.15,
+        "flag": "🏴",
+        "region": "Africa"
+      },
+      "accessTier": "restricted",
+      "biome": "Urban Outpost",
+      "lore": "Djibouti City is a curated regional zone in Djibouti.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 1650,
+          "annual_usd": 19800
+        },
+        "language": {
+          "primary": "French/Arabic",
+          "others": [
+            "Afar",
+            "Somali"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Logistics",
+            "Port Operations",
+            "Defense Services",
+            "Trade"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local settlement",
+          "detail": "Local permits, safety, and labor demand shape progression speed.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 48,
+        "cost": 66,
+        "safety": 68,
+        "quality": 64,
+        "language": 32,
+        "security": 50
+      },
+      "population": 620000,
+      "currency": "DJF"
+    },
+    {
+      "id": "dj-ta",
+      "name": "Tadjourah Region",
+      "level": "state",
+      "parent": "dj",
+      "hasChildren": false,
+      "geo": {
+        "lat": 11.79,
+        "lng": 42.88,
+        "flag": "🏴",
+        "region": "Africa"
+      },
+      "accessTier": "open",
+      "biome": "Desert Outpost",
+      "lore": "Tadjourah Region is a curated regional zone in Djibouti.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 1350,
+          "annual_usd": 16200
+        },
+        "language": {
+          "primary": "French/Arabic",
+          "others": [
+            "Afar",
+            "Somali"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Logistics",
+            "Port Operations",
+            "Defense Services",
+            "Trade"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local settlement",
+          "detail": "Local permits, safety, and labor demand shape progression speed.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 30,
+        "cost": 42,
+        "safety": 74,
+        "quality": 54,
+        "language": 36,
+        "security": 66
+      },
+      "population": 100000,
+      "currency": "DJF"
+    }
+  ]
+}

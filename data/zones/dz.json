@@ -1,0 +1,136 @@
+{
+  "meta": {
+    "schemaVersion": 2,
+    "parent": "dz"
+  },
+  "zones": [
+    {
+      "id": "dz-16",
+      "name": "Algiers",
+      "level": "state",
+      "parent": "dz",
+      "hasChildren": false,
+      "geo": {
+        "lat": 36.75,
+        "lng": 3.06,
+        "flag": "🏴",
+        "region": "Africa"
+      },
+      "accessTier": "restricted",
+      "biome": "Urban Megacity",
+      "lore": "Algiers is a curated regional zone in Algeria.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 765,
+          "annual_usd": 9180
+        },
+        "language": {
+          "primary": "Arabic",
+          "others": [
+            "French",
+            "Tamazight"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Energy",
+            "Construction",
+            "Logistics",
+            "Public Services"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local settlement",
+          "detail": "Local administration and labor demand influence progression speed.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 42,
+        "cost": 30,
+        "safety": 54,
+        "quality": 60,
+        "language": 42,
+        "security": 60
+      },
+      "population": 3700000,
+      "currency": "DZD"
+    },
+    {
+      "id": "dz-31",
+      "name": "Oran",
+      "level": "state",
+      "parent": "dz",
+      "hasChildren": false,
+      "geo": {
+        "lat": 35.7,
+        "lng": -0.63,
+        "flag": "🏴",
+        "region": "Africa"
+      },
+      "accessTier": "open",
+      "biome": "Coastal Haven",
+      "lore": "Oran is a curated regional zone in Algeria.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 765,
+          "annual_usd": 9180
+        },
+        "language": {
+          "primary": "Arabic",
+          "others": [
+            "French",
+            "Tamazight"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Energy",
+            "Construction",
+            "Logistics",
+            "Public Services"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local settlement",
+          "detail": "Local administration and labor demand influence progression speed.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 26,
+        "cost": 18,
+        "safety": 60,
+        "quality": 54,
+        "language": 46,
+        "security": 70
+      },
+      "population": 1600000,
+      "currency": "DZD"
+    }
+  ]
+}

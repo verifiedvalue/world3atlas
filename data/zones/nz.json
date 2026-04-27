@@ -1,0 +1,158 @@
+{
+  "meta": {
+    "schemaVersion": 2,
+    "parent": "nz"
+  },
+  "zones": [
+    {
+      "id": "nz-auk",
+      "name": "Auckland",
+      "level": "state",
+      "parent": "nz",
+      "hasChildren": false,
+      "geo": {
+        "lat": -36.848,
+        "lng": 174.763,
+        "flag": "🏴",
+        "region": "Oceania"
+      },
+      "accessTier": "restricted",
+      "biome": "Coastal Haven",
+      "lore": "Auckland acts as a major progression zone inside New Zealand, with region-specific economy and entry friction.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 3304,
+          "annual_usd": 39648
+        },
+        "language": {
+          "primary": "English",
+          "others": [
+            "Māori"
+          ],
+          "test": "IELTS",
+          "level": "6.5 IELTS"
+        },
+        "skills": {
+          "preferred": [
+            "Healthcare",
+            "Construction",
+            "Agriculture",
+            "IT",
+            "Education"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": 55
+        }
+      },
+      "quests": [
+        {
+          "id": "regional_path",
+          "type": "hard",
+          "label": "New Zealand national immigration route",
+          "detail": "Regional entry relies on national rules plus local employer or economic fit.",
+          "options": [
+            "Skilled Migrant Category",
+            "Accredited Employer Work Visa (AEWV)",
+            "Working Holiday Visa"
+          ]
+        },
+        {
+          "id": "local_settlement",
+          "type": "soft",
+          "label": "Local settlement readiness",
+          "detail": "Housing search, registration, and language adaptation significantly affect first-year outcomes.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 60,
+        "cost": 78,
+        "safety": 88,
+        "quality": 92,
+        "language": 9,
+        "security": 50
+      },
+      "population": 1530000,
+      "currency": "NZD"
+    },
+    {
+      "id": "nz-wgn",
+      "name": "Wellington",
+      "level": "state",
+      "parent": "nz",
+      "hasChildren": false,
+      "geo": {
+        "lat": -41.286,
+        "lng": 174.776,
+        "flag": "🏴",
+        "region": "Oceania"
+      },
+      "accessTier": "restricted",
+      "biome": "Cultural Heartland",
+      "lore": "Wellington acts as a major progression zone inside New Zealand, with region-specific economy and entry friction.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 2464,
+          "annual_usd": 29568
+        },
+        "language": {
+          "primary": "English",
+          "others": [
+            "Māori"
+          ],
+          "test": "IELTS",
+          "level": "6.5 IELTS"
+        },
+        "skills": {
+          "preferred": [
+            "Healthcare",
+            "Construction",
+            "Agriculture",
+            "IT",
+            "Education"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": 55
+        }
+      },
+      "quests": [
+        {
+          "id": "regional_path",
+          "type": "hard",
+          "label": "New Zealand national immigration route",
+          "detail": "Regional entry relies on national rules plus local employer or economic fit.",
+          "options": [
+            "Skilled Migrant Category",
+            "Accredited Employer Work Visa (AEWV)",
+            "Working Holiday Visa"
+          ]
+        },
+        {
+          "id": "local_settlement",
+          "type": "soft",
+          "label": "Local settlement readiness",
+          "detail": "Housing search, registration, and language adaptation significantly affect first-year outcomes.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 50,
+        "cost": 64,
+        "safety": 84,
+        "quality": 84,
+        "language": 3,
+        "security": 50
+      },
+      "population": 918000,
+      "currency": "NZD"
+    }
+  ]
+}

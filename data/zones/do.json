@@ -1,0 +1,134 @@
+{
+  "meta": {
+    "schemaVersion": 2,
+    "parent": "do"
+  },
+  "zones": [
+    {
+      "id": "do-01",
+      "name": "National District",
+      "level": "state",
+      "parent": "do",
+      "hasChildren": false,
+      "geo": {
+        "lat": 18.486,
+        "lng": -69.931,
+        "flag": "🏴",
+        "region": "Americas"
+      },
+      "accessTier": "restricted",
+      "biome": "Urban Megacity",
+      "lore": "National District is a curated regional zone in Dominican Republic.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 810,
+          "annual_usd": 9720
+        },
+        "language": {
+          "primary": "Spanish",
+          "others": [
+            "English"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Tourism",
+            "BPO",
+            "Logistics",
+            "Healthcare"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local setup",
+          "detail": "Local demand, docs, and settlement friction determine onboarding speed.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 40,
+        "cost": 34,
+        "safety": 54,
+        "quality": 66,
+        "language": 34,
+        "security": 68
+      },
+      "population": 1200000,
+      "currency": "DOP"
+    },
+    {
+      "id": "do-11",
+      "name": "Puerto Plata",
+      "level": "state",
+      "parent": "do",
+      "hasChildren": false,
+      "geo": {
+        "lat": 19.79,
+        "lng": -70.69,
+        "flag": "🏴",
+        "region": "Americas"
+      },
+      "accessTier": "open",
+      "biome": "Coastal Haven",
+      "lore": "Puerto Plata is a curated regional zone in Dominican Republic.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 810,
+          "annual_usd": 9720
+        },
+        "language": {
+          "primary": "Spanish",
+          "others": [
+            "English"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Tourism",
+            "BPO",
+            "Logistics",
+            "Healthcare"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local setup",
+          "detail": "Local demand, docs, and settlement friction determine onboarding speed.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 24,
+        "cost": 20,
+        "safety": 60,
+        "quality": 58,
+        "language": 38,
+        "security": 76
+      },
+      "population": 450000,
+      "currency": "DOP"
+    }
+  ]
+}

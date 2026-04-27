@@ -1,0 +1,134 @@
+{
+  "meta": {
+    "schemaVersion": 2,
+    "parent": "om"
+  },
+  "zones": [
+    {
+      "id": "om-ma",
+      "name": "Muscat Governorate",
+      "level": "state",
+      "parent": "om",
+      "hasChildren": false,
+      "geo": {
+        "lat": 23.59,
+        "lng": 58.41,
+        "flag": "🏴",
+        "region": "Middle East"
+      },
+      "accessTier": "restricted",
+      "biome": "Coastal Haven",
+      "lore": "Muscat Governorate is a curated regional zone in Oman.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 2420,
+          "annual_usd": 29040
+        },
+        "language": {
+          "primary": "Arabic",
+          "others": [
+            "English"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Logistics",
+            "Energy",
+            "Construction",
+            "Tourism"
+          ],
+          "degreeRequired": false
+        },
+        "health": "insurance_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local settlement",
+          "detail": "Local permitting and labor demand determine onboarding pace.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 56,
+        "cost": 64,
+        "safety": 82,
+        "quality": 78,
+        "language": 32,
+        "security": 44
+      },
+      "population": 1500000,
+      "currency": "OMR"
+    },
+    {
+      "id": "om-dh",
+      "name": "Dhofar Governorate",
+      "level": "state",
+      "parent": "om",
+      "hasChildren": false,
+      "geo": {
+        "lat": 17.02,
+        "lng": 54.09,
+        "flag": "🏴",
+        "region": "Middle East"
+      },
+      "accessTier": "open",
+      "biome": "Desert Outpost",
+      "lore": "Dhofar Governorate is a curated regional zone in Oman.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 1980,
+          "annual_usd": 23760
+        },
+        "language": {
+          "primary": "Arabic",
+          "others": [
+            "English"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Logistics",
+            "Energy",
+            "Construction",
+            "Tourism"
+          ],
+          "degreeRequired": false
+        },
+        "health": "insurance_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local settlement",
+          "detail": "Local permitting and labor demand determine onboarding pace.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 34,
+        "cost": 42,
+        "safety": 84,
+        "quality": 66,
+        "language": 36,
+        "security": 60
+      },
+      "population": 500000,
+      "currency": "OMR"
+    }
+  ]
+}

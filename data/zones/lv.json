@@ -1,0 +1,136 @@
+{
+  "meta": {
+    "schemaVersion": 2,
+    "parent": "lv"
+  },
+  "zones": [
+    {
+      "id": "lv-rix",
+      "name": "Riga Region",
+      "level": "state",
+      "parent": "lv",
+      "hasChildren": false,
+      "geo": {
+        "lat": 56.949,
+        "lng": 24.105,
+        "flag": "🏴",
+        "region": "Europe"
+      },
+      "accessTier": "restricted",
+      "biome": "Urban Megacity",
+      "lore": "Riga Region is a curated sub-region within Latvia.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 1350,
+          "annual_usd": 16200
+        },
+        "language": {
+          "primary": "Latvian",
+          "others": [
+            "English",
+            "Russian"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Logistics",
+            "IT",
+            "Finance Ops",
+            "Manufacturing"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local labor fit",
+          "detail": "Local demand and housing/settlement dynamics impact progression speed.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 42,
+        "cost": 40,
+        "safety": 78,
+        "quality": 76,
+        "language": 58,
+        "security": 64
+      },
+      "population": 900000,
+      "currency": "EUR"
+    },
+    {
+      "id": "lv-kur",
+      "name": "Kurzeme",
+      "level": "state",
+      "parent": "lv",
+      "hasChildren": false,
+      "geo": {
+        "lat": 56.97,
+        "lng": 21.96,
+        "flag": "🏴",
+        "region": "Europe"
+      },
+      "accessTier": "open",
+      "biome": "Coastal Haven",
+      "lore": "Kurzeme is a curated sub-region within Latvia.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 1350,
+          "annual_usd": 16200
+        },
+        "language": {
+          "primary": "Latvian",
+          "others": [
+            "English",
+            "Russian"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Logistics",
+            "IT",
+            "Finance Ops",
+            "Manufacturing"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local labor fit",
+          "detail": "Local demand and housing/settlement dynamics impact progression speed.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 30,
+        "cost": 28,
+        "safety": 82,
+        "quality": 70,
+        "language": 60,
+        "security": 68
+      },
+      "population": 240000,
+      "currency": "EUR"
+    }
+  ]
+}

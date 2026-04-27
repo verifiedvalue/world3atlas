@@ -1,0 +1,134 @@
+{
+  "meta": {
+    "schemaVersion": 2,
+    "parent": "tz"
+  },
+  "zones": [
+    {
+      "id": "tz-02",
+      "name": "Dar es Salaam",
+      "level": "state",
+      "parent": "tz",
+      "hasChildren": false,
+      "geo": {
+        "lat": -6.792,
+        "lng": 39.208,
+        "flag": "🏴",
+        "region": "Africa"
+      },
+      "accessTier": "restricted",
+      "biome": "Urban Megacity",
+      "lore": "Dar es Salaam is a curated regional zone in Tanzania.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 450,
+          "annual_usd": 5400
+        },
+        "language": {
+          "primary": "Swahili",
+          "others": [
+            "English"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Logistics",
+            "Agriculture",
+            "Tourism",
+            "Mining"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local setup",
+          "detail": "Local demand, docs, and settlement friction determine onboarding speed.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 34,
+        "cost": 22,
+        "safety": 54,
+        "quality": 56,
+        "language": 28,
+        "security": 66
+      },
+      "population": 7000000,
+      "currency": "TZS"
+    },
+    {
+      "id": "tz-01",
+      "name": "Arusha",
+      "level": "state",
+      "parent": "tz",
+      "hasChildren": false,
+      "geo": {
+        "lat": -3.386,
+        "lng": 36.683,
+        "flag": "🏴",
+        "region": "Africa"
+      },
+      "accessTier": "open",
+      "biome": "Steppe Frontier",
+      "lore": "Arusha is a curated regional zone in Tanzania.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 450,
+          "annual_usd": 5400
+        },
+        "language": {
+          "primary": "Swahili",
+          "others": [
+            "English"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Logistics",
+            "Agriculture",
+            "Tourism",
+            "Mining"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local setup",
+          "detail": "Local demand, docs, and settlement friction determine onboarding speed.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 20,
+        "cost": 12,
+        "safety": 60,
+        "quality": 48,
+        "language": 30,
+        "security": 76
+      },
+      "population": 2200000,
+      "currency": "TZS"
+    }
+  ]
+}

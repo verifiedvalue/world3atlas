@@ -1,0 +1,272 @@
+{
+  "meta": {
+    "schemaVersion": 2,
+    "parent": "fr"
+  },
+  "zones": [
+    {
+      "id": "fr-idf",
+      "name": "Ile-de-France",
+      "level": "state",
+      "parent": "fr",
+      "hasChildren": false,
+      "geo": {
+        "lat": 48.8566,
+        "lng": 2.3522,
+        "flag": "🏴",
+        "region": "Europe"
+      },
+      "accessTier": "locked",
+      "biome": "Financial Citadel",
+      "lore": "Paris metro core with the highest concentration of high-paying roles and the highest housing pressure.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 3200,
+          "annual_usd": 38400
+        },
+        "language": {
+          "primary": "French",
+          "others": [
+            "English"
+          ],
+          "test": "DELF / TCF",
+          "level": "B2"
+        },
+        "skills": {
+          "preferred": [
+            "Finance",
+            "Tech",
+            "Luxury",
+            "Research"
+          ],
+          "degreeRequired": true
+        },
+        "health": "insurance_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "talent",
+          "type": "hard",
+          "label": "Talent Passport or employer sponsorship",
+          "detail": "Many high-skill routes run through Paris-based employers.",
+          "options": [
+            "Passeport Talent",
+            "Salarie permit"
+          ]
+        }
+      ],
+      "difficulty": {
+        "overall": 68,
+        "cost": 82,
+        "safety": 74,
+        "quality": 86,
+        "language": 72,
+        "security": 44
+      },
+      "population": 12300000,
+      "currency": "EUR"
+    },
+    {
+      "id": "fr-ara",
+      "name": "Auvergne-Rhone-Alpes",
+      "level": "state",
+      "parent": "fr",
+      "hasChildren": false,
+      "geo": {
+        "lat": 45.764,
+        "lng": 4.8357,
+        "flag": "🏴",
+        "region": "Europe"
+      },
+      "accessTier": "restricted",
+      "biome": "Alpine Fortress",
+      "lore": "Lyon-Grenoble corridor excels in biotech, software, and advanced manufacturing.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 2400,
+          "annual_usd": 28800
+        },
+        "language": {
+          "primary": "French",
+          "others": [
+            "English"
+          ],
+          "test": "DELF / TCF",
+          "level": "B1"
+        },
+        "skills": {
+          "preferred": [
+            "Biotech",
+            "Engineering",
+            "Software",
+            "Healthcare"
+          ],
+          "degreeRequired": true
+        },
+        "health": "insurance_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "permit",
+          "type": "hard",
+          "label": "Regional employment + residence permit",
+          "detail": "French national immigration framework applies; regional labor demand improves odds.",
+          "options": [
+            "Passeport Talent",
+            "Salarie permit"
+          ]
+        }
+      ],
+      "difficulty": {
+        "overall": 52,
+        "cost": 56,
+        "safety": 80,
+        "quality": 82,
+        "language": 66,
+        "security": 48
+      },
+      "population": 8100000,
+      "currency": "EUR"
+    },
+    {
+      "id": "fr-pac",
+      "name": "Provence-Alpes-Cote d'Azur",
+      "level": "state",
+      "parent": "fr",
+      "hasChildren": false,
+      "geo": {
+        "lat": 43.2965,
+        "lng": 5.3698,
+        "flag": "🏴",
+        "region": "Europe"
+      },
+      "accessTier": "restricted",
+      "biome": "Coastal Haven",
+      "lore": "Mediterranean hub with strong tourism, shipping, and aerospace clusters.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 2200,
+          "annual_usd": 26400
+        },
+        "language": {
+          "primary": "French",
+          "others": [
+            "English"
+          ],
+          "test": "DELF / TCF",
+          "level": "B1"
+        },
+        "skills": {
+          "preferred": [
+            "Tourism",
+            "Aerospace",
+            "Logistics",
+            "Healthcare"
+          ],
+          "degreeRequired": false
+        },
+        "health": "insurance_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "residence",
+          "type": "hard",
+          "label": "Work authorization and residence registration",
+          "detail": "Coastal labor markets are seasonal; contracts are key for permit renewals.",
+          "options": [
+            "Salarie permit",
+            "EU Blue Card"
+          ]
+        }
+      ],
+      "difficulty": {
+        "overall": 48,
+        "cost": 58,
+        "safety": 75,
+        "quality": 80,
+        "language": 62,
+        "security": 52
+      },
+      "population": 5100000,
+      "currency": "EUR"
+    },
+    {
+      "id": "fr-occ",
+      "name": "Occitanie",
+      "level": "state",
+      "parent": "fr",
+      "hasChildren": false,
+      "geo": {
+        "lat": 43.6047,
+        "lng": 1.4442,
+        "flag": "🏴",
+        "region": "Europe"
+      },
+      "accessTier": "open",
+      "biome": "Cultural Heartland",
+      "lore": "Toulouse aerospace base and lower living costs make this a high-value progression route.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 1900,
+          "annual_usd": 22800
+        },
+        "language": {
+          "primary": "French",
+          "others": [
+            "English"
+          ],
+          "test": "DELF / TCF",
+          "level": "B1"
+        },
+        "skills": {
+          "preferred": [
+            "Aerospace",
+            "Education",
+            "Software",
+            "Tourism"
+          ],
+          "degreeRequired": false
+        },
+        "health": "insurance_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "permit",
+          "type": "hard",
+          "label": "National work/residence process",
+          "detail": "French framework with easier housing pressure than Paris.",
+          "options": [
+            "Salarie permit",
+            "Passeport Talent"
+          ]
+        }
+      ],
+      "difficulty": {
+        "overall": 42,
+        "cost": 44,
+        "safety": 78,
+        "quality": 76,
+        "language": 60,
+        "security": 54
+      },
+      "population": 6100000,
+      "currency": "EUR"
+    }
+  ]
+}

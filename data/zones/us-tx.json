@@ -1,0 +1,205 @@
+{
+  "meta": {
+    "schemaVersion": 2,
+    "parent": "us-tx"
+  },
+  "zones": [
+    {
+      "id": "us-tx-atx",
+      "name": "Austin",
+      "level": "city",
+      "parent": "us-tx",
+      "hasChildren": false,
+      "geo": {
+        "lat": 30.27,
+        "lng": -97.74,
+        "flag": "🏙️",
+        "region": "Americas"
+      },
+      "accessTier": "restricted",
+      "biome": "Tech Nexus",
+      "lore": "Live music capital with a serious tech corridor. Still cheaper than the coasts but catching up fast on housing.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 3400,
+          "annual_usd": 40800
+        },
+        "language": {
+          "primary": "English",
+          "others": [
+            "Spanish"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Tech",
+            "Government",
+            "Healthcare",
+            "Education"
+          ],
+          "degreeRequired": false
+        },
+        "health": "insurance_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "fed_work_auth",
+          "type": "hard",
+          "label": "Federal Work Authorization",
+          "detail": "US work visa or citizenship required.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 55,
+        "cost": 58,
+        "safety": 62,
+        "quality": 78,
+        "language": 5,
+        "security": 28
+      },
+      "population": 1000000,
+      "currency": "USD"
+    },
+    {
+      "id": "us-tx-hou",
+      "name": "Houston",
+      "level": "city",
+      "parent": "us-tx",
+      "hasChildren": false,
+      "geo": {
+        "lat": 29.76,
+        "lng": -95.37,
+        "flag": "🏙️",
+        "region": "Americas"
+      },
+      "accessTier": "restricted",
+      "biome": "Urban Megacity",
+      "lore": "Energy capital with sprawling metro footprint. Humid subtropical climate and no zoning orthodoxy make every district its own biome.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 2900,
+          "annual_usd": 34800
+        },
+        "language": {
+          "primary": "English",
+          "others": [
+            "Spanish",
+            "Vietnamese"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Energy",
+            "Healthcare",
+            "Logistics",
+            "Aerospace"
+          ],
+          "degreeRequired": false
+        },
+        "health": "insurance_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "fed_work_auth",
+          "type": "hard",
+          "label": "Federal Work Authorization",
+          "detail": "US work visa or citizenship required.",
+          "options": []
+        },
+        {
+          "id": "vehicle",
+          "type": "soft",
+          "label": "Vehicle Strongly Recommended",
+          "detail": "Low-density sprawl makes transit coverage uneven compared to coastal peers.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 48,
+        "cost": 48,
+        "safety": 52,
+        "quality": 68,
+        "language": 8,
+        "security": 28
+      },
+      "population": 2300000,
+      "currency": "USD"
+    },
+    {
+      "id": "us-tx-dal",
+      "name": "Dallas",
+      "level": "city",
+      "parent": "us-tx",
+      "hasChildren": false,
+      "geo": {
+        "lat": 32.78,
+        "lng": -96.8,
+        "flag": "🏙️",
+        "region": "Americas"
+      },
+      "accessTier": "restricted",
+      "biome": "Financial Citadel",
+      "lore": "Corporate HQ cluster and logistics hub. Flash hailstorms and flash deals in equal measure.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 3100,
+          "annual_usd": 37200
+        },
+        "language": {
+          "primary": "English",
+          "others": [
+            "Spanish"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Finance",
+            "Tech",
+            "Defense",
+            "Real Estate"
+          ],
+          "degreeRequired": false
+        },
+        "health": "insurance_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "fed_work_auth",
+          "type": "hard",
+          "label": "Federal Work Authorization",
+          "detail": "US work visa or citizenship required.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 52,
+        "cost": 54,
+        "safety": 58,
+        "quality": 72,
+        "language": 5,
+        "security": 28
+      },
+      "population": 1300000,
+      "currency": "USD"
+    }
+  ]
+}

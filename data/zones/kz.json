@@ -1,0 +1,136 @@
+{
+  "meta": {
+    "schemaVersion": 2,
+    "parent": "kz"
+  },
+  "zones": [
+    {
+      "id": "kz-ala",
+      "name": "Almaty Region",
+      "level": "state",
+      "parent": "kz",
+      "hasChildren": false,
+      "geo": {
+        "lat": 43.238,
+        "lng": 76.945,
+        "flag": "🏴",
+        "region": "Asia"
+      },
+      "accessTier": "restricted",
+      "biome": "Cultural Heartland",
+      "lore": "Almaty Region is a curated regional zone in Kazakhstan.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 990,
+          "annual_usd": 11880
+        },
+        "language": {
+          "primary": "Kazakh",
+          "others": [
+            "Russian",
+            "English"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Energy",
+            "Mining",
+            "Logistics",
+            "Engineering"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local settlement",
+          "detail": "Local labor demand and administrative requirements shape progression speed.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 42,
+        "cost": 34,
+        "safety": 60,
+        "quality": 66,
+        "language": 50,
+        "security": 58
+      },
+      "population": 2400000,
+      "currency": "KZT"
+    },
+    {
+      "id": "kz-ast",
+      "name": "Astana Region",
+      "level": "state",
+      "parent": "kz",
+      "hasChildren": false,
+      "geo": {
+        "lat": 51.169,
+        "lng": 71.449,
+        "flag": "🏴",
+        "region": "Asia"
+      },
+      "accessTier": "open",
+      "biome": "Steppe Frontier",
+      "lore": "Astana Region is a curated regional zone in Kazakhstan.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 990,
+          "annual_usd": 11880
+        },
+        "language": {
+          "primary": "Kazakh",
+          "others": [
+            "Russian",
+            "English"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Energy",
+            "Mining",
+            "Logistics",
+            "Engineering"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local settlement",
+          "detail": "Local labor demand and administrative requirements shape progression speed.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 30,
+        "cost": 24,
+        "safety": 66,
+        "quality": 60,
+        "language": 52,
+        "security": 66
+      },
+      "population": 1400000,
+      "currency": "KZT"
+    }
+  ]
+}

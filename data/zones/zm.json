@@ -1,0 +1,136 @@
+{
+  "meta": {
+    "schemaVersion": 2,
+    "parent": "zm"
+  },
+  "zones": [
+    {
+      "id": "zm-lu",
+      "name": "Lusaka Province",
+      "level": "state",
+      "parent": "zm",
+      "hasChildren": false,
+      "geo": {
+        "lat": -15.41,
+        "lng": 28.28,
+        "flag": "🏴",
+        "region": "Africa"
+      },
+      "accessTier": "open",
+      "biome": "Urban Megacity",
+      "lore": "Lusaka Province is a curated regional zone in Zambia.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 495,
+          "annual_usd": 5940
+        },
+        "language": {
+          "primary": "English",
+          "others": [
+            "Bemba",
+            "Nyanja"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Mining",
+            "Energy",
+            "Agriculture",
+            "Logistics"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local settlement",
+          "detail": "Local administration and labor demand influence progression speed.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 34,
+        "cost": 22,
+        "safety": 56,
+        "quality": 54,
+        "language": 18,
+        "security": 68
+      },
+      "population": 3400000,
+      "currency": "ZMW"
+    },
+    {
+      "id": "zm-cb",
+      "name": "Copperbelt Province",
+      "level": "state",
+      "parent": "zm",
+      "hasChildren": false,
+      "geo": {
+        "lat": -12.81,
+        "lng": 28.21,
+        "flag": "🏴",
+        "region": "Africa"
+      },
+      "accessTier": "open",
+      "biome": "Industrial Heartland",
+      "lore": "Copperbelt Province is a curated regional zone in Zambia.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 495,
+          "annual_usd": 5940
+        },
+        "language": {
+          "primary": "English",
+          "others": [
+            "Bemba",
+            "Nyanja"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Mining",
+            "Energy",
+            "Agriculture",
+            "Logistics"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local settlement",
+          "detail": "Local administration and labor demand influence progression speed.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 22,
+        "cost": 14,
+        "safety": 60,
+        "quality": 48,
+        "language": 22,
+        "security": 76
+      },
+      "population": 2800000,
+      "currency": "ZMW"
+    }
+  ]
+}

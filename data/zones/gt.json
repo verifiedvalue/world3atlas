@@ -1,0 +1,134 @@
+{
+  "meta": {
+    "schemaVersion": 2,
+    "parent": "gt"
+  },
+  "zones": [
+    {
+      "id": "gt-gu",
+      "name": "Guatemala Department",
+      "level": "state",
+      "parent": "gt",
+      "hasChildren": false,
+      "geo": {
+        "lat": 14.634,
+        "lng": -90.506,
+        "flag": "🏴",
+        "region": "Americas"
+      },
+      "accessTier": "restricted",
+      "biome": "Urban Megacity",
+      "lore": "Guatemala Department is a curated regional zone in Guatemala.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 630,
+          "annual_usd": 7560
+        },
+        "language": {
+          "primary": "Spanish",
+          "others": [
+            "Mayan languages"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Manufacturing",
+            "Agriculture",
+            "Trade",
+            "Services"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local setup",
+          "detail": "Local demand, docs, and settlement friction determine onboarding speed.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 38,
+        "cost": 26,
+        "safety": 40,
+        "quality": 56,
+        "language": 38,
+        "security": 70
+      },
+      "population": 3800000,
+      "currency": "GTQ"
+    },
+    {
+      "id": "gt-sa",
+      "name": "Sacatepequez",
+      "level": "state",
+      "parent": "gt",
+      "hasChildren": false,
+      "geo": {
+        "lat": 14.56,
+        "lng": -90.734,
+        "flag": "🏴",
+        "region": "Americas"
+      },
+      "accessTier": "open",
+      "biome": "Cultural Heartland",
+      "lore": "Sacatepequez is a curated regional zone in Guatemala.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 630,
+          "annual_usd": 7560
+        },
+        "language": {
+          "primary": "Spanish",
+          "others": [
+            "Mayan languages"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Manufacturing",
+            "Agriculture",
+            "Trade",
+            "Services"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local setup",
+          "detail": "Local demand, docs, and settlement friction determine onboarding speed.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 22,
+        "cost": 14,
+        "safety": 48,
+        "quality": 52,
+        "language": 40,
+        "security": 76
+      },
+      "population": 380000,
+      "currency": "GTQ"
+    }
+  ]
+}

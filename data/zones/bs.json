@@ -1,0 +1,130 @@
+{
+  "meta": {
+    "schemaVersion": 2,
+    "parent": "bs"
+  },
+  "zones": [
+    {
+      "id": "bs-np",
+      "name": "New Providence",
+      "level": "state",
+      "parent": "bs",
+      "hasChildren": false,
+      "geo": {
+        "lat": 25.04,
+        "lng": -77.35,
+        "flag": "🏴",
+        "region": "Americas"
+      },
+      "accessTier": "restricted",
+      "biome": "Urban Outpost",
+      "lore": "New Providence is a curated regional zone in Bahamas.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 2640,
+          "annual_usd": 31680
+        },
+        "language": {
+          "primary": "English",
+          "others": [],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Tourism",
+            "Hospitality",
+            "Finance",
+            "Marine Services"
+          ],
+          "degreeRequired": false
+        },
+        "health": "insurance_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local settlement",
+          "detail": "Local permits, safety, and labor demand shape progression speed.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 56,
+        "cost": 78,
+        "safety": 74,
+        "quality": 78,
+        "language": 10,
+        "security": 50
+      },
+      "population": 300000,
+      "currency": "BSD"
+    },
+    {
+      "id": "bs-gb",
+      "name": "Grand Bahama",
+      "level": "state",
+      "parent": "bs",
+      "hasChildren": false,
+      "geo": {
+        "lat": 26.54,
+        "lng": -78.7,
+        "flag": "🏴",
+        "region": "Americas"
+      },
+      "accessTier": "open",
+      "biome": "Coastal Haven",
+      "lore": "Grand Bahama is a curated regional zone in Bahamas.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 2160,
+          "annual_usd": 25920
+        },
+        "language": {
+          "primary": "English",
+          "others": [],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Tourism",
+            "Hospitality",
+            "Finance",
+            "Marine Services"
+          ],
+          "degreeRequired": false
+        },
+        "health": "insurance_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local settlement",
+          "detail": "Local permits, safety, and labor demand shape progression speed.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 34,
+        "cost": 52,
+        "safety": 78,
+        "quality": 70,
+        "language": 14,
+        "security": 66
+      },
+      "population": 52000,
+      "currency": "BSD"
+    }
+  ]
+}

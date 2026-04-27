@@ -1,0 +1,134 @@
+{
+  "meta": {
+    "schemaVersion": 2,
+    "parent": "bt"
+  },
+  "zones": [
+    {
+      "id": "bt-15",
+      "name": "Thimphu",
+      "level": "state",
+      "parent": "bt",
+      "hasChildren": false,
+      "geo": {
+        "lat": 27.47,
+        "lng": 89.64,
+        "flag": "🏴",
+        "region": "Asia"
+      },
+      "accessTier": "restricted",
+      "biome": "Urban Outpost",
+      "lore": "Thimphu is a curated regional zone in Bhutan.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 810,
+          "annual_usd": 9720
+        },
+        "language": {
+          "primary": "Dzongkha",
+          "others": [
+            "English"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Hydropower",
+            "Public Services",
+            "Tourism",
+            "Education"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local settlement",
+          "detail": "Local permits, safety, and labor demand shape progression speed.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 58,
+        "cost": 38,
+        "safety": 88,
+        "quality": 74,
+        "language": 44,
+        "security": 30
+      },
+      "population": 150000,
+      "currency": "BTN"
+    },
+    {
+      "id": "bt-11",
+      "name": "Paro",
+      "level": "state",
+      "parent": "bt",
+      "hasChildren": false,
+      "geo": {
+        "lat": 27.43,
+        "lng": 89.42,
+        "flag": "🏴",
+        "region": "Asia"
+      },
+      "accessTier": "open",
+      "biome": "Mountain Stronghold",
+      "lore": "Paro is a curated regional zone in Bhutan.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 810,
+          "annual_usd": 9720
+        },
+        "language": {
+          "primary": "Dzongkha",
+          "others": [
+            "English"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Hydropower",
+            "Public Services",
+            "Tourism",
+            "Education"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local settlement",
+          "detail": "Local permits, safety, and labor demand shape progression speed.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 40,
+        "cost": 26,
+        "safety": 90,
+        "quality": 70,
+        "language": 48,
+        "security": 46
+      },
+      "population": 46000,
+      "currency": "BTN"
+    }
+  ]
+}

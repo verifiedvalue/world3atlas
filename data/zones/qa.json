@@ -1,0 +1,134 @@
+{
+  "meta": {
+    "schemaVersion": 2,
+    "parent": "qa"
+  },
+  "zones": [
+    {
+      "id": "qa-da",
+      "name": "Doha Municipality",
+      "level": "state",
+      "parent": "qa",
+      "hasChildren": false,
+      "geo": {
+        "lat": 25.29,
+        "lng": 51.53,
+        "flag": "🏴",
+        "region": "Middle East"
+      },
+      "accessTier": "locked",
+      "biome": "Financial Citadel",
+      "lore": "Doha Municipality is a curated regional zone in Qatar.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 3520,
+          "annual_usd": 42240
+        },
+        "language": {
+          "primary": "Arabic",
+          "others": [
+            "English"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Energy",
+            "Finance",
+            "Construction",
+            "Sports & Events"
+          ],
+          "degreeRequired": false
+        },
+        "health": "insurance_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local settlement",
+          "detail": "Local permitting and labor demand determine onboarding pace.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 70,
+        "cost": 82,
+        "safety": 90,
+        "quality": 86,
+        "language": 26,
+        "security": 30
+      },
+      "population": 1500000,
+      "currency": "QAR"
+    },
+    {
+      "id": "qa-ra",
+      "name": "Al Rayyan Municipality",
+      "level": "state",
+      "parent": "qa",
+      "hasChildren": false,
+      "geo": {
+        "lat": 25.29,
+        "lng": 51.42,
+        "flag": "🏴",
+        "region": "Middle East"
+      },
+      "accessTier": "restricted",
+      "biome": "Desert Outpost",
+      "lore": "Al Rayyan Municipality is a curated regional zone in Qatar.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 3520,
+          "annual_usd": 42240
+        },
+        "language": {
+          "primary": "Arabic",
+          "others": [
+            "English"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Energy",
+            "Finance",
+            "Construction",
+            "Sports & Events"
+          ],
+          "degreeRequired": false
+        },
+        "health": "insurance_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local settlement",
+          "detail": "Local permitting and labor demand determine onboarding pace.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 50,
+        "cost": 60,
+        "safety": 92,
+        "quality": 78,
+        "language": 30,
+        "security": 42
+      },
+      "population": 600000,
+      "currency": "QAR"
+    }
+  ]
+}

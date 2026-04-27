@@ -1,0 +1,130 @@
+{
+  "meta": {
+    "schemaVersion": 2,
+    "parent": "it"
+  },
+  "zones": [
+    {
+      "id": "it-lom",
+      "name": "Lombardy",
+      "level": "state",
+      "parent": "it",
+      "hasChildren": false,
+      "geo": {
+        "lat": 45.46,
+        "lng": 9.19,
+        "flag": "🏴",
+        "region": "Europe"
+      },
+      "accessTier": "restricted",
+      "biome": "Financial Citadel",
+      "lore": "Lombardy is a primary progression route within Italy.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 2645,
+          "annual_usd": 31740
+        },
+        "language": {
+          "primary": "Italian",
+          "others": [],
+          "test": "CILS / CELI",
+          "level": "B1"
+        },
+        "skills": {
+          "preferred": [
+            "Manufacturing",
+            "Design",
+            "Tourism",
+            "Engineering"
+          ],
+          "degreeRequired": false
+        },
+        "health": "insurance_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_permit",
+          "type": "hard",
+          "label": "National pathway + local fit",
+          "detail": "Most outcomes depend on national eligibility plus local labor demand.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 60,
+        "cost": 70,
+        "safety": 70,
+        "quality": 84,
+        "language": 64,
+        "security": 44
+      },
+      "population": 10000000,
+      "currency": "EUR"
+    },
+    {
+      "id": "it-laz",
+      "name": "Lazio",
+      "level": "state",
+      "parent": "it",
+      "hasChildren": false,
+      "geo": {
+        "lat": 41.9,
+        "lng": 12.5,
+        "flag": "🏴",
+        "region": "Europe"
+      },
+      "accessTier": "restricted",
+      "biome": "Urban Megacity",
+      "lore": "Lazio is a primary progression route within Italy.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 2070,
+          "annual_usd": 24840
+        },
+        "language": {
+          "primary": "Italian",
+          "others": [],
+          "test": "CILS / CELI",
+          "level": "B1"
+        },
+        "skills": {
+          "preferred": [
+            "Manufacturing",
+            "Design",
+            "Tourism",
+            "Engineering"
+          ],
+          "degreeRequired": false
+        },
+        "health": "insurance_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_permit",
+          "type": "hard",
+          "label": "National pathway + local fit",
+          "detail": "Most outcomes depend on national eligibility plus local labor demand.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 52,
+        "cost": 56,
+        "safety": 68,
+        "quality": 80,
+        "language": 62,
+        "security": 48
+      },
+      "population": 5800000,
+      "currency": "EUR"
+    }
+  ]
+}

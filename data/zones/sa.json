@@ -1,0 +1,134 @@
+{
+  "meta": {
+    "schemaVersion": 2,
+    "parent": "sa"
+  },
+  "zones": [
+    {
+      "id": "sa-01",
+      "name": "Riyadh Province",
+      "level": "state",
+      "parent": "sa",
+      "hasChildren": false,
+      "geo": {
+        "lat": 24.713,
+        "lng": 46.675,
+        "flag": "🏴",
+        "region": "Middle East"
+      },
+      "accessTier": "restricted",
+      "biome": "Financial Citadel",
+      "lore": "Riyadh Province is a strategic regional zone within Saudi Arabia.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 2160,
+          "annual_usd": 25920
+        },
+        "language": {
+          "primary": "Arabic",
+          "others": [
+            "English"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Energy",
+            "Construction",
+            "Healthcare",
+            "Tech"
+          ],
+          "degreeRequired": false
+        },
+        "health": "insurance_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local conditions",
+          "detail": "Local employer demand and settlement logistics materially affect outcomes.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 56,
+        "cost": 62,
+        "safety": 72,
+        "quality": 76,
+        "language": 42,
+        "security": 42
+      },
+      "population": 9000000,
+      "currency": "SAR"
+    },
+    {
+      "id": "sa-02",
+      "name": "Makkah Province",
+      "level": "state",
+      "parent": "sa",
+      "hasChildren": false,
+      "geo": {
+        "lat": 21.485,
+        "lng": 39.193,
+        "flag": "🏴",
+        "region": "Middle East"
+      },
+      "accessTier": "restricted",
+      "biome": "Coastal Haven",
+      "lore": "Makkah Province is a strategic regional zone within Saudi Arabia.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 2160,
+          "annual_usd": 25920
+        },
+        "language": {
+          "primary": "Arabic",
+          "others": [
+            "English"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Energy",
+            "Construction",
+            "Healthcare",
+            "Tech"
+          ],
+          "degreeRequired": false
+        },
+        "health": "insurance_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local conditions",
+          "detail": "Local employer demand and settlement logistics materially affect outcomes.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 48,
+        "cost": 56,
+        "safety": 70,
+        "quality": 72,
+        "language": 40,
+        "security": 48
+      },
+      "population": 8700000,
+      "currency": "SAR"
+    }
+  ]
+}

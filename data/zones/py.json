@@ -1,0 +1,134 @@
+{
+  "meta": {
+    "schemaVersion": 2,
+    "parent": "py"
+  },
+  "zones": [
+    {
+      "id": "py-asu",
+      "name": "Asuncion",
+      "level": "state",
+      "parent": "py",
+      "hasChildren": false,
+      "geo": {
+        "lat": -25.264,
+        "lng": -57.575,
+        "flag": "🏴",
+        "region": "Americas"
+      },
+      "accessTier": "open",
+      "biome": "Cultural Heartland",
+      "lore": "Asuncion is a curated regional zone in Paraguay.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 630,
+          "annual_usd": 7560
+        },
+        "language": {
+          "primary": "Spanish",
+          "others": [
+            "Guarani"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Agribusiness",
+            "Trade",
+            "Services",
+            "Logistics"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local settlement",
+          "detail": "Local labor demand and compliance shape early progression.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 30,
+        "cost": 16,
+        "safety": 54,
+        "quality": 52,
+        "language": 34,
+        "security": 74
+      },
+      "population": 520000,
+      "currency": "PYG"
+    },
+    {
+      "id": "py-ca",
+      "name": "Central Department",
+      "level": "state",
+      "parent": "py",
+      "hasChildren": false,
+      "geo": {
+        "lat": -25.35,
+        "lng": -57.5,
+        "flag": "🏴",
+        "region": "Americas"
+      },
+      "accessTier": "open",
+      "biome": "River Frontier",
+      "lore": "Central Department is a curated regional zone in Paraguay.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 630,
+          "annual_usd": 7560
+        },
+        "language": {
+          "primary": "Spanish",
+          "others": [
+            "Guarani"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Agribusiness",
+            "Trade",
+            "Services",
+            "Logistics"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local settlement",
+          "detail": "Local labor demand and compliance shape early progression.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 18,
+        "cost": 10,
+        "safety": 58,
+        "quality": 46,
+        "language": 38,
+        "security": 82
+      },
+      "population": 2200000,
+      "currency": "PYG"
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "meta": {
+    "schemaVersion": 2,
+    "parent": "pl"
+  },
+  "zones": [
+    {
+      "id": "pl-mz",
+      "name": "Mazowieckie",
+      "level": "state",
+      "parent": "pl",
+      "hasChildren": false,
+      "geo": {
+        "lat": 52.229,
+        "lng": 21.012,
+        "flag": "🏴",
+        "region": "Europe"
+      },
+      "accessTier": "restricted",
+      "biome": "Urban Megacity",
+      "lore": "Mazowieckie acts as a major progression zone inside Poland, with region-specific economy and entry friction.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 1652,
+          "annual_usd": 19824
+        },
+        "language": {
+          "primary": "Polish",
+          "others": [],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Tech",
+            "Finance",
+            "Engineering",
+            "Manufacturing"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "regional_path",
+          "type": "hard",
+          "label": "Poland national immigration route",
+          "detail": "Regional entry relies on national rules plus local employer or economic fit.",
+          "options": [
+            "National Visa Type D",
+            "EU Blue Card",
+            "Temporary Residence Permit"
+          ]
+        },
+        {
+          "id": "local_settlement",
+          "type": "soft",
+          "label": "Local settlement readiness",
+          "detail": "Housing search, registration, and language adaptation significantly affect first-year outcomes.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 44,
+        "cost": 43,
+        "safety": 80,
+        "quality": 74,
+        "language": 76,
+        "security": 54
+      },
+      "population": 11340000,
+      "currency": "PLN"
+    },
+    {
+      "id": "pl-ds",
+      "name": "Lower Silesia",
+      "level": "state",
+      "parent": "pl",
+      "hasChildren": false,
+      "geo": {
+        "lat": 51.107,
+        "lng": 17.038,
+        "flag": "🏴",
+        "region": "Europe"
+      },
+      "accessTier": "restricted",
+      "biome": "Industrial Heartland",
+      "lore": "Lower Silesia acts as a major progression zone inside Poland, with region-specific economy and entry friction.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 1232,
+          "annual_usd": 14784
+        },
+        "language": {
+          "primary": "Polish",
+          "others": [],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Tech",
+            "Finance",
+            "Engineering",
+            "Manufacturing"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "regional_path",
+          "type": "hard",
+          "label": "Poland national immigration route",
+          "detail": "Regional entry relies on national rules plus local employer or economic fit.",
+          "options": [
+            "National Visa Type D",
+            "EU Blue Card",
+            "Temporary Residence Permit"
+          ]
+        },
+        {
+          "id": "local_settlement",
+          "type": "soft",
+          "label": "Local settlement readiness",
+          "detail": "Housing search, registration, and language adaptation significantly affect first-year outcomes.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 34,
+        "cost": 29,
+        "safety": 76,
+        "quality": 66,
+        "language": 70,
+        "security": 54
+      },
+      "population": 6804000,
+      "currency": "PLN"
+    }
+  ]
+}

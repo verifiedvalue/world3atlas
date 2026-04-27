@@ -1,0 +1,136 @@
+{
+  "meta": {
+    "schemaVersion": 2,
+    "parent": "bo"
+  },
+  "zones": [
+    {
+      "id": "bo-l",
+      "name": "La Paz Department",
+      "level": "state",
+      "parent": "bo",
+      "hasChildren": false,
+      "geo": {
+        "lat": -16.5,
+        "lng": -68.15,
+        "flag": "🏴",
+        "region": "Americas"
+      },
+      "accessTier": "open",
+      "biome": "Mountain Stronghold",
+      "lore": "La Paz Department is a curated regional zone in Bolivia.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 540,
+          "annual_usd": 6480
+        },
+        "language": {
+          "primary": "Spanish",
+          "others": [
+            "Quechua",
+            "Aymara"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Mining",
+            "Agriculture",
+            "Trade",
+            "Services"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local settlement",
+          "detail": "Local labor demand and compliance shape early progression.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 30,
+        "cost": 16,
+        "safety": 46,
+        "quality": 48,
+        "language": 38,
+        "security": 72
+      },
+      "population": 3200000,
+      "currency": "BOB"
+    },
+    {
+      "id": "bo-s",
+      "name": "Santa Cruz Department",
+      "level": "state",
+      "parent": "bo",
+      "hasChildren": false,
+      "geo": {
+        "lat": -17.79,
+        "lng": -63.18,
+        "flag": "🏴",
+        "region": "Americas"
+      },
+      "accessTier": "open",
+      "biome": "Steppe Frontier",
+      "lore": "Santa Cruz Department is a curated regional zone in Bolivia.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 540,
+          "annual_usd": 6480
+        },
+        "language": {
+          "primary": "Spanish",
+          "others": [
+            "Quechua",
+            "Aymara"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Mining",
+            "Agriculture",
+            "Trade",
+            "Services"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local settlement",
+          "detail": "Local labor demand and compliance shape early progression.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 20,
+        "cost": 10,
+        "safety": 50,
+        "quality": 42,
+        "language": 40,
+        "security": 80
+      },
+      "population": 3700000,
+      "currency": "BOB"
+    }
+  ]
+}

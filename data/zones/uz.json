@@ -1,0 +1,134 @@
+{
+  "meta": {
+    "schemaVersion": 2,
+    "parent": "uz"
+  },
+  "zones": [
+    {
+      "id": "uz-tk",
+      "name": "Tashkent Region",
+      "level": "state",
+      "parent": "uz",
+      "hasChildren": false,
+      "geo": {
+        "lat": 41.299,
+        "lng": 69.24,
+        "flag": "🏴",
+        "region": "Asia"
+      },
+      "accessTier": "restricted",
+      "biome": "Urban Megacity",
+      "lore": "Tashkent Region is a curated regional zone in Uzbekistan.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 540,
+          "annual_usd": 6480
+        },
+        "language": {
+          "primary": "Uzbek",
+          "others": [
+            "Russian"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Manufacturing",
+            "Textiles",
+            "Logistics",
+            "Agriculture"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local settlement",
+          "detail": "Local labor demand and administrative requirements shape progression speed.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 36,
+        "cost": 24,
+        "safety": 56,
+        "quality": 56,
+        "language": 54,
+        "security": 62
+      },
+      "population": 3000000,
+      "currency": "UZS"
+    },
+    {
+      "id": "uz-sm",
+      "name": "Samarkand Region",
+      "level": "state",
+      "parent": "uz",
+      "hasChildren": false,
+      "geo": {
+        "lat": 39.654,
+        "lng": 66.959,
+        "flag": "🏴",
+        "region": "Asia"
+      },
+      "accessTier": "open",
+      "biome": "Cultural Heartland",
+      "lore": "Samarkand Region is a curated regional zone in Uzbekistan.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 540,
+          "annual_usd": 6480
+        },
+        "language": {
+          "primary": "Uzbek",
+          "others": [
+            "Russian"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Manufacturing",
+            "Textiles",
+            "Logistics",
+            "Agriculture"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local settlement",
+          "detail": "Local labor demand and administrative requirements shape progression speed.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 22,
+        "cost": 14,
+        "safety": 62,
+        "quality": 50,
+        "language": 56,
+        "security": 72
+      },
+      "population": 4000000,
+      "currency": "UZS"
+    }
+  ]
+}

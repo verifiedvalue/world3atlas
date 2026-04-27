@@ -1,0 +1,134 @@
+{
+  "meta": {
+    "schemaVersion": 2,
+    "parent": "bd"
+  },
+  "zones": [
+    {
+      "id": "bd-c",
+      "name": "Dhaka Division",
+      "level": "state",
+      "parent": "bd",
+      "hasChildren": false,
+      "geo": {
+        "lat": 23.81,
+        "lng": 90.41,
+        "flag": "🏴",
+        "region": "Asia"
+      },
+      "accessTier": "restricted",
+      "biome": "Urban Megacity",
+      "lore": "Dhaka Division is a curated regional zone in Bangladesh.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 405,
+          "annual_usd": 4860
+        },
+        "language": {
+          "primary": "Bengali",
+          "others": [
+            "English"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Textiles",
+            "Manufacturing",
+            "IT Services",
+            "Logistics"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local settlement",
+          "detail": "Local labor demand and administrative requirements shape progression speed.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 40,
+        "cost": 18,
+        "safety": 38,
+        "quality": 48,
+        "language": 40,
+        "security": 62
+      },
+      "population": 47000000,
+      "currency": "BDT"
+    },
+    {
+      "id": "bd-b",
+      "name": "Chittagong Division",
+      "level": "state",
+      "parent": "bd",
+      "hasChildren": false,
+      "geo": {
+        "lat": 22.356,
+        "lng": 91.783,
+        "flag": "🏴",
+        "region": "Asia"
+      },
+      "accessTier": "open",
+      "biome": "Coastal Haven",
+      "lore": "Chittagong Division is a curated regional zone in Bangladesh.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 405,
+          "annual_usd": 4860
+        },
+        "language": {
+          "primary": "Bengali",
+          "others": [
+            "English"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Textiles",
+            "Manufacturing",
+            "IT Services",
+            "Logistics"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local settlement",
+          "detail": "Local labor demand and administrative requirements shape progression speed.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 24,
+        "cost": 12,
+        "safety": 46,
+        "quality": 42,
+        "language": 42,
+        "security": 70
+      },
+      "population": 33000000,
+      "currency": "BDT"
+    }
+  ]
+}

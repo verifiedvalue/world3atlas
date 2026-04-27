@@ -1,0 +1,134 @@
+{
+  "meta": {
+    "schemaVersion": 2,
+    "parent": "mr"
+  },
+  "zones": [
+    {
+      "id": "mr-nkc",
+      "name": "Nouakchott",
+      "level": "state",
+      "parent": "mr",
+      "hasChildren": false,
+      "geo": {
+        "lat": 18.08,
+        "lng": -15.98,
+        "flag": "🏴",
+        "region": "Africa"
+      },
+      "accessTier": "restricted",
+      "biome": "Urban Outpost",
+      "lore": "Nouakchott is a curated regional zone in Mauritania.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 585,
+          "annual_usd": 7020
+        },
+        "language": {
+          "primary": "Arabic",
+          "others": [
+            "French"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Mining",
+            "Logistics",
+            "Fisheries",
+            "Trade"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local settlement",
+          "detail": "Local security, permits, and demand shape progression speed.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 42,
+        "cost": 28,
+        "safety": 52,
+        "quality": 50,
+        "language": 38,
+        "security": 60
+      },
+      "population": 1400000,
+      "currency": "MRU"
+    },
+    {
+      "id": "mr-dk",
+      "name": "Dakhlet Nouadhibou",
+      "level": "state",
+      "parent": "mr",
+      "hasChildren": false,
+      "geo": {
+        "lat": 20.93,
+        "lng": -17.03,
+        "flag": "🏴",
+        "region": "Africa"
+      },
+      "accessTier": "open",
+      "biome": "Coastal Frontier",
+      "lore": "Dakhlet Nouadhibou is a curated regional zone in Mauritania.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 585,
+          "annual_usd": 7020
+        },
+        "language": {
+          "primary": "Arabic",
+          "others": [
+            "French"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Mining",
+            "Logistics",
+            "Fisheries",
+            "Trade"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local settlement",
+          "detail": "Local security, permits, and demand shape progression speed.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 26,
+        "cost": 16,
+        "safety": 58,
+        "quality": 42,
+        "language": 42,
+        "security": 72
+      },
+      "population": 200000,
+      "currency": "MRU"
+    }
+  ]
+}

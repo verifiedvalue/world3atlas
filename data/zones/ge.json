@@ -1,0 +1,136 @@
+{
+  "meta": {
+    "schemaVersion": 2,
+    "parent": "ge"
+  },
+  "zones": [
+    {
+      "id": "ge-tb",
+      "name": "Tbilisi",
+      "level": "state",
+      "parent": "ge",
+      "hasChildren": false,
+      "geo": {
+        "lat": 41.715,
+        "lng": 44.827,
+        "flag": "🏴",
+        "region": "Asia"
+      },
+      "accessTier": "restricted",
+      "biome": "Cultural Heartland",
+      "lore": "Tbilisi is a curated regional zone in Georgia.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 990,
+          "annual_usd": 11880
+        },
+        "language": {
+          "primary": "Georgian",
+          "others": [
+            "English",
+            "Russian"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Tourism",
+            "Tech",
+            "Logistics",
+            "Hospitality"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local settlement",
+          "detail": "Local permitting and labor demand determine onboarding pace.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 40,
+        "cost": 30,
+        "safety": 70,
+        "quality": 70,
+        "language": 40,
+        "security": 68
+      },
+      "population": 1200000,
+      "currency": "GEL"
+    },
+    {
+      "id": "ge-aj",
+      "name": "Adjara",
+      "level": "state",
+      "parent": "ge",
+      "hasChildren": false,
+      "geo": {
+        "lat": 41.65,
+        "lng": 41.64,
+        "flag": "🏴",
+        "region": "Asia"
+      },
+      "accessTier": "open",
+      "biome": "Coastal Haven",
+      "lore": "Adjara is a curated regional zone in Georgia.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 990,
+          "annual_usd": 11880
+        },
+        "language": {
+          "primary": "Georgian",
+          "others": [
+            "English",
+            "Russian"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Tourism",
+            "Tech",
+            "Logistics",
+            "Hospitality"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local settlement",
+          "detail": "Local permitting and labor demand determine onboarding pace.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 24,
+        "cost": 18,
+        "safety": 76,
+        "quality": 62,
+        "language": 44,
+        "security": 76
+      },
+      "population": 350000,
+      "currency": "GEL"
+    }
+  ]
+}

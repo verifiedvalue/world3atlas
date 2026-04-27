@@ -1,0 +1,134 @@
+{
+  "meta": {
+    "schemaVersion": 2,
+    "parent": "pe"
+  },
+  "zones": [
+    {
+      "id": "pe-lim",
+      "name": "Lima",
+      "level": "state",
+      "parent": "pe",
+      "hasChildren": false,
+      "geo": {
+        "lat": -12.05,
+        "lng": -77.04,
+        "flag": "🏴",
+        "region": "Americas"
+      },
+      "accessTier": "restricted",
+      "biome": "Urban Megacity",
+      "lore": "Lima is a strategic regional zone within Peru.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 765,
+          "annual_usd": 9180
+        },
+        "language": {
+          "primary": "Spanish",
+          "others": [
+            "Quechua"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Mining",
+            "Logistics",
+            "Tourism",
+            "Services"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local conditions",
+          "detail": "Local employer demand and settlement logistics materially affect outcomes.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 38,
+        "cost": 34,
+        "safety": 46,
+        "quality": 64,
+        "language": 40,
+        "security": 66
+      },
+      "population": 11000000,
+      "currency": "PEN"
+    },
+    {
+      "id": "pe-are",
+      "name": "Arequipa",
+      "level": "state",
+      "parent": "pe",
+      "hasChildren": false,
+      "geo": {
+        "lat": -16.41,
+        "lng": -71.54,
+        "flag": "🏴",
+        "region": "Americas"
+      },
+      "accessTier": "open",
+      "biome": "Cultural Heartland",
+      "lore": "Arequipa is a strategic regional zone within Peru.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 765,
+          "annual_usd": 9180
+        },
+        "language": {
+          "primary": "Spanish",
+          "others": [
+            "Quechua"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Mining",
+            "Logistics",
+            "Tourism",
+            "Services"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local conditions",
+          "detail": "Local employer demand and settlement logistics materially affect outcomes.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 26,
+        "cost": 22,
+        "safety": 52,
+        "quality": 58,
+        "language": 40,
+        "security": 72
+      },
+      "population": 1500000,
+      "currency": "PEN"
+    }
+  ]
+}

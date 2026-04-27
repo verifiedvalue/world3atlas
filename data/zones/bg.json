@@ -1,0 +1,134 @@
+{
+  "meta": {
+    "schemaVersion": 2,
+    "parent": "bg"
+  },
+  "zones": [
+    {
+      "id": "bg-22",
+      "name": "Sofia City",
+      "level": "state",
+      "parent": "bg",
+      "hasChildren": false,
+      "geo": {
+        "lat": 42.697,
+        "lng": 23.322,
+        "flag": "🏴",
+        "region": "Europe"
+      },
+      "accessTier": "restricted",
+      "biome": "Urban Megacity",
+      "lore": "Sofia City is a curated sub-region within Bulgaria.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 990,
+          "annual_usd": 11880
+        },
+        "language": {
+          "primary": "Bulgarian",
+          "others": [
+            "English"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "BPO",
+            "Tech",
+            "Logistics",
+            "Manufacturing"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local labor fit",
+          "detail": "Local demand and housing/settlement dynamics impact progression speed.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 38,
+        "cost": 30,
+        "safety": 68,
+        "quality": 68,
+        "language": 58,
+        "security": 64
+      },
+      "population": 1300000,
+      "currency": "BGN"
+    },
+    {
+      "id": "bg-03",
+      "name": "Varna",
+      "level": "state",
+      "parent": "bg",
+      "hasChildren": false,
+      "geo": {
+        "lat": 43.214,
+        "lng": 27.915,
+        "flag": "🏴",
+        "region": "Europe"
+      },
+      "accessTier": "open",
+      "biome": "Coastal Haven",
+      "lore": "Varna is a curated sub-region within Bulgaria.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 990,
+          "annual_usd": 11880
+        },
+        "language": {
+          "primary": "Bulgarian",
+          "others": [
+            "English"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "BPO",
+            "Tech",
+            "Logistics",
+            "Manufacturing"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local labor fit",
+          "detail": "Local demand and housing/settlement dynamics impact progression speed.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 28,
+        "cost": 22,
+        "safety": 72,
+        "quality": 64,
+        "language": 56,
+        "security": 70
+      },
+      "population": 470000,
+      "currency": "BGN"
+    }
+  ]
+}

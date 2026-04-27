@@ -1,0 +1,152 @@
+{
+  "meta": {
+    "schemaVersion": 2,
+    "parent": "co"
+  },
+  "zones": [
+    {
+      "id": "co-dc",
+      "name": "Bogota District",
+      "level": "state",
+      "parent": "co",
+      "hasChildren": false,
+      "geo": {
+        "lat": 4.711,
+        "lng": -74.072,
+        "flag": "🏴",
+        "region": "Americas"
+      },
+      "accessTier": "open",
+      "biome": "Urban Megacity",
+      "lore": "Bogota District acts as a major progression zone inside Colombia, with region-specific economy and entry friction.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 767,
+          "annual_usd": 9204
+        },
+        "language": {
+          "primary": "Spanish",
+          "others": [],
+          "test": "DELE",
+          "level": "A2"
+        },
+        "skills": {
+          "preferred": [
+            "Remote Work",
+            "Tech",
+            "Tourism",
+            "Teaching"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "regional_path",
+          "type": "hard",
+          "label": "Colombia national immigration route",
+          "detail": "Regional entry relies on national rules plus local employer or economic fit.",
+          "options": [
+            "Digital Nomad Visa (V-TP-DN)",
+            "Migrant Visa (M)",
+            "Tourist Entry (90 days, extendable)"
+          ]
+        },
+        {
+          "id": "local_settlement",
+          "type": "soft",
+          "label": "Local settlement readiness",
+          "detail": "Housing search, registration, and language adaptation significantly affect first-year outcomes.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 33,
+        "cost": 28,
+        "safety": 42,
+        "quality": 60,
+        "language": 42,
+        "security": 80
+      },
+      "population": 15570000,
+      "currency": "COP"
+    },
+    {
+      "id": "co-ant",
+      "name": "Antioquia",
+      "level": "state",
+      "parent": "co",
+      "hasChildren": false,
+      "geo": {
+        "lat": 6.244,
+        "lng": -75.581,
+        "flag": "🏴",
+        "region": "Americas"
+      },
+      "accessTier": "open",
+      "biome": "Cultural Heartland",
+      "lore": "Antioquia acts as a major progression zone inside Colombia, with region-specific economy and entry friction.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 572,
+          "annual_usd": 6864
+        },
+        "language": {
+          "primary": "Spanish",
+          "others": [],
+          "test": "DELE",
+          "level": "A2"
+        },
+        "skills": {
+          "preferred": [
+            "Remote Work",
+            "Tech",
+            "Tourism",
+            "Teaching"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "regional_path",
+          "type": "hard",
+          "label": "Colombia national immigration route",
+          "detail": "Regional entry relies on national rules plus local employer or economic fit.",
+          "options": [
+            "Digital Nomad Visa (V-TP-DN)",
+            "Migrant Visa (M)",
+            "Tourist Entry (90 days, extendable)"
+          ]
+        },
+        {
+          "id": "local_settlement",
+          "type": "soft",
+          "label": "Local settlement readiness",
+          "detail": "Housing search, registration, and language adaptation significantly affect first-year outcomes.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 23,
+        "cost": 14,
+        "safety": 38,
+        "quality": 52,
+        "language": 36,
+        "security": 80
+      },
+      "population": 9342000,
+      "currency": "COP"
+    }
+  ]
+}

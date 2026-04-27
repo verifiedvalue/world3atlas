@@ -1,0 +1,154 @@
+{
+  "meta": {
+    "schemaVersion": 2,
+    "parent": "th"
+  },
+  "zones": [
+    {
+      "id": "th-10",
+      "name": "Bangkok Metro",
+      "level": "state",
+      "parent": "th",
+      "hasChildren": false,
+      "geo": {
+        "lat": 13.756,
+        "lng": 100.501,
+        "flag": "🏴",
+        "region": "Asia"
+      },
+      "accessTier": "restricted",
+      "biome": "Urban Megacity",
+      "lore": "Bangkok Metro acts as a major progression zone inside Thailand, with region-specific economy and entry friction.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 944,
+          "annual_usd": 11328
+        },
+        "language": {
+          "primary": "Thai",
+          "others": [],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Remote Work",
+            "Teaching (ESL)",
+            "Tourism",
+            "Healthcare"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "regional_path",
+          "type": "hard",
+          "label": "Thailand national immigration route",
+          "detail": "Regional entry relies on national rules plus local employer or economic fit.",
+          "options": [
+            "LTR Visa (Long-Term Resident)",
+            "Non-Immigrant B (Work)",
+            "SMART Visa",
+            "Tourist Visa (60 days)"
+          ]
+        },
+        {
+          "id": "local_settlement",
+          "type": "soft",
+          "label": "Local settlement readiness",
+          "detail": "Housing search, registration, and language adaptation significantly affect first-year outcomes.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 34,
+        "cost": 30,
+        "safety": 64,
+        "quality": 68,
+        "language": 76,
+        "security": 77
+      },
+      "population": 21480000,
+      "currency": "THB"
+    },
+    {
+      "id": "th-50",
+      "name": "Chiang Mai",
+      "level": "state",
+      "parent": "th",
+      "hasChildren": false,
+      "geo": {
+        "lat": 18.788,
+        "lng": 98.985,
+        "flag": "🏴",
+        "region": "Asia"
+      },
+      "accessTier": "open",
+      "biome": "Tropical Sanctuary",
+      "lore": "Chiang Mai acts as a major progression zone inside Thailand, with region-specific economy and entry friction.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 704,
+          "annual_usd": 8448
+        },
+        "language": {
+          "primary": "Thai",
+          "others": [],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Remote Work",
+            "Teaching (ESL)",
+            "Tourism",
+            "Healthcare"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "regional_path",
+          "type": "hard",
+          "label": "Thailand national immigration route",
+          "detail": "Regional entry relies on national rules plus local employer or economic fit.",
+          "options": [
+            "LTR Visa (Long-Term Resident)",
+            "Non-Immigrant B (Work)",
+            "SMART Visa",
+            "Tourist Visa (60 days)"
+          ]
+        },
+        {
+          "id": "local_settlement",
+          "type": "soft",
+          "label": "Local settlement readiness",
+          "detail": "Housing search, registration, and language adaptation significantly affect first-year outcomes.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 24,
+        "cost": 16,
+        "safety": 60,
+        "quality": 60,
+        "language": 70,
+        "security": 77
+      },
+      "population": 12888000,
+      "currency": "THB"
+    }
+  ]
+}

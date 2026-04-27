@@ -1,0 +1,130 @@
+{
+  "meta": {
+    "schemaVersion": 2,
+    "parent": "cn"
+  },
+  "zones": [
+    {
+      "id": "cn-gd",
+      "name": "Guangdong",
+      "level": "state",
+      "parent": "cn",
+      "hasChildren": false,
+      "geo": {
+        "lat": 23.13,
+        "lng": 113.26,
+        "flag": "🏴",
+        "region": "Asia"
+      },
+      "accessTier": "restricted",
+      "biome": "Industrial Heartland",
+      "lore": "Guangdong is a primary progression route within China.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 1170,
+          "annual_usd": 14040
+        },
+        "language": {
+          "primary": "Mandarin",
+          "others": [],
+          "test": "HSK",
+          "level": "HSK 4"
+        },
+        "skills": {
+          "preferred": [
+            "Manufacturing",
+            "Engineering",
+            "AI",
+            "Logistics"
+          ],
+          "degreeRequired": true
+        },
+        "health": "insurance_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_permit",
+          "type": "hard",
+          "label": "National pathway + local fit",
+          "detail": "Most outcomes depend on national eligibility plus local labor demand.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 52,
+        "cost": 44,
+        "safety": 68,
+        "quality": 74,
+        "language": 74,
+        "security": 42
+      },
+      "population": 126000000,
+      "currency": "CNY"
+    },
+    {
+      "id": "cn-sh",
+      "name": "Shanghai",
+      "level": "state",
+      "parent": "cn",
+      "hasChildren": false,
+      "geo": {
+        "lat": 31.23,
+        "lng": 121.47,
+        "flag": "🏴",
+        "region": "Asia"
+      },
+      "accessTier": "locked",
+      "biome": "Financial Citadel",
+      "lore": "Shanghai is a primary progression route within China.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 1495,
+          "annual_usd": 17940
+        },
+        "language": {
+          "primary": "Mandarin",
+          "others": [],
+          "test": "HSK",
+          "level": "HSK 4"
+        },
+        "skills": {
+          "preferred": [
+            "Manufacturing",
+            "Engineering",
+            "AI",
+            "Logistics"
+          ],
+          "degreeRequired": true
+        },
+        "health": "insurance_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_permit",
+          "type": "hard",
+          "label": "National pathway + local fit",
+          "detail": "Most outcomes depend on national eligibility plus local labor demand.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 68,
+        "cost": 72,
+        "safety": 76,
+        "quality": 84,
+        "language": 80,
+        "security": 36
+      },
+      "population": 25000000,
+      "currency": "CNY"
+    }
+  ]
+}

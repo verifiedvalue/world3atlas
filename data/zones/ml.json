@@ -1,0 +1,134 @@
+{
+  "meta": {
+    "schemaVersion": 2,
+    "parent": "ml"
+  },
+  "zones": [
+    {
+      "id": "ml-bko",
+      "name": "Bamako District",
+      "level": "state",
+      "parent": "ml",
+      "hasChildren": false,
+      "geo": {
+        "lat": 12.64,
+        "lng": -8,
+        "flag": "🏴",
+        "region": "Africa"
+      },
+      "accessTier": "fortress",
+      "biome": "Urban Megacity",
+      "lore": "Bamako District is a curated regional zone in Mali.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 315,
+          "annual_usd": 3780
+        },
+        "language": {
+          "primary": "French",
+          "others": [
+            "Bambara"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Humanitarian",
+            "Agriculture",
+            "Logistics",
+            "Public Health"
+          ],
+          "degreeRequired": false
+        },
+        "health": "proof_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local settlement",
+          "detail": "Local administration and labor demand influence progression speed.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 96,
+        "cost": 10,
+        "safety": 8,
+        "quality": 20,
+        "language": 42,
+        "security": 10
+      },
+      "population": 3500000,
+      "currency": "XOF"
+    },
+    {
+      "id": "ml-kys",
+      "name": "Kayes Region",
+      "level": "state",
+      "parent": "ml",
+      "hasChildren": false,
+      "geo": {
+        "lat": 14.45,
+        "lng": -11.44,
+        "flag": "🏴",
+        "region": "Africa"
+      },
+      "accessTier": "fortress",
+      "biome": "Steppe Frontier",
+      "lore": "Kayes Region is a curated regional zone in Mali.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 315,
+          "annual_usd": 3780
+        },
+        "language": {
+          "primary": "French",
+          "others": [
+            "Bambara"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Humanitarian",
+            "Agriculture",
+            "Logistics",
+            "Public Health"
+          ],
+          "degreeRequired": false
+        },
+        "health": "proof_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local settlement",
+          "detail": "Local administration and labor demand influence progression speed.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 92,
+        "cost": 6,
+        "safety": 10,
+        "quality": 16,
+        "language": 46,
+        "security": 14
+      },
+      "population": 2500000,
+      "currency": "XOF"
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "meta": {
+    "schemaVersion": 2,
+    "parent": "fi"
+  },
+  "zones": [
+    {
+      "id": "fi-uus",
+      "name": "Uusimaa",
+      "level": "state",
+      "parent": "fi",
+      "hasChildren": false,
+      "geo": {
+        "lat": 60.17,
+        "lng": 24.94,
+        "flag": "🏴",
+        "region": "Europe"
+      },
+      "accessTier": "restricted",
+      "biome": "Tech Nexus",
+      "lore": "Uusimaa is a primary progression route within Finland.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 2990,
+          "annual_usd": 35880
+        },
+        "language": {
+          "primary": "Finnish",
+          "others": [
+            "Swedish",
+            "English"
+          ],
+          "test": "YKI",
+          "level": "B1"
+        },
+        "skills": {
+          "preferred": [
+            "Tech",
+            "Education",
+            "Engineering",
+            "Healthcare"
+          ],
+          "degreeRequired": true
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_permit",
+          "type": "hard",
+          "label": "National pathway + local fit",
+          "detail": "Most outcomes depend on national eligibility plus local labor demand.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 58,
+        "cost": 72,
+        "safety": 88,
+        "quality": 92,
+        "language": 66,
+        "security": 48
+      },
+      "population": 1800000,
+      "currency": "EUR"
+    },
+    {
+      "id": "fi-pir",
+      "name": "Pirkanmaa",
+      "level": "state",
+      "parent": "fi",
+      "hasChildren": false,
+      "geo": {
+        "lat": 61.5,
+        "lng": 23.76,
+        "flag": "🏴",
+        "region": "Europe"
+      },
+      "accessTier": "restricted",
+      "biome": "Cultural Heartland",
+      "lore": "Pirkanmaa is a primary progression route within Finland.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 2340,
+          "annual_usd": 28080
+        },
+        "language": {
+          "primary": "Finnish",
+          "others": [
+            "Swedish",
+            "English"
+          ],
+          "test": "YKI",
+          "level": "B1"
+        },
+        "skills": {
+          "preferred": [
+            "Tech",
+            "Education",
+            "Engineering",
+            "Healthcare"
+          ],
+          "degreeRequired": true
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_permit",
+          "type": "hard",
+          "label": "National pathway + local fit",
+          "detail": "Most outcomes depend on national eligibility plus local labor demand.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 48,
+        "cost": 56,
+        "safety": 90,
+        "quality": 88,
+        "language": 62,
+        "security": 52
+      },
+      "population": 540000,
+      "currency": "EUR"
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "meta": {
+    "schemaVersion": 2,
+    "parent": "ng"
+  },
+  "zones": [
+    {
+      "id": "ng-la",
+      "name": "Lagos",
+      "level": "state",
+      "parent": "ng",
+      "hasChildren": false,
+      "geo": {
+        "lat": 6.524,
+        "lng": 3.379,
+        "flag": "🏴",
+        "region": "Africa"
+      },
+      "accessTier": "restricted",
+      "biome": "Urban Megacity",
+      "lore": "Lagos is a curated regional zone in Nigeria.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 495,
+          "annual_usd": 5940
+        },
+        "language": {
+          "primary": "English",
+          "others": [
+            "Yoruba",
+            "Hausa",
+            "Igbo"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Fintech",
+            "Telecom",
+            "Energy",
+            "Trade"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local settlement",
+          "detail": "Local labor demand and administrative requirements shape progression speed.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 46,
+        "cost": 24,
+        "safety": 30,
+        "quality": 58,
+        "language": 20,
+        "security": 58
+      },
+      "population": 15000000,
+      "currency": "NGN"
+    },
+    {
+      "id": "ng-fc",
+      "name": "Federal Capital Territory",
+      "level": "state",
+      "parent": "ng",
+      "hasChildren": false,
+      "geo": {
+        "lat": 9.076,
+        "lng": 7.399,
+        "flag": "🏴",
+        "region": "Africa"
+      },
+      "accessTier": "open",
+      "biome": "Cultural Heartland",
+      "lore": "Federal Capital Territory is a curated regional zone in Nigeria.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 495,
+          "annual_usd": 5940
+        },
+        "language": {
+          "primary": "English",
+          "others": [
+            "Yoruba",
+            "Hausa",
+            "Igbo"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Fintech",
+            "Telecom",
+            "Energy",
+            "Trade"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local settlement",
+          "detail": "Local labor demand and administrative requirements shape progression speed.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 30,
+        "cost": 16,
+        "safety": 42,
+        "quality": 54,
+        "language": 22,
+        "security": 66
+      },
+      "population": 3600000,
+      "currency": "NGN"
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "meta": {
+    "schemaVersion": 2,
+    "parent": "ie"
+  },
+  "zones": [
+    {
+      "id": "ie-l",
+      "name": "Leinster",
+      "level": "state",
+      "parent": "ie",
+      "hasChildren": false,
+      "geo": {
+        "lat": 53.35,
+        "lng": -6.26,
+        "flag": "🏴",
+        "region": "Europe"
+      },
+      "accessTier": "restricted",
+      "biome": "Tech Nexus",
+      "lore": "Leinster is a strategic regional zone within Ireland.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 3420,
+          "annual_usd": 41040
+        },
+        "language": {
+          "primary": "English",
+          "others": [
+            "Irish"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Tech",
+            "Pharma",
+            "Finance",
+            "Data"
+          ],
+          "degreeRequired": true
+        },
+        "health": "insurance_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local conditions",
+          "detail": "Local employer demand and settlement logistics materially affect outcomes.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 64,
+        "cost": 82,
+        "safety": 80,
+        "quality": 88,
+        "language": 8,
+        "security": 42
+      },
+      "population": 2800000,
+      "currency": "EUR"
+    },
+    {
+      "id": "ie-m",
+      "name": "Munster",
+      "level": "state",
+      "parent": "ie",
+      "hasChildren": false,
+      "geo": {
+        "lat": 51.9,
+        "lng": -8.47,
+        "flag": "🏴",
+        "region": "Europe"
+      },
+      "accessTier": "restricted",
+      "biome": "Coastal Haven",
+      "lore": "Munster is a strategic regional zone within Ireland.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 2700,
+          "annual_usd": 32400
+        },
+        "language": {
+          "primary": "English",
+          "others": [
+            "Irish"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Tech",
+            "Pharma",
+            "Finance",
+            "Data"
+          ],
+          "degreeRequired": true
+        },
+        "health": "insurance_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local conditions",
+          "detail": "Local employer demand and settlement logistics materially affect outcomes.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 50,
+        "cost": 62,
+        "safety": 84,
+        "quality": 82,
+        "language": 10,
+        "security": 50
+      },
+      "population": 1300000,
+      "currency": "EUR"
+    }
+  ]
+}

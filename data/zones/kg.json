@@ -1,0 +1,134 @@
+{
+  "meta": {
+    "schemaVersion": 2,
+    "parent": "kg"
+  },
+  "zones": [
+    {
+      "id": "kg-gb",
+      "name": "Bishkek",
+      "level": "state",
+      "parent": "kg",
+      "hasChildren": false,
+      "geo": {
+        "lat": 42.87,
+        "lng": 74.6,
+        "flag": "🏴",
+        "region": "Asia"
+      },
+      "accessTier": "open",
+      "biome": "Urban Outpost",
+      "lore": "Bishkek is a curated regional zone in Kyrgyzstan.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 495,
+          "annual_usd": 5940
+        },
+        "language": {
+          "primary": "Kyrgyz",
+          "others": [
+            "Russian"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Trade",
+            "Logistics",
+            "Agriculture",
+            "Tourism"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local settlement",
+          "detail": "Local compliance and labor demand shape onboarding speed.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 34,
+        "cost": 18,
+        "safety": 58,
+        "quality": 52,
+        "language": 46,
+        "security": 70
+      },
+      "population": 1100000,
+      "currency": "KGS"
+    },
+    {
+      "id": "kg-oc",
+      "name": "Osh Region",
+      "level": "state",
+      "parent": "kg",
+      "hasChildren": false,
+      "geo": {
+        "lat": 40.53,
+        "lng": 72.8,
+        "flag": "🏴",
+        "region": "Asia"
+      },
+      "accessTier": "open",
+      "biome": "Mountain Stronghold",
+      "lore": "Osh Region is a curated regional zone in Kyrgyzstan.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 495,
+          "annual_usd": 5940
+        },
+        "language": {
+          "primary": "Kyrgyz",
+          "others": [
+            "Russian"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Trade",
+            "Logistics",
+            "Agriculture",
+            "Tourism"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local settlement",
+          "detail": "Local compliance and labor demand shape onboarding speed.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 20,
+        "cost": 10,
+        "safety": 62,
+        "quality": 44,
+        "language": 50,
+        "security": 76
+      },
+      "population": 1300000,
+      "currency": "KGS"
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "meta": {
+    "schemaVersion": 2,
+    "parent": "ae"
+  },
+  "zones": [
+    {
+      "id": "ae-du",
+      "name": "Dubai",
+      "level": "state",
+      "parent": "ae",
+      "hasChildren": false,
+      "geo": {
+        "lat": 25.204,
+        "lng": 55.271,
+        "flag": "🏴",
+        "region": "Middle East"
+      },
+      "accessTier": "locked",
+      "biome": "Financial Citadel",
+      "lore": "Dubai acts as a major progression zone inside United Arab Emirates, with region-specific economy and entry friction.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 4130,
+          "annual_usd": 49560
+        },
+        "language": {
+          "primary": "Arabic",
+          "others": [
+            "English"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Finance",
+            "Tech",
+            "Construction",
+            "Healthcare",
+            "Aviation"
+          ],
+          "degreeRequired": true
+        },
+        "health": "insurance_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "regional_path",
+          "type": "hard",
+          "label": "United Arab Emirates national immigration route",
+          "detail": "Regional entry relies on national rules plus local employer or economic fit.",
+          "options": [
+            "Employment Visa (employer-sponsored)",
+            "Golden Visa (10 years)",
+            "Freelancer Permit",
+            "Remote Work Visa"
+          ]
+        },
+        {
+          "id": "local_settlement",
+          "type": "soft",
+          "label": "Local settlement readiness",
+          "detail": "Housing search, registration, and language adaptation significantly affect first-year outcomes.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 64,
+        "cost": 83,
+        "safety": 92,
+        "quality": 84,
+        "language": 24,
+        "security": 44
+      },
+      "population": 2970000,
+      "currency": "AED"
+    },
+    {
+      "id": "ae-az",
+      "name": "Abu Dhabi",
+      "level": "state",
+      "parent": "ae",
+      "hasChildren": false,
+      "geo": {
+        "lat": 24.454,
+        "lng": 54.377,
+        "flag": "🏴",
+        "region": "Middle East"
+      },
+      "accessTier": "restricted",
+      "biome": "Desert Outpost",
+      "lore": "Abu Dhabi acts as a major progression zone inside United Arab Emirates, with region-specific economy and entry friction.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 3080,
+          "annual_usd": 36960
+        },
+        "language": {
+          "primary": "Arabic",
+          "others": [
+            "English"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Finance",
+            "Tech",
+            "Construction",
+            "Healthcare",
+            "Aviation"
+          ],
+          "degreeRequired": true
+        },
+        "health": "insurance_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "regional_path",
+          "type": "hard",
+          "label": "United Arab Emirates national immigration route",
+          "detail": "Regional entry relies on national rules plus local employer or economic fit.",
+          "options": [
+            "Employment Visa (employer-sponsored)",
+            "Golden Visa (10 years)",
+            "Freelancer Permit",
+            "Remote Work Visa"
+          ]
+        },
+        {
+          "id": "local_settlement",
+          "type": "soft",
+          "label": "Local settlement readiness",
+          "detail": "Housing search, registration, and language adaptation significantly affect first-year outcomes.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 54,
+        "cost": 69,
+        "safety": 88,
+        "quality": 76,
+        "language": 18,
+        "security": 52
+      },
+      "population": 1782000,
+      "currency": "AED"
+    }
+  ]
+}

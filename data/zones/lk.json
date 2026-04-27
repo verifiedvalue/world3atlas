@@ -1,0 +1,136 @@
+{
+  "meta": {
+    "schemaVersion": 2,
+    "parent": "lk"
+  },
+  "zones": [
+    {
+      "id": "lk-11",
+      "name": "Colombo District",
+      "level": "state",
+      "parent": "lk",
+      "hasChildren": false,
+      "geo": {
+        "lat": 6.927,
+        "lng": 79.861,
+        "flag": "🏴",
+        "region": "Asia"
+      },
+      "accessTier": "restricted",
+      "biome": "Urban Megacity",
+      "lore": "Colombo District is a curated regional zone in Sri Lanka.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 450,
+          "annual_usd": 5400
+        },
+        "language": {
+          "primary": "Sinhala",
+          "others": [
+            "Tamil",
+            "English"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Tourism",
+            "Logistics",
+            "IT Services",
+            "Agriculture"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local settlement",
+          "detail": "Local labor demand and administrative requirements shape progression speed.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 36,
+        "cost": 22,
+        "safety": 56,
+        "quality": 58,
+        "language": 38,
+        "security": 66
+      },
+      "population": 2400000,
+      "currency": "LKR"
+    },
+    {
+      "id": "lk-21",
+      "name": "Kandy District",
+      "level": "state",
+      "parent": "lk",
+      "hasChildren": false,
+      "geo": {
+        "lat": 7.29,
+        "lng": 80.633,
+        "flag": "🏴",
+        "region": "Asia"
+      },
+      "accessTier": "open",
+      "biome": "Cultural Heartland",
+      "lore": "Kandy District is a curated regional zone in Sri Lanka.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 450,
+          "annual_usd": 5400
+        },
+        "language": {
+          "primary": "Sinhala",
+          "others": [
+            "Tamil",
+            "English"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Tourism",
+            "Logistics",
+            "IT Services",
+            "Agriculture"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local settlement",
+          "detail": "Local labor demand and administrative requirements shape progression speed.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 22,
+        "cost": 12,
+        "safety": 64,
+        "quality": 50,
+        "language": 42,
+        "security": 74
+      },
+      "population": 1400000,
+      "currency": "LKR"
+    }
+  ]
+}

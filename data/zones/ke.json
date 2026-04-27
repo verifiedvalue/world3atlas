@@ -1,0 +1,134 @@
+{
+  "meta": {
+    "schemaVersion": 2,
+    "parent": "ke"
+  },
+  "zones": [
+    {
+      "id": "ke-30",
+      "name": "Nairobi County",
+      "level": "state",
+      "parent": "ke",
+      "hasChildren": false,
+      "geo": {
+        "lat": -1.286,
+        "lng": 36.817,
+        "flag": "🏴",
+        "region": "Africa"
+      },
+      "accessTier": "restricted",
+      "biome": "Urban Megacity",
+      "lore": "Nairobi County is a curated regional zone in Kenya.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 630,
+          "annual_usd": 7560
+        },
+        "language": {
+          "primary": "Swahili",
+          "others": [
+            "English"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Fintech",
+            "Logistics",
+            "Agriculture",
+            "Healthcare"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local setup",
+          "detail": "Local demand, docs, and settlement friction determine onboarding speed.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 40,
+        "cost": 30,
+        "safety": 50,
+        "quality": 64,
+        "language": 24,
+        "security": 66
+      },
+      "population": 5000000,
+      "currency": "KES"
+    },
+    {
+      "id": "ke-28",
+      "name": "Mombasa County",
+      "level": "state",
+      "parent": "ke",
+      "hasChildren": false,
+      "geo": {
+        "lat": -4.043,
+        "lng": 39.668,
+        "flag": "🏴",
+        "region": "Africa"
+      },
+      "accessTier": "open",
+      "biome": "Coastal Haven",
+      "lore": "Mombasa County is a curated regional zone in Kenya.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 630,
+          "annual_usd": 7560
+        },
+        "language": {
+          "primary": "Swahili",
+          "others": [
+            "English"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Fintech",
+            "Logistics",
+            "Agriculture",
+            "Healthcare"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local setup",
+          "detail": "Local demand, docs, and settlement friction determine onboarding speed.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 24,
+        "cost": 18,
+        "safety": 58,
+        "quality": 54,
+        "language": 28,
+        "security": 74
+      },
+      "population": 1300000,
+      "currency": "KES"
+    }
+  ]
+}

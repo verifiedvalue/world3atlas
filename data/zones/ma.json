@@ -1,0 +1,136 @@
+{
+  "meta": {
+    "schemaVersion": 2,
+    "parent": "ma"
+  },
+  "zones": [
+    {
+      "id": "ma-cas",
+      "name": "Casablanca-Settat",
+      "level": "state",
+      "parent": "ma",
+      "hasChildren": false,
+      "geo": {
+        "lat": 33.573,
+        "lng": -7.589,
+        "flag": "🏴",
+        "region": "Africa"
+      },
+      "accessTier": "restricted",
+      "biome": "Financial Citadel",
+      "lore": "Casablanca-Settat is a curated regional zone in Morocco.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 720,
+          "annual_usd": 8640
+        },
+        "language": {
+          "primary": "Arabic",
+          "others": [
+            "French",
+            "Tamazight"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Logistics",
+            "Manufacturing",
+            "Tourism",
+            "Services"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local settlement",
+          "detail": "Local labor demand and administrative requirements shape progression speed.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 38,
+        "cost": 30,
+        "safety": 60,
+        "quality": 66,
+        "language": 42,
+        "security": 64
+      },
+      "population": 6900000,
+      "currency": "MAD"
+    },
+    {
+      "id": "ma-rab",
+      "name": "Rabat-Sale-Kenitra",
+      "level": "state",
+      "parent": "ma",
+      "hasChildren": false,
+      "geo": {
+        "lat": 34.02,
+        "lng": -6.841,
+        "flag": "🏴",
+        "region": "Africa"
+      },
+      "accessTier": "open",
+      "biome": "Cultural Heartland",
+      "lore": "Rabat-Sale-Kenitra is a curated regional zone in Morocco.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 720,
+          "annual_usd": 8640
+        },
+        "language": {
+          "primary": "Arabic",
+          "others": [
+            "French",
+            "Tamazight"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Logistics",
+            "Manufacturing",
+            "Tourism",
+            "Services"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local settlement",
+          "detail": "Local labor demand and administrative requirements shape progression speed.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 26,
+        "cost": 20,
+        "safety": 66,
+        "quality": 62,
+        "language": 44,
+        "security": 72
+      },
+      "population": 4900000,
+      "currency": "MAD"
+    }
+  ]
+}

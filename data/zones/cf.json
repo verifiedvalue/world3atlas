@@ -1,0 +1,130 @@
+{
+  "meta": {
+    "schemaVersion": 2,
+    "parent": "cf"
+  },
+  "zones": [
+    {
+      "id": "cf-bgf",
+      "name": "Bangui",
+      "level": "state",
+      "parent": "cf",
+      "hasChildren": false,
+      "geo": {
+        "lat": 4.37,
+        "lng": 18.56,
+        "flag": "🏴",
+        "region": "Africa"
+      },
+      "accessTier": "fortress",
+      "biome": "Urban Outpost",
+      "lore": "Bangui is a curated regional zone in Central African Republic.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 270,
+          "annual_usd": 3240
+        },
+        "language": {
+          "primary": "French/Sango",
+          "others": [],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Humanitarian",
+            "Public Health",
+            "Logistics",
+            "Peacebuilding"
+          ],
+          "degreeRequired": false
+        },
+        "health": "proof_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local settlement",
+          "detail": "Local permits, safety, and labor demand shape progression speed.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 98,
+        "cost": 8,
+        "safety": 4,
+        "quality": 14,
+        "language": 40,
+        "security": 6
+      },
+      "population": 900000,
+      "currency": "XAF"
+    },
+    {
+      "id": "cf-ou",
+      "name": "Ouaka",
+      "level": "state",
+      "parent": "cf",
+      "hasChildren": false,
+      "geo": {
+        "lat": 6.32,
+        "lng": 20.71,
+        "flag": "🏴",
+        "region": "Africa"
+      },
+      "accessTier": "fortress",
+      "biome": "Rainforest Enclave",
+      "lore": "Ouaka is a curated regional zone in Central African Republic.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 270,
+          "annual_usd": 3240
+        },
+        "language": {
+          "primary": "French/Sango",
+          "others": [],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Humanitarian",
+            "Public Health",
+            "Logistics",
+            "Peacebuilding"
+          ],
+          "degreeRequired": false
+        },
+        "health": "proof_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local settlement",
+          "detail": "Local permits, safety, and labor demand shape progression speed.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 96,
+        "cost": 4,
+        "safety": 5,
+        "quality": 10,
+        "language": 44,
+        "security": 10
+      },
+      "population": 280000,
+      "currency": "XAF"
+    }
+  ]
+}

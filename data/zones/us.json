@@ -1,0 +1,3751 @@
+{
+  "meta": {
+    "schemaVersion": 2,
+    "parent": "us",
+    "updatedAt": "2026-Q2",
+    "totalZones": 51
+  },
+  "zones": [
+    {
+      "id": "us-ak",
+      "name": "Alaska",
+      "level": "state",
+      "parent": "us",
+      "hasChildren": false,
+      "geo": {
+        "lat": 65.3609,
+        "lng": -151.604,
+        "flag": "🏴",
+        "region": "Americas"
+      },
+      "accessTier": "restricted",
+      "biome": "Arctic Frontier",
+      "lore": "Alaska is a major progression zone within the US route, with distinct economy, safety profile, and sector demand.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 3291,
+          "annual_usd": 39492
+        },
+        "language": {
+          "primary": "English",
+          "others": [
+            "Spanish"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Energy",
+            "Logistics",
+            "Fisheries",
+            "Healthcare"
+          ],
+          "degreeRequired": false
+        },
+        "health": "insurance_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "fed_work_auth",
+          "type": "hard",
+          "label": "Federal Work Authorization",
+          "detail": "US work visa, permanent residency, or citizenship required for legal employment.",
+          "options": [
+            "H-1B",
+            "L-1",
+            "O-1",
+            "Employment-based Green Card"
+          ]
+        },
+        {
+          "id": "settlement",
+          "type": "soft",
+          "label": "Housing and Local Setup",
+          "detail": "Housing competition, transport, and insurance complexity vary heavily by metro area.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 64,
+        "cost": 62,
+        "safety": 60,
+        "quality": 70,
+        "language": 6,
+        "security": 24
+      },
+      "population": null,
+      "currency": "USD"
+    },
+    {
+      "id": "us-al",
+      "name": "Alabama",
+      "level": "state",
+      "parent": "us",
+      "hasChildren": false,
+      "geo": {
+        "lat": 32.8551,
+        "lng": -86.7184,
+        "flag": "🏴",
+        "region": "Americas"
+      },
+      "accessTier": "restricted",
+      "biome": "Cultural Heartland",
+      "lore": "Alabama is a major progression zone within the US route, with distinct economy, safety profile, and sector demand.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 2576,
+          "annual_usd": 30912
+        },
+        "language": {
+          "primary": "English",
+          "others": [
+            "Spanish"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Healthcare",
+            "Manufacturing",
+            "Logistics",
+            "Agriculture"
+          ],
+          "degreeRequired": false
+        },
+        "health": "insurance_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "fed_work_auth",
+          "type": "hard",
+          "label": "Federal Work Authorization",
+          "detail": "US work visa, permanent residency, or citizenship required for legal employment.",
+          "options": [
+            "H-1B",
+            "L-1",
+            "O-1",
+            "Employment-based Green Card"
+          ]
+        },
+        {
+          "id": "settlement",
+          "type": "soft",
+          "label": "Housing and Local Setup",
+          "detail": "Housing competition, transport, and insurance complexity vary heavily by metro area.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 54,
+        "cost": 50,
+        "safety": 54,
+        "quality": 66,
+        "language": 8,
+        "security": 28
+      },
+      "population": null,
+      "currency": "USD"
+    },
+    {
+      "id": "us-ar",
+      "name": "Arkansas",
+      "level": "state",
+      "parent": "us",
+      "hasChildren": false,
+      "geo": {
+        "lat": 34.7563,
+        "lng": -92.1428,
+        "flag": "🏴",
+        "region": "Americas"
+      },
+      "accessTier": "restricted",
+      "biome": "Cultural Heartland",
+      "lore": "Arkansas is a major progression zone within the US route, with distinct economy, safety profile, and sector demand.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 2576,
+          "annual_usd": 30912
+        },
+        "language": {
+          "primary": "English",
+          "others": [
+            "Spanish"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Healthcare",
+            "Manufacturing",
+            "Logistics",
+            "Agriculture"
+          ],
+          "degreeRequired": false
+        },
+        "health": "insurance_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "fed_work_auth",
+          "type": "hard",
+          "label": "Federal Work Authorization",
+          "detail": "US work visa, permanent residency, or citizenship required for legal employment.",
+          "options": [
+            "H-1B",
+            "L-1",
+            "O-1",
+            "Employment-based Green Card"
+          ]
+        },
+        {
+          "id": "settlement",
+          "type": "soft",
+          "label": "Housing and Local Setup",
+          "detail": "Housing competition, transport, and insurance complexity vary heavily by metro area.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 54,
+        "cost": 50,
+        "safety": 54,
+        "quality": 66,
+        "language": 8,
+        "security": 28
+      },
+      "population": null,
+      "currency": "USD"
+    },
+    {
+      "id": "us-az",
+      "name": "Arizona",
+      "level": "state",
+      "parent": "us",
+      "hasChildren": false,
+      "geo": {
+        "lat": 34.05,
+        "lng": -111.09,
+        "flag": "🏴",
+        "region": "Americas"
+      },
+      "accessTier": "restricted",
+      "biome": "Desert Outpost",
+      "lore": "Sun-drenched and surprisingly affordable by coastal standards. Phoenix is among the fastest-growing cities in the US. Summers are legendary in their brutality.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 2800,
+          "annual_usd": 33600
+        },
+        "language": {
+          "primary": "English",
+          "others": [
+            "Spanish"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Tech",
+            "Healthcare",
+            "Real Estate",
+            "Tourism"
+          ],
+          "degreeRequired": false
+        },
+        "health": "insurance_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "fed_work_auth",
+          "type": "hard",
+          "label": "Federal Work Authorization",
+          "detail": "US work visa or citizenship required.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 52,
+        "cost": 52,
+        "safety": 58,
+        "quality": 65,
+        "language": 8,
+        "security": 28
+      },
+      "population": 7400000,
+      "currency": "USD"
+    },
+    {
+      "id": "us-ca",
+      "name": "California",
+      "level": "state",
+      "parent": "us",
+      "hasChildren": true,
+      "childrenFile": "us-ca",
+      "geo": {
+        "lat": 36.78,
+        "lng": -119.42,
+        "flag": "🏴",
+        "region": "Americas"
+      },
+      "accessTier": "locked",
+      "biome": "Tech Nexus",
+      "lore": "The zone where dreams are manufactured and rent devours them. Unmatched in innovation; unmatched in housing costs. The hardest domestic zone to survive financially.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 5200,
+          "annual_usd": 62400
+        },
+        "language": {
+          "primary": "English",
+          "others": [
+            "Spanish"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Tech",
+            "Entertainment",
+            "Agriculture",
+            "Finance"
+          ],
+          "degreeRequired": false
+        },
+        "health": "insurance_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "fed_work_auth",
+          "type": "hard",
+          "label": "Federal Work Authorization",
+          "detail": "US work visa or citizenship required.",
+          "options": []
+        },
+        {
+          "id": "housing",
+          "type": "soft",
+          "label": "Secure Housing Before Arrival",
+          "detail": "Median 1BR rent ~$2,400/month in metro areas.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 84,
+        "cost": 95,
+        "safety": 58,
+        "quality": 76,
+        "language": 5,
+        "security": 28
+      },
+      "population": 39500000,
+      "currency": "USD"
+    },
+    {
+      "id": "us-co",
+      "name": "Colorado",
+      "level": "state",
+      "parent": "us",
+      "hasChildren": false,
+      "geo": {
+        "lat": 39.55,
+        "lng": -105.78,
+        "flag": "🏴",
+        "region": "Americas"
+      },
+      "accessTier": "restricted",
+      "biome": "Mountain Stronghold",
+      "lore": "Mile-high and mountain-adjacent. Denver has become a tech hub with outdoor life buffs. Housing costs have spiked significantly since 2020.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 3600,
+          "annual_usd": 43200
+        },
+        "language": {
+          "primary": "English",
+          "others": [
+            "Spanish"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Tech",
+            "Aerospace",
+            "Healthcare",
+            "Outdoor/Tourism"
+          ],
+          "degreeRequired": false
+        },
+        "health": "insurance_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "fed_work_auth",
+          "type": "hard",
+          "label": "Federal Work Authorization",
+          "detail": "US work visa or citizenship required.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 62,
+        "cost": 68,
+        "safety": 62,
+        "quality": 78,
+        "language": 5,
+        "security": 28
+      },
+      "population": 5900000,
+      "currency": "USD"
+    },
+    {
+      "id": "us-ct",
+      "name": "Connecticut",
+      "level": "state",
+      "parent": "us",
+      "hasChildren": false,
+      "geo": {
+        "lat": 41.6486,
+        "lng": -72.7594,
+        "flag": "🏴",
+        "region": "Americas"
+      },
+      "accessTier": "locked",
+      "biome": "Financial Citadel",
+      "lore": "Connecticut is a major progression zone within the US route, with distinct economy, safety profile, and sector demand.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 4334,
+          "annual_usd": 52008
+        },
+        "language": {
+          "primary": "English",
+          "others": [
+            "Spanish"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Finance",
+            "Biotech",
+            "Education",
+            "Healthcare"
+          ],
+          "degreeRequired": false
+        },
+        "health": "insurance_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "fed_work_auth",
+          "type": "hard",
+          "label": "Federal Work Authorization",
+          "detail": "US work visa, permanent residency, or citizenship required for legal employment.",
+          "options": [
+            "H-1B",
+            "L-1",
+            "O-1",
+            "Employment-based Green Card"
+          ]
+        },
+        {
+          "id": "settlement",
+          "type": "soft",
+          "label": "Housing and Local Setup",
+          "detail": "Housing competition, transport, and insurance complexity vary heavily by metro area.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 66,
+        "cost": 78,
+        "safety": 66,
+        "quality": 76,
+        "language": 5,
+        "security": 28
+      },
+      "population": null,
+      "currency": "USD"
+    },
+    {
+      "id": "us-dc",
+      "name": "District of Columbia",
+      "level": "state",
+      "parent": "us",
+      "hasChildren": false,
+      "geo": {
+        "lat": 38.8922,
+        "lng": -77.0113,
+        "flag": "🏴",
+        "region": "Americas"
+      },
+      "accessTier": "locked",
+      "biome": "Federal Citadel",
+      "lore": "District of Columbia is a major progression zone within the US route, with distinct economy, safety profile, and sector demand.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 5075,
+          "annual_usd": 60900
+        },
+        "language": {
+          "primary": "English",
+          "others": [
+            "Spanish"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Government",
+            "Law",
+            "Policy",
+            "Cybersecurity"
+          ],
+          "degreeRequired": false
+        },
+        "health": "insurance_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "fed_work_auth",
+          "type": "hard",
+          "label": "Federal Work Authorization",
+          "detail": "US work visa, permanent residency, or citizenship required for legal employment.",
+          "options": [
+            "H-1B",
+            "L-1",
+            "O-1",
+            "Employment-based Green Card"
+          ]
+        },
+        {
+          "id": "settlement",
+          "type": "soft",
+          "label": "Housing and Local Setup",
+          "detail": "Housing competition, transport, and insurance complexity vary heavily by metro area.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 66,
+        "cost": 64,
+        "safety": 50,
+        "quality": 66,
+        "language": 8,
+        "security": 28
+      },
+      "population": null,
+      "currency": "USD"
+    },
+    {
+      "id": "us-de",
+      "name": "Delaware",
+      "level": "state",
+      "parent": "us",
+      "hasChildren": false,
+      "geo": {
+        "lat": 38.8657,
+        "lng": -75.4112,
+        "flag": "🏴",
+        "region": "Americas"
+      },
+      "accessTier": "restricted",
+      "biome": "Cultural Heartland",
+      "lore": "Delaware is a major progression zone within the US route, with distinct economy, safety profile, and sector demand.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 2576,
+          "annual_usd": 30912
+        },
+        "language": {
+          "primary": "English",
+          "others": [
+            "Spanish"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Healthcare",
+            "Manufacturing",
+            "Logistics",
+            "Agriculture"
+          ],
+          "degreeRequired": false
+        },
+        "health": "insurance_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "fed_work_auth",
+          "type": "hard",
+          "label": "Federal Work Authorization",
+          "detail": "US work visa, permanent residency, or citizenship required for legal employment.",
+          "options": [
+            "H-1B",
+            "L-1",
+            "O-1",
+            "Employment-based Green Card"
+          ]
+        },
+        {
+          "id": "settlement",
+          "type": "soft",
+          "label": "Housing and Local Setup",
+          "detail": "Housing competition, transport, and insurance complexity vary heavily by metro area.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 54,
+        "cost": 50,
+        "safety": 54,
+        "quality": 66,
+        "language": 8,
+        "security": 28
+      },
+      "population": null,
+      "currency": "USD"
+    },
+    {
+      "id": "us-fl",
+      "name": "Florida",
+      "level": "state",
+      "parent": "us",
+      "hasChildren": false,
+      "geo": {
+        "lat": 27.77,
+        "lng": -81.69,
+        "flag": "🏴",
+        "region": "Americas"
+      },
+      "accessTier": "restricted",
+      "biome": "Tropical Sanctuary",
+      "lore": "No state income tax and year-round warmth attract retirees, remote workers, and business owners alike. Miami has emerged as a financial nexus.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 3100,
+          "annual_usd": 37200
+        },
+        "language": {
+          "primary": "English",
+          "others": [
+            "Spanish",
+            "Creole"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Tourism",
+            "Healthcare",
+            "Finance",
+            "Real Estate",
+            "Tech"
+          ],
+          "degreeRequired": false
+        },
+        "health": "insurance_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "fed_work_auth",
+          "type": "hard",
+          "label": "Federal Work Authorization",
+          "detail": "US work visa or citizenship required.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 60,
+        "cost": 62,
+        "safety": 52,
+        "quality": 65,
+        "language": 8,
+        "security": 28
+      },
+      "population": 22600000,
+      "currency": "USD"
+    },
+    {
+      "id": "us-ga",
+      "name": "Georgia",
+      "level": "state",
+      "parent": "us",
+      "hasChildren": false,
+      "geo": {
+        "lat": 32.8547,
+        "lng": -83.4078,
+        "flag": "🏴",
+        "region": "Americas"
+      },
+      "accessTier": "restricted",
+      "biome": "Cultural Heartland",
+      "lore": "Georgia is a major progression zone within the US route, with distinct economy, safety profile, and sector demand.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 2576,
+          "annual_usd": 30912
+        },
+        "language": {
+          "primary": "English",
+          "others": [
+            "Spanish"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Healthcare",
+            "Manufacturing",
+            "Logistics",
+            "Agriculture"
+          ],
+          "degreeRequired": false
+        },
+        "health": "insurance_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "fed_work_auth",
+          "type": "hard",
+          "label": "Federal Work Authorization",
+          "detail": "US work visa, permanent residency, or citizenship required for legal employment.",
+          "options": [
+            "H-1B",
+            "L-1",
+            "O-1",
+            "Employment-based Green Card"
+          ]
+        },
+        {
+          "id": "settlement",
+          "type": "soft",
+          "label": "Housing and Local Setup",
+          "detail": "Housing competition, transport, and insurance complexity vary heavily by metro area.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 54,
+        "cost": 50,
+        "safety": 54,
+        "quality": 66,
+        "language": 8,
+        "security": 28
+      },
+      "population": null,
+      "currency": "USD"
+    },
+    {
+      "id": "us-hi",
+      "name": "Hawaii",
+      "level": "state",
+      "parent": "us",
+      "hasChildren": false,
+      "geo": {
+        "lat": 21.4919,
+        "lng": -157.999,
+        "flag": "🏴",
+        "region": "Americas"
+      },
+      "accessTier": "restricted",
+      "biome": "Island Sanctuary",
+      "lore": "Hawaii is a major progression zone within the US route, with distinct economy, safety profile, and sector demand.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 3686,
+          "annual_usd": 44232
+        },
+        "language": {
+          "primary": "English",
+          "others": [
+            "Spanish"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Tourism",
+            "Defense",
+            "Healthcare",
+            "Hospitality"
+          ],
+          "degreeRequired": false
+        },
+        "health": "insurance_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "fed_work_auth",
+          "type": "hard",
+          "label": "Federal Work Authorization",
+          "detail": "US work visa, permanent residency, or citizenship required for legal employment.",
+          "options": [
+            "H-1B",
+            "L-1",
+            "O-1",
+            "Employment-based Green Card"
+          ]
+        },
+        {
+          "id": "settlement",
+          "type": "soft",
+          "label": "Housing and Local Setup",
+          "detail": "Housing competition, transport, and insurance complexity vary heavily by metro area.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 66,
+        "cost": 76,
+        "safety": 60,
+        "quality": 80,
+        "language": 6,
+        "security": 28
+      },
+      "population": null,
+      "currency": "USD"
+    },
+    {
+      "id": "us-ia",
+      "name": "Iowa",
+      "level": "state",
+      "parent": "us",
+      "hasChildren": false,
+      "geo": {
+        "lat": 42.0423,
+        "lng": -93.3891,
+        "flag": "🏴",
+        "region": "Americas"
+      },
+      "accessTier": "restricted",
+      "biome": "Industrial Heartland",
+      "lore": "Iowa is a major progression zone within the US route, with distinct economy, safety profile, and sector demand.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 2309,
+          "annual_usd": 27708
+        },
+        "language": {
+          "primary": "English",
+          "others": [
+            "Spanish"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Manufacturing",
+            "Logistics",
+            "Agribusiness",
+            "Healthcare"
+          ],
+          "degreeRequired": false
+        },
+        "health": "insurance_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "fed_work_auth",
+          "type": "hard",
+          "label": "Federal Work Authorization",
+          "detail": "US work visa, permanent residency, or citizenship required for legal employment.",
+          "options": [
+            "H-1B",
+            "L-1",
+            "O-1",
+            "Employment-based Green Card"
+          ]
+        },
+        {
+          "id": "settlement",
+          "type": "soft",
+          "label": "Housing and Local Setup",
+          "detail": "Housing competition, transport, and insurance complexity vary heavily by metro area.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 50,
+        "cost": 42,
+        "safety": 62,
+        "quality": 70,
+        "language": 5,
+        "security": 28
+      },
+      "population": null,
+      "currency": "USD"
+    },
+    {
+      "id": "us-id",
+      "name": "Idaho",
+      "level": "state",
+      "parent": "us",
+      "hasChildren": false,
+      "geo": {
+        "lat": 43.7825,
+        "lng": -114.133,
+        "flag": "🏴",
+        "region": "Americas"
+      },
+      "accessTier": "restricted",
+      "biome": "Mountain Stronghold",
+      "lore": "Idaho is a major progression zone within the US route, with distinct economy, safety profile, and sector demand.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 3194,
+          "annual_usd": 38328
+        },
+        "language": {
+          "primary": "English",
+          "others": [
+            "Spanish"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Tech",
+            "Energy",
+            "Tourism",
+            "Aerospace"
+          ],
+          "degreeRequired": false
+        },
+        "health": "insurance_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "fed_work_auth",
+          "type": "hard",
+          "label": "Federal Work Authorization",
+          "detail": "US work visa, permanent residency, or citizenship required for legal employment.",
+          "options": [
+            "H-1B",
+            "L-1",
+            "O-1",
+            "Employment-based Green Card"
+          ]
+        },
+        {
+          "id": "settlement",
+          "type": "soft",
+          "label": "Housing and Local Setup",
+          "detail": "Housing competition, transport, and insurance complexity vary heavily by metro area.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 58,
+        "cost": 62,
+        "safety": 60,
+        "quality": 74,
+        "language": 6,
+        "security": 28
+      },
+      "population": null,
+      "currency": "USD"
+    },
+    {
+      "id": "us-il",
+      "name": "Illinois",
+      "level": "state",
+      "parent": "us",
+      "hasChildren": false,
+      "geo": {
+        "lat": 39.946,
+        "lng": -89.1991,
+        "flag": "🏴",
+        "region": "Americas"
+      },
+      "accessTier": "restricted",
+      "biome": "Industrial Heartland",
+      "lore": "Illinois is a major progression zone within the US route, with distinct economy, safety profile, and sector demand.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 2309,
+          "annual_usd": 27708
+        },
+        "language": {
+          "primary": "English",
+          "others": [
+            "Spanish"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Manufacturing",
+            "Logistics",
+            "Agribusiness",
+            "Healthcare"
+          ],
+          "degreeRequired": false
+        },
+        "health": "insurance_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "fed_work_auth",
+          "type": "hard",
+          "label": "Federal Work Authorization",
+          "detail": "US work visa, permanent residency, or citizenship required for legal employment.",
+          "options": [
+            "H-1B",
+            "L-1",
+            "O-1",
+            "Employment-based Green Card"
+          ]
+        },
+        {
+          "id": "settlement",
+          "type": "soft",
+          "label": "Housing and Local Setup",
+          "detail": "Housing competition, transport, and insurance complexity vary heavily by metro area.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 50,
+        "cost": 42,
+        "safety": 62,
+        "quality": 70,
+        "language": 5,
+        "security": 28
+      },
+      "population": null,
+      "currency": "USD"
+    },
+    {
+      "id": "us-in",
+      "name": "Indiana",
+      "level": "state",
+      "parent": "us",
+      "hasChildren": false,
+      "geo": {
+        "lat": 39.8874,
+        "lng": -86.1396,
+        "flag": "🏴",
+        "region": "Americas"
+      },
+      "accessTier": "restricted",
+      "biome": "Industrial Heartland",
+      "lore": "Indiana is a major progression zone within the US route, with distinct economy, safety profile, and sector demand.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 2309,
+          "annual_usd": 27708
+        },
+        "language": {
+          "primary": "English",
+          "others": [
+            "Spanish"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Manufacturing",
+            "Logistics",
+            "Agribusiness",
+            "Healthcare"
+          ],
+          "degreeRequired": false
+        },
+        "health": "insurance_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "fed_work_auth",
+          "type": "hard",
+          "label": "Federal Work Authorization",
+          "detail": "US work visa, permanent residency, or citizenship required for legal employment.",
+          "options": [
+            "H-1B",
+            "L-1",
+            "O-1",
+            "Employment-based Green Card"
+          ]
+        },
+        {
+          "id": "settlement",
+          "type": "soft",
+          "label": "Housing and Local Setup",
+          "detail": "Housing competition, transport, and insurance complexity vary heavily by metro area.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 50,
+        "cost": 42,
+        "safety": 62,
+        "quality": 70,
+        "language": 5,
+        "security": 28
+      },
+      "population": null,
+      "currency": "USD"
+    },
+    {
+      "id": "us-ks",
+      "name": "Kansas",
+      "level": "state",
+      "parent": "us",
+      "hasChildren": false,
+      "geo": {
+        "lat": 38.5,
+        "lng": -98.3309,
+        "flag": "🏴",
+        "region": "Americas"
+      },
+      "accessTier": "restricted",
+      "biome": "Industrial Heartland",
+      "lore": "Kansas is a major progression zone within the US route, with distinct economy, safety profile, and sector demand.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 2309,
+          "annual_usd": 27708
+        },
+        "language": {
+          "primary": "English",
+          "others": [
+            "Spanish"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Manufacturing",
+            "Logistics",
+            "Agribusiness",
+            "Healthcare"
+          ],
+          "degreeRequired": false
+        },
+        "health": "insurance_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "fed_work_auth",
+          "type": "hard",
+          "label": "Federal Work Authorization",
+          "detail": "US work visa, permanent residency, or citizenship required for legal employment.",
+          "options": [
+            "H-1B",
+            "L-1",
+            "O-1",
+            "Employment-based Green Card"
+          ]
+        },
+        {
+          "id": "settlement",
+          "type": "soft",
+          "label": "Housing and Local Setup",
+          "detail": "Housing competition, transport, and insurance complexity vary heavily by metro area.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 50,
+        "cost": 42,
+        "safety": 62,
+        "quality": 70,
+        "language": 5,
+        "security": 28
+      },
+      "population": null,
+      "currency": "USD"
+    },
+    {
+      "id": "us-ky",
+      "name": "Kentucky",
+      "level": "state",
+      "parent": "us",
+      "hasChildren": false,
+      "geo": {
+        "lat": 37.3994,
+        "lng": -85.5729,
+        "flag": "🏴",
+        "region": "Americas"
+      },
+      "accessTier": "restricted",
+      "biome": "Cultural Heartland",
+      "lore": "Kentucky is a major progression zone within the US route, with distinct economy, safety profile, and sector demand.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 2576,
+          "annual_usd": 30912
+        },
+        "language": {
+          "primary": "English",
+          "others": [
+            "Spanish"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Healthcare",
+            "Manufacturing",
+            "Logistics",
+            "Agriculture"
+          ],
+          "degreeRequired": false
+        },
+        "health": "insurance_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "fed_work_auth",
+          "type": "hard",
+          "label": "Federal Work Authorization",
+          "detail": "US work visa, permanent residency, or citizenship required for legal employment.",
+          "options": [
+            "H-1B",
+            "L-1",
+            "O-1",
+            "Employment-based Green Card"
+          ]
+        },
+        {
+          "id": "settlement",
+          "type": "soft",
+          "label": "Housing and Local Setup",
+          "detail": "Housing competition, transport, and insurance complexity vary heavily by metro area.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 54,
+        "cost": 50,
+        "safety": 54,
+        "quality": 66,
+        "language": 8,
+        "security": 28
+      },
+      "population": null,
+      "currency": "USD"
+    },
+    {
+      "id": "us-la",
+      "name": "Louisiana",
+      "level": "state",
+      "parent": "us",
+      "hasChildren": false,
+      "geo": {
+        "lat": 30.5274,
+        "lng": -91.9991,
+        "flag": "🏴",
+        "region": "Americas"
+      },
+      "accessTier": "restricted",
+      "biome": "Cultural Heartland",
+      "lore": "Louisiana is a major progression zone within the US route, with distinct economy, safety profile, and sector demand.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 2576,
+          "annual_usd": 30912
+        },
+        "language": {
+          "primary": "English",
+          "others": [
+            "Spanish"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Healthcare",
+            "Manufacturing",
+            "Logistics",
+            "Agriculture"
+          ],
+          "degreeRequired": false
+        },
+        "health": "insurance_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "fed_work_auth",
+          "type": "hard",
+          "label": "Federal Work Authorization",
+          "detail": "US work visa, permanent residency, or citizenship required for legal employment.",
+          "options": [
+            "H-1B",
+            "L-1",
+            "O-1",
+            "Employment-based Green Card"
+          ]
+        },
+        {
+          "id": "settlement",
+          "type": "soft",
+          "label": "Housing and Local Setup",
+          "detail": "Housing competition, transport, and insurance complexity vary heavily by metro area.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 54,
+        "cost": 50,
+        "safety": 54,
+        "quality": 66,
+        "language": 8,
+        "security": 28
+      },
+      "population": null,
+      "currency": "USD"
+    },
+    {
+      "id": "us-ma",
+      "name": "Massachusetts",
+      "level": "state",
+      "parent": "us",
+      "hasChildren": false,
+      "geo": {
+        "lat": 42.3739,
+        "lng": -71.9993,
+        "flag": "🏴",
+        "region": "Americas"
+      },
+      "accessTier": "locked",
+      "biome": "Knowledge Bastion",
+      "lore": "Massachusetts is a major progression zone within the US route, with distinct economy, safety profile, and sector demand.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 4931,
+          "annual_usd": 59172
+        },
+        "language": {
+          "primary": "English",
+          "others": [
+            "Spanish"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Biotech",
+            "Education",
+            "Healthcare",
+            "Finance"
+          ],
+          "degreeRequired": false
+        },
+        "health": "insurance_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "fed_work_auth",
+          "type": "hard",
+          "label": "Federal Work Authorization",
+          "detail": "US work visa, permanent residency, or citizenship required for legal employment.",
+          "options": [
+            "H-1B",
+            "L-1",
+            "O-1",
+            "Employment-based Green Card"
+          ]
+        },
+        {
+          "id": "settlement",
+          "type": "soft",
+          "label": "Housing and Local Setup",
+          "detail": "Housing competition, transport, and insurance complexity vary heavily by metro area.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 74,
+        "cost": 88,
+        "safety": 66,
+        "quality": 76,
+        "language": 5,
+        "security": 28
+      },
+      "population": null,
+      "currency": "USD"
+    },
+    {
+      "id": "us-md",
+      "name": "Maryland",
+      "level": "state",
+      "parent": "us",
+      "hasChildren": false,
+      "geo": {
+        "lat": 39.3874,
+        "lng": -77.0454,
+        "flag": "🏴",
+        "region": "Americas"
+      },
+      "accessTier": "restricted",
+      "biome": "Cultural Heartland",
+      "lore": "Maryland is a major progression zone within the US route, with distinct economy, safety profile, and sector demand.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 2576,
+          "annual_usd": 30912
+        },
+        "language": {
+          "primary": "English",
+          "others": [
+            "Spanish"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Healthcare",
+            "Manufacturing",
+            "Logistics",
+            "Agriculture"
+          ],
+          "degreeRequired": false
+        },
+        "health": "insurance_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "fed_work_auth",
+          "type": "hard",
+          "label": "Federal Work Authorization",
+          "detail": "US work visa, permanent residency, or citizenship required for legal employment.",
+          "options": [
+            "H-1B",
+            "L-1",
+            "O-1",
+            "Employment-based Green Card"
+          ]
+        },
+        {
+          "id": "settlement",
+          "type": "soft",
+          "label": "Housing and Local Setup",
+          "detail": "Housing competition, transport, and insurance complexity vary heavily by metro area.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 54,
+        "cost": 50,
+        "safety": 54,
+        "quality": 66,
+        "language": 8,
+        "security": 28
+      },
+      "population": null,
+      "currency": "USD"
+    },
+    {
+      "id": "us-me",
+      "name": "Maine",
+      "level": "state",
+      "parent": "us",
+      "hasChildren": false,
+      "geo": {
+        "lat": 45.148,
+        "lng": -69.1973,
+        "flag": "🏴",
+        "region": "Americas"
+      },
+      "accessTier": "locked",
+      "biome": "Financial Citadel",
+      "lore": "Maine is a major progression zone within the US route, with distinct economy, safety profile, and sector demand.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 4334,
+          "annual_usd": 52008
+        },
+        "language": {
+          "primary": "English",
+          "others": [
+            "Spanish"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Finance",
+            "Biotech",
+            "Education",
+            "Healthcare"
+          ],
+          "degreeRequired": false
+        },
+        "health": "insurance_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "fed_work_auth",
+          "type": "hard",
+          "label": "Federal Work Authorization",
+          "detail": "US work visa, permanent residency, or citizenship required for legal employment.",
+          "options": [
+            "H-1B",
+            "L-1",
+            "O-1",
+            "Employment-based Green Card"
+          ]
+        },
+        {
+          "id": "settlement",
+          "type": "soft",
+          "label": "Housing and Local Setup",
+          "detail": "Housing competition, transport, and insurance complexity vary heavily by metro area.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 66,
+        "cost": 78,
+        "safety": 66,
+        "quality": 76,
+        "language": 5,
+        "security": 28
+      },
+      "population": null,
+      "currency": "USD"
+    },
+    {
+      "id": "us-mi",
+      "name": "Michigan",
+      "level": "state",
+      "parent": "us",
+      "hasChildren": false,
+      "geo": {
+        "lat": 43.4343,
+        "lng": -84.9479,
+        "flag": "🏴",
+        "region": "Americas"
+      },
+      "accessTier": "restricted",
+      "biome": "Industrial Heartland",
+      "lore": "Michigan is a major progression zone within the US route, with distinct economy, safety profile, and sector demand.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 2309,
+          "annual_usd": 27708
+        },
+        "language": {
+          "primary": "English",
+          "others": [
+            "Spanish"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Manufacturing",
+            "Logistics",
+            "Agribusiness",
+            "Healthcare"
+          ],
+          "degreeRequired": false
+        },
+        "health": "insurance_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "fed_work_auth",
+          "type": "hard",
+          "label": "Federal Work Authorization",
+          "detail": "US work visa, permanent residency, or citizenship required for legal employment.",
+          "options": [
+            "H-1B",
+            "L-1",
+            "O-1",
+            "Employment-based Green Card"
+          ]
+        },
+        {
+          "id": "settlement",
+          "type": "soft",
+          "label": "Housing and Local Setup",
+          "detail": "Housing competition, transport, and insurance complexity vary heavily by metro area.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 50,
+        "cost": 42,
+        "safety": 62,
+        "quality": 70,
+        "language": 5,
+        "security": 28
+      },
+      "population": null,
+      "currency": "USD"
+    },
+    {
+      "id": "us-mn",
+      "name": "Minnesota",
+      "level": "state",
+      "parent": "us",
+      "hasChildren": false,
+      "geo": {
+        "lat": 46.0592,
+        "lng": -93.364,
+        "flag": "🏴",
+        "region": "Americas"
+      },
+      "accessTier": "restricted",
+      "biome": "Industrial Heartland",
+      "lore": "Minnesota is a major progression zone within the US route, with distinct economy, safety profile, and sector demand.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 2309,
+          "annual_usd": 27708
+        },
+        "language": {
+          "primary": "English",
+          "others": [
+            "Spanish"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Manufacturing",
+            "Logistics",
+            "Agribusiness",
+            "Healthcare"
+          ],
+          "degreeRequired": false
+        },
+        "health": "insurance_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "fed_work_auth",
+          "type": "hard",
+          "label": "Federal Work Authorization",
+          "detail": "US work visa, permanent residency, or citizenship required for legal employment.",
+          "options": [
+            "H-1B",
+            "L-1",
+            "O-1",
+            "Employment-based Green Card"
+          ]
+        },
+        {
+          "id": "settlement",
+          "type": "soft",
+          "label": "Housing and Local Setup",
+          "detail": "Housing competition, transport, and insurance complexity vary heavily by metro area.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 50,
+        "cost": 42,
+        "safety": 62,
+        "quality": 70,
+        "language": 5,
+        "security": 28
+      },
+      "population": null,
+      "currency": "USD"
+    },
+    {
+      "id": "us-mo",
+      "name": "Missouri",
+      "level": "state",
+      "parent": "us",
+      "hasChildren": false,
+      "geo": {
+        "lat": 38.5487,
+        "lng": -92.446,
+        "flag": "🏴",
+        "region": "Americas"
+      },
+      "accessTier": "restricted",
+      "biome": "Industrial Heartland",
+      "lore": "Missouri is a major progression zone within the US route, with distinct economy, safety profile, and sector demand.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 2309,
+          "annual_usd": 27708
+        },
+        "language": {
+          "primary": "English",
+          "others": [
+            "Spanish"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Manufacturing",
+            "Logistics",
+            "Agribusiness",
+            "Healthcare"
+          ],
+          "degreeRequired": false
+        },
+        "health": "insurance_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "fed_work_auth",
+          "type": "hard",
+          "label": "Federal Work Authorization",
+          "detail": "US work visa, permanent residency, or citizenship required for legal employment.",
+          "options": [
+            "H-1B",
+            "L-1",
+            "O-1",
+            "Employment-based Green Card"
+          ]
+        },
+        {
+          "id": "settlement",
+          "type": "soft",
+          "label": "Housing and Local Setup",
+          "detail": "Housing competition, transport, and insurance complexity vary heavily by metro area.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 50,
+        "cost": 42,
+        "safety": 62,
+        "quality": 70,
+        "language": 5,
+        "security": 28
+      },
+      "population": null,
+      "currency": "USD"
+    },
+    {
+      "id": "us-ms",
+      "name": "Mississippi",
+      "level": "state",
+      "parent": "us",
+      "hasChildren": false,
+      "geo": {
+        "lat": 32.8657,
+        "lng": -89.7189,
+        "flag": "🏴",
+        "region": "Americas"
+      },
+      "accessTier": "open",
+      "biome": "Delta Frontier",
+      "lore": "Mississippi is a major progression zone within the US route, with distinct economy, safety profile, and sector demand.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 1584,
+          "annual_usd": 19008
+        },
+        "language": {
+          "primary": "English",
+          "others": [
+            "Spanish"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Healthcare",
+            "Manufacturing",
+            "Logistics",
+            "Agriculture"
+          ],
+          "degreeRequired": false
+        },
+        "health": "insurance_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "fed_work_auth",
+          "type": "hard",
+          "label": "Federal Work Authorization",
+          "detail": "US work visa, permanent residency, or citizenship required for legal employment.",
+          "options": [
+            "H-1B",
+            "L-1",
+            "O-1",
+            "Employment-based Green Card"
+          ]
+        },
+        {
+          "id": "settlement",
+          "type": "soft",
+          "label": "Housing and Local Setup",
+          "detail": "Housing competition, transport, and insurance complexity vary heavily by metro area.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 46,
+        "cost": 40,
+        "safety": 48,
+        "quality": 58,
+        "language": 8,
+        "security": 28
+      },
+      "population": null,
+      "currency": "USD"
+    },
+    {
+      "id": "us-mt",
+      "name": "Montana",
+      "level": "state",
+      "parent": "us",
+      "hasChildren": false,
+      "geo": {
+        "lat": 46.9965,
+        "lng": -110.044,
+        "flag": "🏴",
+        "region": "Americas"
+      },
+      "accessTier": "restricted",
+      "biome": "Mountain Stronghold",
+      "lore": "Montana is a major progression zone within the US route, with distinct economy, safety profile, and sector demand.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 3194,
+          "annual_usd": 38328
+        },
+        "language": {
+          "primary": "English",
+          "others": [
+            "Spanish"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Tech",
+            "Energy",
+            "Tourism",
+            "Aerospace"
+          ],
+          "degreeRequired": false
+        },
+        "health": "insurance_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "fed_work_auth",
+          "type": "hard",
+          "label": "Federal Work Authorization",
+          "detail": "US work visa, permanent residency, or citizenship required for legal employment.",
+          "options": [
+            "H-1B",
+            "L-1",
+            "O-1",
+            "Employment-based Green Card"
+          ]
+        },
+        {
+          "id": "settlement",
+          "type": "soft",
+          "label": "Housing and Local Setup",
+          "detail": "Housing competition, transport, and insurance complexity vary heavily by metro area.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 58,
+        "cost": 62,
+        "safety": 60,
+        "quality": 74,
+        "language": 6,
+        "security": 28
+      },
+      "population": null,
+      "currency": "USD"
+    },
+    {
+      "id": "us-nc",
+      "name": "North Carolina",
+      "level": "state",
+      "parent": "us",
+      "hasChildren": false,
+      "geo": {
+        "lat": 35.63,
+        "lng": -79.81,
+        "flag": "🏴",
+        "region": "Americas"
+      },
+      "accessTier": "restricted",
+      "biome": "Cultural Heartland",
+      "lore": "The Research Triangle has quietly become one of the most compelling tech zones in the US. Lower cost than coastal equivalents, high quality of life.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 2600,
+          "annual_usd": 31200
+        },
+        "language": {
+          "primary": "English",
+          "others": [],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Tech",
+            "Biotech",
+            "Education",
+            "Finance",
+            "Manufacturing"
+          ],
+          "degreeRequired": false
+        },
+        "health": "insurance_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "fed_work_auth",
+          "type": "hard",
+          "label": "Federal Work Authorization",
+          "detail": "US work visa or citizenship required.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 48,
+        "cost": 45,
+        "safety": 58,
+        "quality": 70,
+        "language": 5,
+        "security": 28
+      },
+      "population": 10700000,
+      "currency": "USD"
+    },
+    {
+      "id": "us-nd",
+      "name": "North Dakota",
+      "level": "state",
+      "parent": "us",
+      "hasChildren": false,
+      "geo": {
+        "lat": 47.4675,
+        "lng": -100.302,
+        "flag": "🏴",
+        "region": "Americas"
+      },
+      "accessTier": "restricted",
+      "biome": "Industrial Heartland",
+      "lore": "North Dakota is a major progression zone within the US route, with distinct economy, safety profile, and sector demand.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 2309,
+          "annual_usd": 27708
+        },
+        "language": {
+          "primary": "English",
+          "others": [
+            "Spanish"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Manufacturing",
+            "Logistics",
+            "Agribusiness",
+            "Healthcare"
+          ],
+          "degreeRequired": false
+        },
+        "health": "insurance_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "fed_work_auth",
+          "type": "hard",
+          "label": "Federal Work Authorization",
+          "detail": "US work visa, permanent residency, or citizenship required for legal employment.",
+          "options": [
+            "H-1B",
+            "L-1",
+            "O-1",
+            "Employment-based Green Card"
+          ]
+        },
+        {
+          "id": "settlement",
+          "type": "soft",
+          "label": "Housing and Local Setup",
+          "detail": "Housing competition, transport, and insurance complexity vary heavily by metro area.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 50,
+        "cost": 42,
+        "safety": 62,
+        "quality": 70,
+        "language": 5,
+        "security": 28
+      },
+      "population": null,
+      "currency": "USD"
+    },
+    {
+      "id": "us-ne",
+      "name": "Nebraska",
+      "level": "state",
+      "parent": "us",
+      "hasChildren": false,
+      "geo": {
+        "lat": 41.5002,
+        "lng": -99.6855,
+        "flag": "🏴",
+        "region": "Americas"
+      },
+      "accessTier": "restricted",
+      "biome": "Industrial Heartland",
+      "lore": "Nebraska is a major progression zone within the US route, with distinct economy, safety profile, and sector demand.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 2309,
+          "annual_usd": 27708
+        },
+        "language": {
+          "primary": "English",
+          "others": [
+            "Spanish"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Manufacturing",
+            "Logistics",
+            "Agribusiness",
+            "Healthcare"
+          ],
+          "degreeRequired": false
+        },
+        "health": "insurance_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "fed_work_auth",
+          "type": "hard",
+          "label": "Federal Work Authorization",
+          "detail": "US work visa, permanent residency, or citizenship required for legal employment.",
+          "options": [
+            "H-1B",
+            "L-1",
+            "O-1",
+            "Employment-based Green Card"
+          ]
+        },
+        {
+          "id": "settlement",
+          "type": "soft",
+          "label": "Housing and Local Setup",
+          "detail": "Housing competition, transport, and insurance complexity vary heavily by metro area.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 50,
+        "cost": 42,
+        "safety": 62,
+        "quality": 70,
+        "language": 5,
+        "security": 28
+      },
+      "population": null,
+      "currency": "USD"
+    },
+    {
+      "id": "us-nh",
+      "name": "New Hampshire",
+      "level": "state",
+      "parent": "us",
+      "hasChildren": false,
+      "geo": {
+        "lat": 43.5993,
+        "lng": -71.6301,
+        "flag": "🏴",
+        "region": "Americas"
+      },
+      "accessTier": "locked",
+      "biome": "Financial Citadel",
+      "lore": "New Hampshire is a major progression zone within the US route, with distinct economy, safety profile, and sector demand.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 4334,
+          "annual_usd": 52008
+        },
+        "language": {
+          "primary": "English",
+          "others": [
+            "Spanish"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Finance",
+            "Biotech",
+            "Education",
+            "Healthcare"
+          ],
+          "degreeRequired": false
+        },
+        "health": "insurance_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "fed_work_auth",
+          "type": "hard",
+          "label": "Federal Work Authorization",
+          "detail": "US work visa, permanent residency, or citizenship required for legal employment.",
+          "options": [
+            "H-1B",
+            "L-1",
+            "O-1",
+            "Employment-based Green Card"
+          ]
+        },
+        {
+          "id": "settlement",
+          "type": "soft",
+          "label": "Housing and Local Setup",
+          "detail": "Housing competition, transport, and insurance complexity vary heavily by metro area.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 66,
+        "cost": 78,
+        "safety": 66,
+        "quality": 76,
+        "language": 5,
+        "security": 28
+      },
+      "population": null,
+      "currency": "USD"
+    },
+    {
+      "id": "us-nj",
+      "name": "New Jersey",
+      "level": "state",
+      "parent": "us",
+      "hasChildren": false,
+      "geo": {
+        "lat": 40.0449,
+        "lng": -74.4653,
+        "flag": "🏴",
+        "region": "Americas"
+      },
+      "accessTier": "locked",
+      "biome": "Financial Citadel",
+      "lore": "New Jersey is a major progression zone within the US route, with distinct economy, safety profile, and sector demand.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 4334,
+          "annual_usd": 52008
+        },
+        "language": {
+          "primary": "English",
+          "others": [
+            "Spanish"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Finance",
+            "Biotech",
+            "Education",
+            "Healthcare"
+          ],
+          "degreeRequired": false
+        },
+        "health": "insurance_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "fed_work_auth",
+          "type": "hard",
+          "label": "Federal Work Authorization",
+          "detail": "US work visa, permanent residency, or citizenship required for legal employment.",
+          "options": [
+            "H-1B",
+            "L-1",
+            "O-1",
+            "Employment-based Green Card"
+          ]
+        },
+        {
+          "id": "settlement",
+          "type": "soft",
+          "label": "Housing and Local Setup",
+          "detail": "Housing competition, transport, and insurance complexity vary heavily by metro area.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 66,
+        "cost": 78,
+        "safety": 66,
+        "quality": 76,
+        "language": 5,
+        "security": 28
+      },
+      "population": null,
+      "currency": "USD"
+    },
+    {
+      "id": "us-nm",
+      "name": "New Mexico",
+      "level": "state",
+      "parent": "us",
+      "hasChildren": false,
+      "geo": {
+        "lat": 34.5002,
+        "lng": -106.024,
+        "flag": "🏴",
+        "region": "Americas"
+      },
+      "accessTier": "restricted",
+      "biome": "Mountain Stronghold",
+      "lore": "New Mexico is a major progression zone within the US route, with distinct economy, safety profile, and sector demand.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 3194,
+          "annual_usd": 38328
+        },
+        "language": {
+          "primary": "English",
+          "others": [
+            "Spanish"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Tech",
+            "Energy",
+            "Tourism",
+            "Aerospace"
+          ],
+          "degreeRequired": false
+        },
+        "health": "insurance_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "fed_work_auth",
+          "type": "hard",
+          "label": "Federal Work Authorization",
+          "detail": "US work visa, permanent residency, or citizenship required for legal employment.",
+          "options": [
+            "H-1B",
+            "L-1",
+            "O-1",
+            "Employment-based Green Card"
+          ]
+        },
+        {
+          "id": "settlement",
+          "type": "soft",
+          "label": "Housing and Local Setup",
+          "detail": "Housing competition, transport, and insurance complexity vary heavily by metro area.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 58,
+        "cost": 62,
+        "safety": 60,
+        "quality": 74,
+        "language": 6,
+        "security": 28
+      },
+      "population": null,
+      "currency": "USD"
+    },
+    {
+      "id": "us-nv",
+      "name": "Nevada",
+      "level": "state",
+      "parent": "us",
+      "hasChildren": false,
+      "geo": {
+        "lat": 39.4299,
+        "lng": -117.02,
+        "flag": "🏴",
+        "region": "Americas"
+      },
+      "accessTier": "restricted",
+      "biome": "Mountain Stronghold",
+      "lore": "Nevada is a major progression zone within the US route, with distinct economy, safety profile, and sector demand.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 3194,
+          "annual_usd": 38328
+        },
+        "language": {
+          "primary": "English",
+          "others": [
+            "Spanish"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Tech",
+            "Energy",
+            "Tourism",
+            "Aerospace"
+          ],
+          "degreeRequired": false
+        },
+        "health": "insurance_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "fed_work_auth",
+          "type": "hard",
+          "label": "Federal Work Authorization",
+          "detail": "US work visa, permanent residency, or citizenship required for legal employment.",
+          "options": [
+            "H-1B",
+            "L-1",
+            "O-1",
+            "Employment-based Green Card"
+          ]
+        },
+        {
+          "id": "settlement",
+          "type": "soft",
+          "label": "Housing and Local Setup",
+          "detail": "Housing competition, transport, and insurance complexity vary heavily by metro area.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 58,
+        "cost": 62,
+        "safety": 60,
+        "quality": 74,
+        "language": 6,
+        "security": 28
+      },
+      "population": null,
+      "currency": "USD"
+    },
+    {
+      "id": "us-ny",
+      "name": "New York",
+      "level": "state",
+      "parent": "us",
+      "hasChildren": false,
+      "geo": {
+        "lat": 42.17,
+        "lng": -74.95,
+        "flag": "🏴",
+        "region": "Americas"
+      },
+      "accessTier": "locked",
+      "biome": "Financial Citadel",
+      "lore": "The original megacity zone. Finance, media, and culture radiate from Manhattan. Upstate offers dramatically different stats — quieter, cheaper, colder.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 4800,
+          "annual_usd": 57600
+        },
+        "language": {
+          "primary": "English",
+          "others": [
+            "Spanish",
+            "Mandarin",
+            "Russian"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Finance",
+            "Tech",
+            "Media",
+            "Law",
+            "Healthcare"
+          ],
+          "degreeRequired": false
+        },
+        "health": "insurance_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "fed_work_auth",
+          "type": "hard",
+          "label": "Federal Work Authorization",
+          "detail": "US work visa or citizenship required.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 80,
+        "cost": 92,
+        "safety": 60,
+        "quality": 74,
+        "language": 5,
+        "security": 28
+      },
+      "population": 19600000,
+      "currency": "USD"
+    },
+    {
+      "id": "us-oh",
+      "name": "Ohio",
+      "level": "state",
+      "parent": "us",
+      "hasChildren": false,
+      "geo": {
+        "lat": 40.0924,
+        "lng": -82.6719,
+        "flag": "🏴",
+        "region": "Americas"
+      },
+      "accessTier": "restricted",
+      "biome": "Industrial Heartland",
+      "lore": "Ohio is a major progression zone within the US route, with distinct economy, safety profile, and sector demand.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 2309,
+          "annual_usd": 27708
+        },
+        "language": {
+          "primary": "English",
+          "others": [
+            "Spanish"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Manufacturing",
+            "Logistics",
+            "Agribusiness",
+            "Healthcare"
+          ],
+          "degreeRequired": false
+        },
+        "health": "insurance_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "fed_work_auth",
+          "type": "hard",
+          "label": "Federal Work Authorization",
+          "detail": "US work visa, permanent residency, or citizenship required for legal employment.",
+          "options": [
+            "H-1B",
+            "L-1",
+            "O-1",
+            "Employment-based Green Card"
+          ]
+        },
+        {
+          "id": "settlement",
+          "type": "soft",
+          "label": "Housing and Local Setup",
+          "detail": "Housing competition, transport, and insurance complexity vary heavily by metro area.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 50,
+        "cost": 42,
+        "safety": 62,
+        "quality": 70,
+        "language": 5,
+        "security": 28
+      },
+      "population": null,
+      "currency": "USD"
+    },
+    {
+      "id": "us-ok",
+      "name": "Oklahoma",
+      "level": "state",
+      "parent": "us",
+      "hasChildren": false,
+      "geo": {
+        "lat": 35.452,
+        "lng": -97.1309,
+        "flag": "🏴",
+        "region": "Americas"
+      },
+      "accessTier": "restricted",
+      "biome": "Cultural Heartland",
+      "lore": "Oklahoma is a major progression zone within the US route, with distinct economy, safety profile, and sector demand.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 2576,
+          "annual_usd": 30912
+        },
+        "language": {
+          "primary": "English",
+          "others": [
+            "Spanish"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Healthcare",
+            "Manufacturing",
+            "Logistics",
+            "Agriculture"
+          ],
+          "degreeRequired": false
+        },
+        "health": "insurance_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "fed_work_auth",
+          "type": "hard",
+          "label": "Federal Work Authorization",
+          "detail": "US work visa, permanent residency, or citizenship required for legal employment.",
+          "options": [
+            "H-1B",
+            "L-1",
+            "O-1",
+            "Employment-based Green Card"
+          ]
+        },
+        {
+          "id": "settlement",
+          "type": "soft",
+          "label": "Housing and Local Setup",
+          "detail": "Housing competition, transport, and insurance complexity vary heavily by metro area.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 54,
+        "cost": 50,
+        "safety": 54,
+        "quality": 66,
+        "language": 8,
+        "security": 28
+      },
+      "population": null,
+      "currency": "USD"
+    },
+    {
+      "id": "us-or",
+      "name": "Oregon",
+      "level": "state",
+      "parent": "us",
+      "hasChildren": false,
+      "geo": {
+        "lat": 43.8333,
+        "lng": -120.386,
+        "flag": "🏴",
+        "region": "Americas"
+      },
+      "accessTier": "restricted",
+      "biome": "Mountain Stronghold",
+      "lore": "Oregon is a major progression zone within the US route, with distinct economy, safety profile, and sector demand.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 3194,
+          "annual_usd": 38328
+        },
+        "language": {
+          "primary": "English",
+          "others": [
+            "Spanish"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Tech",
+            "Energy",
+            "Tourism",
+            "Aerospace"
+          ],
+          "degreeRequired": false
+        },
+        "health": "insurance_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "fed_work_auth",
+          "type": "hard",
+          "label": "Federal Work Authorization",
+          "detail": "US work visa, permanent residency, or citizenship required for legal employment.",
+          "options": [
+            "H-1B",
+            "L-1",
+            "O-1",
+            "Employment-based Green Card"
+          ]
+        },
+        {
+          "id": "settlement",
+          "type": "soft",
+          "label": "Housing and Local Setup",
+          "detail": "Housing competition, transport, and insurance complexity vary heavily by metro area.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 58,
+        "cost": 62,
+        "safety": 60,
+        "quality": 74,
+        "language": 6,
+        "security": 28
+      },
+      "population": null,
+      "currency": "USD"
+    },
+    {
+      "id": "us-pa",
+      "name": "Pennsylvania",
+      "level": "state",
+      "parent": "us",
+      "hasChildren": false,
+      "geo": {
+        "lat": 40.8601,
+        "lng": -77.6094,
+        "flag": "🏴",
+        "region": "Americas"
+      },
+      "accessTier": "locked",
+      "biome": "Financial Citadel",
+      "lore": "Pennsylvania is a major progression zone within the US route, with distinct economy, safety profile, and sector demand.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 4334,
+          "annual_usd": 52008
+        },
+        "language": {
+          "primary": "English",
+          "others": [
+            "Spanish"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Finance",
+            "Biotech",
+            "Education",
+            "Healthcare"
+          ],
+          "degreeRequired": false
+        },
+        "health": "insurance_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "fed_work_auth",
+          "type": "hard",
+          "label": "Federal Work Authorization",
+          "detail": "US work visa, permanent residency, or citizenship required for legal employment.",
+          "options": [
+            "H-1B",
+            "L-1",
+            "O-1",
+            "Employment-based Green Card"
+          ]
+        },
+        {
+          "id": "settlement",
+          "type": "soft",
+          "label": "Housing and Local Setup",
+          "detail": "Housing competition, transport, and insurance complexity vary heavily by metro area.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 66,
+        "cost": 78,
+        "safety": 66,
+        "quality": 76,
+        "language": 5,
+        "security": 28
+      },
+      "population": null,
+      "currency": "USD"
+    },
+    {
+      "id": "us-ri",
+      "name": "Rhode Island",
+      "level": "state",
+      "parent": "us",
+      "hasChildren": false,
+      "geo": {
+        "lat": 41.6242,
+        "lng": -71.5082,
+        "flag": "🏴",
+        "region": "Americas"
+      },
+      "accessTier": "locked",
+      "biome": "Financial Citadel",
+      "lore": "Rhode Island is a major progression zone within the US route, with distinct economy, safety profile, and sector demand.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 4334,
+          "annual_usd": 52008
+        },
+        "language": {
+          "primary": "English",
+          "others": [
+            "Spanish"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Finance",
+            "Biotech",
+            "Education",
+            "Healthcare"
+          ],
+          "degreeRequired": false
+        },
+        "health": "insurance_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "fed_work_auth",
+          "type": "hard",
+          "label": "Federal Work Authorization",
+          "detail": "US work visa, permanent residency, or citizenship required for legal employment.",
+          "options": [
+            "H-1B",
+            "L-1",
+            "O-1",
+            "Employment-based Green Card"
+          ]
+        },
+        {
+          "id": "settlement",
+          "type": "soft",
+          "label": "Housing and Local Setup",
+          "detail": "Housing competition, transport, and insurance complexity vary heavily by metro area.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 66,
+        "cost": 78,
+        "safety": 66,
+        "quality": 76,
+        "language": 5,
+        "security": 28
+      },
+      "population": null,
+      "currency": "USD"
+    },
+    {
+      "id": "us-sc",
+      "name": "South Carolina",
+      "level": "state",
+      "parent": "us",
+      "hasChildren": false,
+      "geo": {
+        "lat": 33.8578,
+        "lng": -80.6471,
+        "flag": "🏴",
+        "region": "Americas"
+      },
+      "accessTier": "restricted",
+      "biome": "Cultural Heartland",
+      "lore": "South Carolina is a major progression zone within the US route, with distinct economy, safety profile, and sector demand.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 2576,
+          "annual_usd": 30912
+        },
+        "language": {
+          "primary": "English",
+          "others": [
+            "Spanish"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Healthcare",
+            "Manufacturing",
+            "Logistics",
+            "Agriculture"
+          ],
+          "degreeRequired": false
+        },
+        "health": "insurance_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "fed_work_auth",
+          "type": "hard",
+          "label": "Federal Work Authorization",
+          "detail": "US work visa, permanent residency, or citizenship required for legal employment.",
+          "options": [
+            "H-1B",
+            "L-1",
+            "O-1",
+            "Employment-based Green Card"
+          ]
+        },
+        {
+          "id": "settlement",
+          "type": "soft",
+          "label": "Housing and Local Setup",
+          "detail": "Housing competition, transport, and insurance complexity vary heavily by metro area.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 54,
+        "cost": 50,
+        "safety": 54,
+        "quality": 66,
+        "language": 8,
+        "security": 28
+      },
+      "population": null,
+      "currency": "USD"
+    },
+    {
+      "id": "us-sd",
+      "name": "South Dakota",
+      "level": "state",
+      "parent": "us",
+      "hasChildren": false,
+      "geo": {
+        "lat": 44.4711,
+        "lng": -100.255,
+        "flag": "🏴",
+        "region": "Americas"
+      },
+      "accessTier": "restricted",
+      "biome": "Industrial Heartland",
+      "lore": "South Dakota is a major progression zone within the US route, with distinct economy, safety profile, and sector demand.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 2309,
+          "annual_usd": 27708
+        },
+        "language": {
+          "primary": "English",
+          "others": [
+            "Spanish"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Manufacturing",
+            "Logistics",
+            "Agribusiness",
+            "Healthcare"
+          ],
+          "degreeRequired": false
+        },
+        "health": "insurance_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "fed_work_auth",
+          "type": "hard",
+          "label": "Federal Work Authorization",
+          "detail": "US work visa, permanent residency, or citizenship required for legal employment.",
+          "options": [
+            "H-1B",
+            "L-1",
+            "O-1",
+            "Employment-based Green Card"
+          ]
+        },
+        {
+          "id": "settlement",
+          "type": "soft",
+          "label": "Housing and Local Setup",
+          "detail": "Housing competition, transport, and insurance complexity vary heavily by metro area.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 50,
+        "cost": 42,
+        "safety": 62,
+        "quality": 70,
+        "language": 5,
+        "security": 28
+      },
+      "population": null,
+      "currency": "USD"
+    },
+    {
+      "id": "us-tn",
+      "name": "Tennessee",
+      "level": "state",
+      "parent": "us",
+      "hasChildren": false,
+      "geo": {
+        "lat": 35.7514,
+        "lng": -86.3415,
+        "flag": "🏴",
+        "region": "Americas"
+      },
+      "accessTier": "restricted",
+      "biome": "Cultural Heartland",
+      "lore": "Tennessee is a major progression zone within the US route, with distinct economy, safety profile, and sector demand.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 2576,
+          "annual_usd": 30912
+        },
+        "language": {
+          "primary": "English",
+          "others": [
+            "Spanish"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Healthcare",
+            "Manufacturing",
+            "Logistics",
+            "Agriculture"
+          ],
+          "degreeRequired": false
+        },
+        "health": "insurance_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "fed_work_auth",
+          "type": "hard",
+          "label": "Federal Work Authorization",
+          "detail": "US work visa, permanent residency, or citizenship required for legal employment.",
+          "options": [
+            "H-1B",
+            "L-1",
+            "O-1",
+            "Employment-based Green Card"
+          ]
+        },
+        {
+          "id": "settlement",
+          "type": "soft",
+          "label": "Housing and Local Setup",
+          "detail": "Housing competition, transport, and insurance complexity vary heavily by metro area.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 54,
+        "cost": 50,
+        "safety": 54,
+        "quality": 66,
+        "language": 8,
+        "security": 28
+      },
+      "population": null,
+      "currency": "USD"
+    },
+    {
+      "id": "us-tx",
+      "name": "Texas",
+      "level": "state",
+      "parent": "us",
+      "hasChildren": true,
+      "childrenFile": "us-tx",
+      "geo": {
+        "lat": 31.97,
+        "lng": -99.9,
+        "flag": "🏴",
+        "region": "Americas"
+      },
+      "accessTier": "restricted",
+      "biome": "Prairie Expanse",
+      "lore": "Everything is bigger in Texas, including opportunity. No state income tax draws adventurers from across the continent. Austin has become a Tech Nexus rival to California at two-thirds the cost.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 3200,
+          "annual_usd": 38400
+        },
+        "language": {
+          "primary": "English",
+          "others": [
+            "Spanish"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Tech",
+            "Energy",
+            "Healthcare",
+            "Manufacturing",
+            "Agriculture"
+          ],
+          "degreeRequired": false
+        },
+        "health": "insurance_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "fed_work_auth",
+          "type": "hard",
+          "label": "Federal Work Authorization",
+          "detail": "US work visa or citizenship required.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 58,
+        "cost": 55,
+        "safety": 55,
+        "quality": 68,
+        "language": 8,
+        "security": 28
+      },
+      "population": 30500000,
+      "currency": "USD"
+    },
+    {
+      "id": "us-ut",
+      "name": "Utah",
+      "level": "state",
+      "parent": "us",
+      "hasChildren": false,
+      "geo": {
+        "lat": 39.5007,
+        "lng": -111.544,
+        "flag": "🏴",
+        "region": "Americas"
+      },
+      "accessTier": "restricted",
+      "biome": "Mountain Stronghold",
+      "lore": "Utah is a major progression zone within the US route, with distinct economy, safety profile, and sector demand.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 3194,
+          "annual_usd": 38328
+        },
+        "language": {
+          "primary": "English",
+          "others": [
+            "Spanish"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Tech",
+            "Energy",
+            "Tourism",
+            "Aerospace"
+          ],
+          "degreeRequired": false
+        },
+        "health": "insurance_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "fed_work_auth",
+          "type": "hard",
+          "label": "Federal Work Authorization",
+          "detail": "US work visa, permanent residency, or citizenship required for legal employment.",
+          "options": [
+            "H-1B",
+            "L-1",
+            "O-1",
+            "Employment-based Green Card"
+          ]
+        },
+        {
+          "id": "settlement",
+          "type": "soft",
+          "label": "Housing and Local Setup",
+          "detail": "Housing competition, transport, and insurance complexity vary heavily by metro area.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 58,
+        "cost": 62,
+        "safety": 60,
+        "quality": 74,
+        "language": 6,
+        "security": 28
+      },
+      "population": null,
+      "currency": "USD"
+    },
+    {
+      "id": "us-va",
+      "name": "Virginia",
+      "level": "state",
+      "parent": "us",
+      "hasChildren": false,
+      "geo": {
+        "lat": 37.7403,
+        "lng": -78.2431,
+        "flag": "🏴",
+        "region": "Americas"
+      },
+      "accessTier": "restricted",
+      "biome": "Cultural Heartland",
+      "lore": "Virginia is a major progression zone within the US route, with distinct economy, safety profile, and sector demand.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 2576,
+          "annual_usd": 30912
+        },
+        "language": {
+          "primary": "English",
+          "others": [
+            "Spanish"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Healthcare",
+            "Manufacturing",
+            "Logistics",
+            "Agriculture"
+          ],
+          "degreeRequired": false
+        },
+        "health": "insurance_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "fed_work_auth",
+          "type": "hard",
+          "label": "Federal Work Authorization",
+          "detail": "US work visa, permanent residency, or citizenship required for legal employment.",
+          "options": [
+            "H-1B",
+            "L-1",
+            "O-1",
+            "Employment-based Green Card"
+          ]
+        },
+        {
+          "id": "settlement",
+          "type": "soft",
+          "label": "Housing and Local Setup",
+          "detail": "Housing competition, transport, and insurance complexity vary heavily by metro area.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 54,
+        "cost": 50,
+        "safety": 54,
+        "quality": 66,
+        "language": 8,
+        "security": 28
+      },
+      "population": null,
+      "currency": "USD"
+    },
+    {
+      "id": "us-vt",
+      "name": "Vermont",
+      "level": "state",
+      "parent": "us",
+      "hasChildren": false,
+      "geo": {
+        "lat": 44.0886,
+        "lng": -72.7317,
+        "flag": "🏴",
+        "region": "Americas"
+      },
+      "accessTier": "locked",
+      "biome": "Financial Citadel",
+      "lore": "Vermont is a major progression zone within the US route, with distinct economy, safety profile, and sector demand.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 4334,
+          "annual_usd": 52008
+        },
+        "language": {
+          "primary": "English",
+          "others": [
+            "Spanish"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Finance",
+            "Biotech",
+            "Education",
+            "Healthcare"
+          ],
+          "degreeRequired": false
+        },
+        "health": "insurance_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "fed_work_auth",
+          "type": "hard",
+          "label": "Federal Work Authorization",
+          "detail": "US work visa, permanent residency, or citizenship required for legal employment.",
+          "options": [
+            "H-1B",
+            "L-1",
+            "O-1",
+            "Employment-based Green Card"
+          ]
+        },
+        {
+          "id": "settlement",
+          "type": "soft",
+          "label": "Housing and Local Setup",
+          "detail": "Housing competition, transport, and insurance complexity vary heavily by metro area.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 66,
+        "cost": 78,
+        "safety": 66,
+        "quality": 76,
+        "language": 5,
+        "security": 28
+      },
+      "population": null,
+      "currency": "USD"
+    },
+    {
+      "id": "us-wa",
+      "name": "Washington",
+      "level": "state",
+      "parent": "us",
+      "hasChildren": false,
+      "geo": {
+        "lat": 47.75,
+        "lng": -120.74,
+        "flag": "🏴",
+        "region": "Americas"
+      },
+      "accessTier": "locked",
+      "biome": "Tech Nexus",
+      "lore": "Home of Amazon, Microsoft, and Boeing. The Pacific Northwest blends stunning natural beauty with one of the highest concentrations of tech wealth on the continent.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 4100,
+          "annual_usd": 49200
+        },
+        "language": {
+          "primary": "English",
+          "others": [],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Tech",
+            "Aerospace",
+            "Retail",
+            "Healthcare"
+          ],
+          "degreeRequired": false
+        },
+        "health": "insurance_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "fed_work_auth",
+          "type": "hard",
+          "label": "Federal Work Authorization",
+          "detail": "US work visa or citizenship required.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 72,
+        "cost": 78,
+        "safety": 65,
+        "quality": 80,
+        "language": 5,
+        "security": 28
+      },
+      "population": 7800000,
+      "currency": "USD"
+    },
+    {
+      "id": "us-wi",
+      "name": "Wisconsin",
+      "level": "state",
+      "parent": "us",
+      "hasChildren": false,
+      "geo": {
+        "lat": 44.3709,
+        "lng": -89.5831,
+        "flag": "🏴",
+        "region": "Americas"
+      },
+      "accessTier": "restricted",
+      "biome": "Industrial Heartland",
+      "lore": "Wisconsin is a major progression zone within the US route, with distinct economy, safety profile, and sector demand.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 2309,
+          "annual_usd": 27708
+        },
+        "language": {
+          "primary": "English",
+          "others": [
+            "Spanish"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Manufacturing",
+            "Logistics",
+            "Agribusiness",
+            "Healthcare"
+          ],
+          "degreeRequired": false
+        },
+        "health": "insurance_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "fed_work_auth",
+          "type": "hard",
+          "label": "Federal Work Authorization",
+          "detail": "US work visa, permanent residency, or citizenship required for legal employment.",
+          "options": [
+            "H-1B",
+            "L-1",
+            "O-1",
+            "Employment-based Green Card"
+          ]
+        },
+        {
+          "id": "settlement",
+          "type": "soft",
+          "label": "Housing and Local Setup",
+          "detail": "Housing competition, transport, and insurance complexity vary heavily by metro area.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 50,
+        "cost": 42,
+        "safety": 62,
+        "quality": 70,
+        "language": 5,
+        "security": 28
+      },
+      "population": null,
+      "currency": "USD"
+    },
+    {
+      "id": "us-wv",
+      "name": "West Virginia",
+      "level": "state",
+      "parent": "us",
+      "hasChildren": false,
+      "geo": {
+        "lat": 38.6422,
+        "lng": -80.7128,
+        "flag": "🏴",
+        "region": "Americas"
+      },
+      "accessTier": "open",
+      "biome": "Mountain Stronghold",
+      "lore": "West Virginia is a major progression zone within the US route, with distinct economy, safety profile, and sector demand.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 1657,
+          "annual_usd": 19884
+        },
+        "language": {
+          "primary": "English",
+          "others": [
+            "Spanish"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Healthcare",
+            "Manufacturing",
+            "Logistics",
+            "Agriculture"
+          ],
+          "degreeRequired": false
+        },
+        "health": "insurance_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "fed_work_auth",
+          "type": "hard",
+          "label": "Federal Work Authorization",
+          "detail": "US work visa, permanent residency, or citizenship required for legal employment.",
+          "options": [
+            "H-1B",
+            "L-1",
+            "O-1",
+            "Employment-based Green Card"
+          ]
+        },
+        {
+          "id": "settlement",
+          "type": "soft",
+          "label": "Housing and Local Setup",
+          "detail": "Housing competition, transport, and insurance complexity vary heavily by metro area.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 44,
+        "cost": 38,
+        "safety": 58,
+        "quality": 66,
+        "language": 8,
+        "security": 28
+      },
+      "population": null,
+      "currency": "USD"
+    },
+    {
+      "id": "us-wy",
+      "name": "Wyoming",
+      "level": "state",
+      "parent": "us",
+      "hasChildren": false,
+      "geo": {
+        "lat": 42.9999,
+        "lng": -107.552,
+        "flag": "🏴",
+        "region": "Americas"
+      },
+      "accessTier": "restricted",
+      "biome": "Mountain Stronghold",
+      "lore": "Wyoming is a major progression zone within the US route, with distinct economy, safety profile, and sector demand.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 3194,
+          "annual_usd": 38328
+        },
+        "language": {
+          "primary": "English",
+          "others": [
+            "Spanish"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Tech",
+            "Energy",
+            "Tourism",
+            "Aerospace"
+          ],
+          "degreeRequired": false
+        },
+        "health": "insurance_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "fed_work_auth",
+          "type": "hard",
+          "label": "Federal Work Authorization",
+          "detail": "US work visa, permanent residency, or citizenship required for legal employment.",
+          "options": [
+            "H-1B",
+            "L-1",
+            "O-1",
+            "Employment-based Green Card"
+          ]
+        },
+        {
+          "id": "settlement",
+          "type": "soft",
+          "label": "Housing and Local Setup",
+          "detail": "Housing competition, transport, and insurance complexity vary heavily by metro area.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 58,
+        "cost": 62,
+        "safety": 60,
+        "quality": 74,
+        "language": 6,
+        "security": 28
+      },
+      "population": null,
+      "currency": "USD"
+    }
+  ]
+}

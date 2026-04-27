@@ -1,0 +1,130 @@
+{
+  "meta": {
+    "schemaVersion": 2,
+    "parent": "cu"
+  },
+  "zones": [
+    {
+      "id": "cu-03",
+      "name": "Havana",
+      "level": "state",
+      "parent": "cu",
+      "hasChildren": false,
+      "geo": {
+        "lat": 23.113,
+        "lng": -82.366,
+        "flag": "🏴",
+        "region": "Americas"
+      },
+      "accessTier": "restricted",
+      "biome": "Urban Megacity",
+      "lore": "Havana is a curated regional zone in Cuba.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 630,
+          "annual_usd": 7560
+        },
+        "language": {
+          "primary": "Spanish",
+          "others": [],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Healthcare",
+            "Tourism",
+            "Education",
+            "Agriculture"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local settlement",
+          "detail": "Local labor demand and compliance shape early progression.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 50,
+        "cost": 26,
+        "safety": 66,
+        "quality": 70,
+        "language": 34,
+        "security": 42
+      },
+      "population": 2100000,
+      "currency": "CUP"
+    },
+    {
+      "id": "cu-14",
+      "name": "Santiago de Cuba",
+      "level": "state",
+      "parent": "cu",
+      "hasChildren": false,
+      "geo": {
+        "lat": 20.02,
+        "lng": -75.82,
+        "flag": "🏴",
+        "region": "Americas"
+      },
+      "accessTier": "open",
+      "biome": "Cultural Heartland",
+      "lore": "Santiago de Cuba is a curated regional zone in Cuba.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 630,
+          "annual_usd": 7560
+        },
+        "language": {
+          "primary": "Spanish",
+          "others": [],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Healthcare",
+            "Tourism",
+            "Education",
+            "Agriculture"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local settlement",
+          "detail": "Local labor demand and compliance shape early progression.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 34,
+        "cost": 18,
+        "safety": 70,
+        "quality": 60,
+        "language": 38,
+        "security": 56
+      },
+      "population": 1000000,
+      "currency": "CUP"
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "meta": {
+    "schemaVersion": 2,
+    "parent": "jo"
+  },
+  "zones": [
+    {
+      "id": "jo-am",
+      "name": "Amman Governorate",
+      "level": "state",
+      "parent": "jo",
+      "hasChildren": false,
+      "geo": {
+        "lat": 31.95,
+        "lng": 35.93,
+        "flag": "🏴",
+        "region": "Middle East"
+      },
+      "accessTier": "restricted",
+      "biome": "Urban Megacity",
+      "lore": "Amman Governorate is a curated regional zone in Jordan.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 1080,
+          "annual_usd": 12960
+        },
+        "language": {
+          "primary": "Arabic",
+          "others": [
+            "English"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Healthcare",
+            "Logistics",
+            "Education",
+            "Tourism"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local settlement",
+          "detail": "Local permitting and labor demand determine onboarding pace.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 50,
+        "cost": 48,
+        "safety": 72,
+        "quality": 72,
+        "language": 40,
+        "security": 50
+      },
+      "population": 4000000,
+      "currency": "JOD"
+    },
+    {
+      "id": "jo-aq",
+      "name": "Aqaba Governorate",
+      "level": "state",
+      "parent": "jo",
+      "hasChildren": false,
+      "geo": {
+        "lat": 29.53,
+        "lng": 35.01,
+        "flag": "🏴",
+        "region": "Middle East"
+      },
+      "accessTier": "open",
+      "biome": "Coastal Haven",
+      "lore": "Aqaba Governorate is a curated regional zone in Jordan.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 1080,
+          "annual_usd": 12960
+        },
+        "language": {
+          "primary": "Arabic",
+          "others": [
+            "English"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Healthcare",
+            "Logistics",
+            "Education",
+            "Tourism"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local settlement",
+          "detail": "Local permitting and labor demand determine onboarding pace.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 30,
+        "cost": 28,
+        "safety": 78,
+        "quality": 64,
+        "language": 44,
+        "security": 66
+      },
+      "population": 220000,
+      "currency": "JOD"
+    }
+  ]
+}

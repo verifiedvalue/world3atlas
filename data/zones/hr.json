@@ -1,0 +1,134 @@
+{
+  "meta": {
+    "schemaVersion": 2,
+    "parent": "hr"
+  },
+  "zones": [
+    {
+      "id": "hr-21",
+      "name": "City of Zagreb",
+      "level": "state",
+      "parent": "hr",
+      "hasChildren": false,
+      "geo": {
+        "lat": 45.815,
+        "lng": 15.982,
+        "flag": "🏴",
+        "region": "Europe"
+      },
+      "accessTier": "restricted",
+      "biome": "Cultural Heartland",
+      "lore": "City of Zagreb is a curated sub-region within Croatia.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 1260,
+          "annual_usd": 15120
+        },
+        "language": {
+          "primary": "Croatian",
+          "others": [
+            "English"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Tourism",
+            "Services",
+            "Tech",
+            "Logistics"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local labor fit",
+          "detail": "Local demand and housing/settlement dynamics impact progression speed.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 42,
+        "cost": 44,
+        "safety": 76,
+        "quality": 76,
+        "language": 48,
+        "security": 64
+      },
+      "population": 770000,
+      "currency": "EUR"
+    },
+    {
+      "id": "hr-17",
+      "name": "Split-Dalmatia",
+      "level": "state",
+      "parent": "hr",
+      "hasChildren": false,
+      "geo": {
+        "lat": 43.51,
+        "lng": 16.44,
+        "flag": "🏴",
+        "region": "Europe"
+      },
+      "accessTier": "open",
+      "biome": "Coastal Haven",
+      "lore": "Split-Dalmatia is a curated sub-region within Croatia.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 1260,
+          "annual_usd": 15120
+        },
+        "language": {
+          "primary": "Croatian",
+          "others": [
+            "English"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Tourism",
+            "Services",
+            "Tech",
+            "Logistics"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local labor fit",
+          "detail": "Local demand and housing/settlement dynamics impact progression speed.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 30,
+        "cost": 32,
+        "safety": 80,
+        "quality": 70,
+        "language": 50,
+        "security": 70
+      },
+      "population": 450000,
+      "currency": "EUR"
+    }
+  ]
+}

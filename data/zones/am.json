@@ -1,0 +1,136 @@
+{
+  "meta": {
+    "schemaVersion": 2,
+    "parent": "am"
+  },
+  "zones": [
+    {
+      "id": "am-er",
+      "name": "Yerevan",
+      "level": "state",
+      "parent": "am",
+      "hasChildren": false,
+      "geo": {
+        "lat": 40.18,
+        "lng": 44.51,
+        "flag": "🏴",
+        "region": "Asia"
+      },
+      "accessTier": "restricted",
+      "biome": "Urban Megacity",
+      "lore": "Yerevan is a curated regional zone in Armenia.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 990,
+          "annual_usd": 11880
+        },
+        "language": {
+          "primary": "Armenian",
+          "others": [
+            "Russian",
+            "English"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Software",
+            "Engineering",
+            "Services",
+            "Trade"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local settlement",
+          "detail": "Local compliance and labor demand shape onboarding speed.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 40,
+        "cost": 28,
+        "safety": 68,
+        "quality": 68,
+        "language": 38,
+        "security": 68
+      },
+      "population": 1100000,
+      "currency": "AMD"
+    },
+    {
+      "id": "am-sh",
+      "name": "Shirak",
+      "level": "state",
+      "parent": "am",
+      "hasChildren": false,
+      "geo": {
+        "lat": 40.79,
+        "lng": 43.84,
+        "flag": "🏴",
+        "region": "Asia"
+      },
+      "accessTier": "open",
+      "biome": "Mountain Stronghold",
+      "lore": "Shirak is a curated regional zone in Armenia.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 990,
+          "annual_usd": 11880
+        },
+        "language": {
+          "primary": "Armenian",
+          "others": [
+            "Russian",
+            "English"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Software",
+            "Engineering",
+            "Services",
+            "Trade"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local settlement",
+          "detail": "Local compliance and labor demand shape onboarding speed.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 24,
+        "cost": 16,
+        "safety": 74,
+        "quality": 58,
+        "language": 42,
+        "security": 78
+      },
+      "population": 230000,
+      "currency": "AMD"
+    }
+  ]
+}

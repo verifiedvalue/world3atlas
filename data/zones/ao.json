@@ -1,0 +1,130 @@
+{
+  "meta": {
+    "schemaVersion": 2,
+    "parent": "ao"
+  },
+  "zones": [
+    {
+      "id": "ao-lua",
+      "name": "Luanda Province",
+      "level": "state",
+      "parent": "ao",
+      "hasChildren": false,
+      "geo": {
+        "lat": -8.83,
+        "lng": 13.24,
+        "flag": "🏴",
+        "region": "Africa"
+      },
+      "accessTier": "restricted",
+      "biome": "Urban Megacity",
+      "lore": "Luanda Province is a curated regional zone in Angola.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 810,
+          "annual_usd": 9720
+        },
+        "language": {
+          "primary": "Portuguese",
+          "others": [],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Energy",
+            "Construction",
+            "Logistics",
+            "Trade"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local settlement",
+          "detail": "Local security, permits, and demand shape progression speed.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 46,
+        "cost": 46,
+        "safety": 46,
+        "quality": 58,
+        "language": 44,
+        "security": 60
+      },
+      "population": 9500000,
+      "currency": "AOA"
+    },
+    {
+      "id": "ao-bgo",
+      "name": "Bengo Province",
+      "level": "state",
+      "parent": "ao",
+      "hasChildren": false,
+      "geo": {
+        "lat": -8.9,
+        "lng": 13.9,
+        "flag": "🏴",
+        "region": "Africa"
+      },
+      "accessTier": "open",
+      "biome": "Coastal Haven",
+      "lore": "Bengo Province is a curated regional zone in Angola.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 810,
+          "annual_usd": 9720
+        },
+        "language": {
+          "primary": "Portuguese",
+          "others": [],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Energy",
+            "Construction",
+            "Logistics",
+            "Trade"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local settlement",
+          "detail": "Local security, permits, and demand shape progression speed.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 26,
+        "cost": 24,
+        "safety": 56,
+        "quality": 48,
+        "language": 48,
+        "security": 70
+      },
+      "population": 450000,
+      "currency": "AOA"
+    }
+  ]
+}

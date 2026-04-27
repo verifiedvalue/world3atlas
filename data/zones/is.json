@@ -1,0 +1,134 @@
+{
+  "meta": {
+    "schemaVersion": 2,
+    "parent": "is"
+  },
+  "zones": [
+    {
+      "id": "is-hfu",
+      "name": "Capital Region",
+      "level": "state",
+      "parent": "is",
+      "hasChildren": false,
+      "geo": {
+        "lat": 64.14,
+        "lng": -21.94,
+        "flag": "🏴",
+        "region": "Europe"
+      },
+      "accessTier": "restricted",
+      "biome": "Urban Outpost",
+      "lore": "Capital Region is a curated regional zone in Iceland.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 3520,
+          "annual_usd": 42240
+        },
+        "language": {
+          "primary": "Icelandic",
+          "others": [
+            "English"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Tech",
+            "Renewables",
+            "Tourism",
+            "Healthcare"
+          ],
+          "degreeRequired": true
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local settlement",
+          "detail": "Local compliance and labor demand shape onboarding speed.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 68,
+        "cost": 92,
+        "safety": 94,
+        "quality": 94,
+        "language": 50,
+        "security": 42
+      },
+      "population": 240000,
+      "currency": "ISK"
+    },
+    {
+      "id": "is-su",
+      "name": "Southern Region",
+      "level": "state",
+      "parent": "is",
+      "hasChildren": false,
+      "geo": {
+        "lat": 63.93,
+        "lng": -20.98,
+        "flag": "🏴",
+        "region": "Europe"
+      },
+      "accessTier": "open",
+      "biome": "Alpine Fortress",
+      "lore": "Southern Region is a curated regional zone in Iceland.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 3520,
+          "annual_usd": 42240
+        },
+        "language": {
+          "primary": "Icelandic",
+          "others": [
+            "English"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Tech",
+            "Renewables",
+            "Tourism",
+            "Healthcare"
+          ],
+          "degreeRequired": true
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local settlement",
+          "detail": "Local compliance and labor demand shape onboarding speed.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 46,
+        "cost": 70,
+        "safety": 96,
+        "quality": 88,
+        "language": 54,
+        "security": 58
+      },
+      "population": 35000,
+      "currency": "ISK"
+    }
+  ]
+}

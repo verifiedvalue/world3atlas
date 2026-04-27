@@ -1,0 +1,160 @@
+{
+  "meta": {
+    "schemaVersion": 2,
+    "parent": "my"
+  },
+  "zones": [
+    {
+      "id": "my-kl",
+      "name": "Kuala Lumpur",
+      "level": "state",
+      "parent": "my",
+      "hasChildren": false,
+      "geo": {
+        "lat": 3.139,
+        "lng": 101.686,
+        "flag": "🏴",
+        "region": "Asia"
+      },
+      "accessTier": "open",
+      "biome": "Urban Megacity",
+      "lore": "Kuala Lumpur acts as a major progression zone inside Malaysia, with region-specific economy and entry friction.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 885,
+          "annual_usd": 10620
+        },
+        "language": {
+          "primary": "Malay",
+          "others": [
+            "English",
+            "Mandarin",
+            "Tamil"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Remote Work",
+            "Tech",
+            "Finance",
+            "Manufacturing"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "regional_path",
+          "type": "hard",
+          "label": "Malaysia national immigration route",
+          "detail": "Regional entry relies on national rules plus local employer or economic fit.",
+          "options": [
+            "DE Rantau Nomad Visa",
+            "MM2H (My Second Home)",
+            "Employment Pass"
+          ]
+        },
+        {
+          "id": "local_settlement",
+          "type": "soft",
+          "label": "Local settlement readiness",
+          "detail": "Housing search, registration, and language adaptation significantly affect first-year outcomes.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 34,
+        "cost": 30,
+        "safety": 67,
+        "quality": 69,
+        "language": 19,
+        "security": 74
+      },
+      "population": 9960000,
+      "currency": "MYR"
+    },
+    {
+      "id": "my-pg",
+      "name": "Penang",
+      "level": "state",
+      "parent": "my",
+      "hasChildren": false,
+      "geo": {
+        "lat": 5.414,
+        "lng": 100.329,
+        "flag": "🏴",
+        "region": "Asia"
+      },
+      "accessTier": "open",
+      "biome": "Coastal Haven",
+      "lore": "Penang acts as a major progression zone inside Malaysia, with region-specific economy and entry friction.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 660,
+          "annual_usd": 7920
+        },
+        "language": {
+          "primary": "Malay",
+          "others": [
+            "English",
+            "Mandarin",
+            "Tamil"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Remote Work",
+            "Tech",
+            "Finance",
+            "Manufacturing"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "regional_path",
+          "type": "hard",
+          "label": "Malaysia national immigration route",
+          "detail": "Regional entry relies on national rules plus local employer or economic fit.",
+          "options": [
+            "DE Rantau Nomad Visa",
+            "MM2H (My Second Home)",
+            "Employment Pass"
+          ]
+        },
+        {
+          "id": "local_settlement",
+          "type": "soft",
+          "label": "Local settlement readiness",
+          "detail": "Housing search, registration, and language adaptation significantly affect first-year outcomes.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 24,
+        "cost": 16,
+        "safety": 63,
+        "quality": 61,
+        "language": 13,
+        "security": 74
+      },
+      "population": 5976000,
+      "currency": "MYR"
+    }
+  ]
+}

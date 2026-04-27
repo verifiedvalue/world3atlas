@@ -1,0 +1,134 @@
+{
+  "meta": {
+    "schemaVersion": 2,
+    "parent": "si"
+  },
+  "zones": [
+    {
+      "id": "si-061",
+      "name": "Ljubljana",
+      "level": "state",
+      "parent": "si",
+      "hasChildren": false,
+      "geo": {
+        "lat": 46.056,
+        "lng": 14.505,
+        "flag": "🏴",
+        "region": "Europe"
+      },
+      "accessTier": "restricted",
+      "biome": "Cultural Heartland",
+      "lore": "Ljubljana is a curated sub-region within Slovenia.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 1620,
+          "annual_usd": 19440
+        },
+        "language": {
+          "primary": "Slovene",
+          "others": [
+            "English"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Manufacturing",
+            "Logistics",
+            "Pharma",
+            "Tech"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local labor fit",
+          "detail": "Local demand and housing/settlement dynamics impact progression speed.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 48,
+        "cost": 54,
+        "safety": 84,
+        "quality": 84,
+        "language": 54,
+        "security": 56
+      },
+      "population": 300000,
+      "currency": "EUR"
+    },
+    {
+      "id": "si-070",
+      "name": "Maribor",
+      "level": "state",
+      "parent": "si",
+      "hasChildren": false,
+      "geo": {
+        "lat": 46.554,
+        "lng": 15.646,
+        "flag": "🏴",
+        "region": "Europe"
+      },
+      "accessTier": "open",
+      "biome": "Industrial Heartland",
+      "lore": "Maribor is a curated sub-region within Slovenia.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 1620,
+          "annual_usd": 19440
+        },
+        "language": {
+          "primary": "Slovene",
+          "others": [
+            "English"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Manufacturing",
+            "Logistics",
+            "Pharma",
+            "Tech"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local labor fit",
+          "detail": "Local demand and housing/settlement dynamics impact progression speed.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 34,
+        "cost": 36,
+        "safety": 86,
+        "quality": 78,
+        "language": 56,
+        "security": 62
+      },
+      "population": 115000,
+      "currency": "EUR"
+    }
+  ]
+}

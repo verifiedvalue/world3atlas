@@ -1,0 +1,341 @@
+{
+  "meta": {
+    "schemaVersion": 2,
+    "parent": "de"
+  },
+  "zones": [
+    {
+      "id": "de-by",
+      "name": "Bavaria",
+      "level": "state",
+      "parent": "de",
+      "hasChildren": false,
+      "geo": {
+        "lat": 48.79,
+        "lng": 11.42,
+        "flag": "🏴",
+        "region": "Europe"
+      },
+      "accessTier": "restricted",
+      "biome": "Alpine Fortress",
+      "lore": "Germany's economic powerhouse — Munich anchors automotive, aerospace, and brewing guilds alike.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 2600,
+          "annual_usd": 31200
+        },
+        "language": {
+          "primary": "German",
+          "others": [],
+          "test": "Goethe / TestDaF",
+          "level": "B1"
+        },
+        "skills": {
+          "preferred": [
+            "Engineering",
+            "Manufacturing",
+            "IT",
+            "Healthcare"
+          ],
+          "degreeRequired": true
+        },
+        "health": "insurance_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "eu_blue_card",
+          "type": "hard",
+          "label": "EU Blue Card or German Work Permit",
+          "detail": "National rules align with federal Germany requirements; salary thresholds apply.",
+          "options": [
+            "EU Blue Card",
+            "Skilled Worker Residence"
+          ]
+        },
+        {
+          "id": "recognition",
+          "type": "soft",
+          "label": "Qualification Recognition (anabin)",
+          "detail": "Foreign degrees often checked against anabin for regulated professions.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 54,
+        "cost": 58,
+        "safety": 88,
+        "quality": 86,
+        "language": 70,
+        "security": 44
+      },
+      "population": 13100000,
+      "currency": "EUR"
+    },
+    {
+      "id": "de-be",
+      "name": "Berlin",
+      "level": "state",
+      "parent": "de",
+      "hasChildren": false,
+      "geo": {
+        "lat": 52.52,
+        "lng": 13.405,
+        "flag": "🏴",
+        "region": "Europe"
+      },
+      "accessTier": "restricted",
+      "biome": "Urban Megacity",
+      "lore": "Startup density and creative industries; rents have climbed but still trail Munich on averages.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 2200,
+          "annual_usd": 26400
+        },
+        "language": {
+          "primary": "German",
+          "others": [
+            "English",
+            "Turkish"
+          ],
+          "test": "TestDaF",
+          "level": "B1"
+        },
+        "skills": {
+          "preferred": [
+            "Tech",
+            "Media",
+            "Research",
+            "Tourism"
+          ],
+          "degreeRequired": false
+        },
+        "health": "insurance_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "visa",
+          "type": "hard",
+          "label": "Residence / Work Authorization",
+          "detail": "Same federal visa classes as elsewhere in Germany; local registration (Anmeldung) mandatory.",
+          "options": [
+            "Chancenkarte",
+            "EU Blue Card",
+            "Job-seeker visa"
+          ]
+        }
+      ],
+      "difficulty": {
+        "overall": 48,
+        "cost": 52,
+        "safety": 78,
+        "quality": 82,
+        "language": 55,
+        "security": 48
+      },
+      "population": 3700000,
+      "currency": "EUR"
+    },
+    {
+      "id": "de-nw",
+      "name": "North Rhine-Westphalia",
+      "level": "state",
+      "parent": "de",
+      "hasChildren": false,
+      "geo": {
+        "lat": 51.43,
+        "lng": 7.66,
+        "flag": "🏴",
+        "region": "Europe"
+      },
+      "accessTier": "restricted",
+      "biome": "Industrial Heartland",
+      "lore": "Rhine-Ruhr megaplex — logistics, chemicals, and hidden champion SMEs pack the map.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 2300,
+          "annual_usd": 27600
+        },
+        "language": {
+          "primary": "German",
+          "others": [
+            "Turkish",
+            "Polish"
+          ],
+          "test": "Goethe",
+          "level": "B1"
+        },
+        "skills": {
+          "preferred": [
+            "Logistics",
+            "Chemicals",
+            "Engineering",
+            "Healthcare"
+          ],
+          "degreeRequired": true
+        },
+        "health": "insurance_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "visa",
+          "type": "hard",
+          "label": "Federal Work / Residence Permit",
+          "detail": "Employer sponsorship or EU Blue Card path; local foreigner offices (Ausländerbehörde) process permits.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 50,
+        "cost": 50,
+        "safety": 76,
+        "quality": 80,
+        "language": 65,
+        "security": 46
+      },
+      "population": 17900000,
+      "currency": "EUR"
+    },
+    {
+      "id": "de-bw",
+      "name": "Baden-Wurttemberg",
+      "level": "state",
+      "parent": "de",
+      "hasChildren": false,
+      "geo": {
+        "lat": 48.661,
+        "lng": 9.35,
+        "flag": "🏴",
+        "region": "Europe"
+      },
+      "accessTier": "restricted",
+      "biome": "Industrial Heartland",
+      "lore": "Home to Stuttgart's automotive and precision engineering guilds with strong Mittelstand networks.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 2500,
+          "annual_usd": 30000
+        },
+        "language": {
+          "primary": "German",
+          "others": [],
+          "test": "Goethe / TestDaF",
+          "level": "B1"
+        },
+        "skills": {
+          "preferred": [
+            "Automotive",
+            "Engineering",
+            "R&D",
+            "Manufacturing"
+          ],
+          "degreeRequired": true
+        },
+        "health": "insurance_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "recognition",
+          "type": "hard",
+          "label": "Degree recognition and sponsorship",
+          "detail": "Regulated professions need formal recognition plus job offer.",
+          "options": [
+            "EU Blue Card",
+            "Skilled Worker Residence"
+          ]
+        }
+      ],
+      "difficulty": {
+        "overall": 52,
+        "cost": 54,
+        "safety": 86,
+        "quality": 84,
+        "language": 66,
+        "security": 44
+      },
+      "population": 11200000,
+      "currency": "EUR"
+    },
+    {
+      "id": "de-hh",
+      "name": "Hamburg",
+      "level": "state",
+      "parent": "de",
+      "hasChildren": false,
+      "geo": {
+        "lat": 53.551,
+        "lng": 9.993,
+        "flag": "🏴",
+        "region": "Europe"
+      },
+      "accessTier": "restricted",
+      "biome": "Coastal Haven",
+      "lore": "Port economy, logistics, and media sectors make Hamburg a high-salary northern gateway.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 2500,
+          "annual_usd": 30000
+        },
+        "language": {
+          "primary": "German",
+          "others": [
+            "English"
+          ],
+          "test": "Goethe",
+          "level": "B1"
+        },
+        "skills": {
+          "preferred": [
+            "Logistics",
+            "Shipping",
+            "Media",
+            "IT"
+          ],
+          "degreeRequired": false
+        },
+        "health": "insurance_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "visa",
+          "type": "hard",
+          "label": "Federal residence/work routes",
+          "detail": "Port-city firms sponsor global hires for logistics and tech operations.",
+          "options": [
+            "EU Blue Card",
+            "Chancenkarte"
+          ]
+        }
+      ],
+      "difficulty": {
+        "overall": 50,
+        "cost": 57,
+        "safety": 80,
+        "quality": 82,
+        "language": 60,
+        "security": 48
+      },
+      "population": 1900000,
+      "currency": "EUR"
+    }
+  ]
+}

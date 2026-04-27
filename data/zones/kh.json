@@ -1,0 +1,134 @@
+{
+  "meta": {
+    "schemaVersion": 2,
+    "parent": "kh"
+  },
+  "zones": [
+    {
+      "id": "kh-12",
+      "name": "Phnom Penh",
+      "level": "state",
+      "parent": "kh",
+      "hasChildren": false,
+      "geo": {
+        "lat": 11.56,
+        "lng": 104.92,
+        "flag": "🏴",
+        "region": "Asia"
+      },
+      "accessTier": "restricted",
+      "biome": "Urban Megacity",
+      "lore": "Phnom Penh is a curated regional zone in Cambodia.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 585,
+          "annual_usd": 7020
+        },
+        "language": {
+          "primary": "Khmer",
+          "others": [
+            "English"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Manufacturing",
+            "Tourism",
+            "Hospitality",
+            "Logistics"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local settlement",
+          "detail": "Local compliance and labor demand shape onboarding speed.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 34,
+        "cost": 20,
+        "safety": 56,
+        "quality": 54,
+        "language": 50,
+        "security": 70
+      },
+      "population": 2300000,
+      "currency": "KHR"
+    },
+    {
+      "id": "kh-18",
+      "name": "Sihanoukville",
+      "level": "state",
+      "parent": "kh",
+      "hasChildren": false,
+      "geo": {
+        "lat": 10.63,
+        "lng": 103.51,
+        "flag": "🏴",
+        "region": "Asia"
+      },
+      "accessTier": "open",
+      "biome": "Coastal Haven",
+      "lore": "Sihanoukville is a curated regional zone in Cambodia.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 585,
+          "annual_usd": 7020
+        },
+        "language": {
+          "primary": "Khmer",
+          "others": [
+            "English"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Manufacturing",
+            "Tourism",
+            "Hospitality",
+            "Logistics"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local settlement",
+          "detail": "Local compliance and labor demand shape onboarding speed.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 20,
+        "cost": 10,
+        "safety": 60,
+        "quality": 46,
+        "language": 54,
+        "security": 78
+      },
+      "population": 300000,
+      "currency": "KHR"
+    }
+  ]
+}

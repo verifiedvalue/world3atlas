@@ -1,0 +1,271 @@
+{
+  "meta": {
+    "schemaVersion": 2,
+    "parent": "gb"
+  },
+  "zones": [
+    {
+      "id": "gb-eng",
+      "name": "England",
+      "level": "state",
+      "parent": "gb",
+      "hasChildren": false,
+      "geo": {
+        "lat": 52.3555,
+        "lng": -1.1743,
+        "flag": "🏴",
+        "region": "Europe"
+      },
+      "accessTier": "locked",
+      "biome": "Financial Citadel",
+      "lore": "Core of UK labor demand, with London as the dominant endgame economy and steep living-cost scaling.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 3400,
+          "annual_usd": 40800
+        },
+        "language": {
+          "primary": "English",
+          "others": [],
+          "test": "IELTS (UKVI)",
+          "level": "B1"
+        },
+        "skills": {
+          "preferred": [
+            "Finance",
+            "Tech",
+            "Healthcare",
+            "Education"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "sponsorship",
+          "type": "hard",
+          "label": "Skilled Worker sponsor + salary threshold",
+          "detail": "Most non-UK entrants need sponsor and eligible occupation/salary points.",
+          "options": [
+            "Skilled Worker",
+            "Global Talent",
+            "HPI"
+          ]
+        }
+      ],
+      "difficulty": {
+        "overall": 72,
+        "cost": 82,
+        "safety": 72,
+        "quality": 82,
+        "language": 5,
+        "security": 26
+      },
+      "population": 56500000,
+      "currency": "GBP"
+    },
+    {
+      "id": "gb-sct",
+      "name": "Scotland",
+      "level": "state",
+      "parent": "gb",
+      "hasChildren": false,
+      "geo": {
+        "lat": 56.4907,
+        "lng": -4.2026,
+        "flag": "🏴",
+        "region": "Europe"
+      },
+      "accessTier": "restricted",
+      "biome": "Alpine Fortress",
+      "lore": "Energy, life sciences, and fintech hubs in a cooler, lower-cost environment than South England.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 2600,
+          "annual_usd": 31200
+        },
+        "language": {
+          "primary": "English",
+          "others": [
+            "Scottish Gaelic"
+          ],
+          "test": "IELTS (UKVI)",
+          "level": "B1"
+        },
+        "skills": {
+          "preferred": [
+            "Energy",
+            "Fintech",
+            "Healthcare",
+            "Engineering"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "sponsorship",
+          "type": "hard",
+          "label": "UK Skilled Worker route",
+          "detail": "Same UK-wide immigration framework with demand in NHS and engineering occupations.",
+          "options": [
+            "Skilled Worker",
+            "Health and Care Worker"
+          ]
+        }
+      ],
+      "difficulty": {
+        "overall": 54,
+        "cost": 60,
+        "safety": 78,
+        "quality": 82,
+        "language": 10,
+        "security": 34
+      },
+      "population": 5500000,
+      "currency": "GBP"
+    },
+    {
+      "id": "gb-wls",
+      "name": "Wales",
+      "level": "state",
+      "parent": "gb",
+      "hasChildren": false,
+      "geo": {
+        "lat": 52.1307,
+        "lng": -3.7837,
+        "flag": "🏴",
+        "region": "Europe"
+      },
+      "accessTier": "restricted",
+      "biome": "Cultural Heartland",
+      "lore": "Smaller labor market but strong quality-of-life and lower housing pressure than major English hubs.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 2200,
+          "annual_usd": 26400
+        },
+        "language": {
+          "primary": "English",
+          "others": [
+            "Welsh"
+          ],
+          "test": "IELTS (UKVI)",
+          "level": "B1"
+        },
+        "skills": {
+          "preferred": [
+            "Healthcare",
+            "Public Services",
+            "Manufacturing",
+            "Tourism"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "sponsorship",
+          "type": "hard",
+          "label": "Employer sponsorship pathway",
+          "detail": "Sponsored employment remains the primary legal route for non-UK workers.",
+          "options": [
+            "Skilled Worker",
+            "Health and Care Worker"
+          ]
+        }
+      ],
+      "difficulty": {
+        "overall": 46,
+        "cost": 48,
+        "safety": 76,
+        "quality": 78,
+        "language": 12,
+        "security": 38
+      },
+      "population": 3100000,
+      "currency": "GBP"
+    },
+    {
+      "id": "gb-nir",
+      "name": "Northern Ireland",
+      "level": "state",
+      "parent": "gb",
+      "hasChildren": false,
+      "geo": {
+        "lat": 54.7877,
+        "lng": -6.4923,
+        "flag": "🏴",
+        "region": "Europe"
+      },
+      "accessTier": "open",
+      "biome": "Border Territory",
+      "lore": "Growing Belfast tech and services scene with some of the UK's lowest major-city living costs.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 2000,
+          "annual_usd": 24000
+        },
+        "language": {
+          "primary": "English",
+          "others": [
+            "Irish"
+          ],
+          "test": "IELTS (UKVI)",
+          "level": "B1"
+        },
+        "skills": {
+          "preferred": [
+            "Tech",
+            "Cybersecurity",
+            "Manufacturing",
+            "Logistics"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "sponsorship",
+          "type": "hard",
+          "label": "Sponsored skilled route",
+          "detail": "Labor demand in digital and manufacturing roles supports sponsorship opportunities.",
+          "options": [
+            "Skilled Worker",
+            "Global Business Mobility"
+          ]
+        }
+      ],
+      "difficulty": {
+        "overall": 40,
+        "cost": 42,
+        "safety": 74,
+        "quality": 74,
+        "language": 10,
+        "security": 40
+      },
+      "population": 1900000,
+      "currency": "GBP"
+    }
+  ]
+}

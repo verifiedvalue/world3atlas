@@ -1,0 +1,134 @@
+{
+  "meta": {
+    "schemaVersion": 2,
+    "parent": "bh"
+  },
+  "zones": [
+    {
+      "id": "bh-mh",
+      "name": "Capital Governorate",
+      "level": "state",
+      "parent": "bh",
+      "hasChildren": false,
+      "geo": {
+        "lat": 26.22,
+        "lng": 50.58,
+        "flag": "🏴",
+        "region": "Middle East"
+      },
+      "accessTier": "restricted",
+      "biome": "Financial Citadel",
+      "lore": "Capital Governorate is a curated regional zone in Bahrain.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 2640,
+          "annual_usd": 31680
+        },
+        "language": {
+          "primary": "Arabic",
+          "others": [
+            "English"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Finance",
+            "Logistics",
+            "Hospitality",
+            "Tech Services"
+          ],
+          "degreeRequired": false
+        },
+        "health": "insurance_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local settlement",
+          "detail": "Local permitting and labor demand determine onboarding pace.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 56,
+        "cost": 66,
+        "safety": 86,
+        "quality": 78,
+        "language": 24,
+        "security": 44
+      },
+      "population": 450000,
+      "currency": "BHD"
+    },
+    {
+      "id": "bh-mu",
+      "name": "Muharraq Governorate",
+      "level": "state",
+      "parent": "bh",
+      "hasChildren": false,
+      "geo": {
+        "lat": 26.25,
+        "lng": 50.61,
+        "flag": "🏴",
+        "region": "Middle East"
+      },
+      "accessTier": "open",
+      "biome": "Island Outpost",
+      "lore": "Muharraq Governorate is a curated regional zone in Bahrain.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 2160,
+          "annual_usd": 25920
+        },
+        "language": {
+          "primary": "Arabic",
+          "others": [
+            "English"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Finance",
+            "Logistics",
+            "Hospitality",
+            "Tech Services"
+          ],
+          "degreeRequired": false
+        },
+        "health": "insurance_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local settlement",
+          "detail": "Local permitting and labor demand determine onboarding pace.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 36,
+        "cost": 46,
+        "safety": 88,
+        "quality": 68,
+        "language": 28,
+        "security": 58
+      },
+      "population": 270000,
+      "currency": "BHD"
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "meta": {
+    "schemaVersion": 2,
+    "parent": "tt"
+  },
+  "zones": [
+    {
+      "id": "tt-pos",
+      "name": "Port of Spain",
+      "level": "state",
+      "parent": "tt",
+      "hasChildren": false,
+      "geo": {
+        "lat": 10.66,
+        "lng": -61.52,
+        "flag": "🏴",
+        "region": "Americas"
+      },
+      "accessTier": "restricted",
+      "biome": "Financial Citadel",
+      "lore": "Port of Spain is a curated regional zone in Trinidad and Tobago.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 1760,
+          "annual_usd": 21120
+        },
+        "language": {
+          "primary": "English",
+          "others": [],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Energy",
+            "Manufacturing",
+            "Logistics",
+            "Finance"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local settlement",
+          "detail": "Local labor demand and compliance shape early progression.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 48,
+        "cost": 56,
+        "safety": 56,
+        "quality": 70,
+        "language": 8,
+        "security": 60
+      },
+      "population": 37000,
+      "currency": "TTD"
+    },
+    {
+      "id": "tt-sfo",
+      "name": "San Fernando",
+      "level": "state",
+      "parent": "tt",
+      "hasChildren": false,
+      "geo": {
+        "lat": 10.28,
+        "lng": -61.46,
+        "flag": "🏴",
+        "region": "Americas"
+      },
+      "accessTier": "open",
+      "biome": "Industrial Heartland",
+      "lore": "San Fernando is a curated regional zone in Trinidad and Tobago.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 1440,
+          "annual_usd": 17280
+        },
+        "language": {
+          "primary": "English",
+          "others": [],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Energy",
+            "Manufacturing",
+            "Logistics",
+            "Finance"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local settlement",
+          "detail": "Local labor demand and compliance shape early progression.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 30,
+        "cost": 38,
+        "safety": 60,
+        "quality": 62,
+        "language": 12,
+        "security": 70
+      },
+      "population": 48000,
+      "currency": "TTD"
+    }
+  ]
+}

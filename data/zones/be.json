@@ -1,0 +1,136 @@
+{
+  "meta": {
+    "schemaVersion": 2,
+    "parent": "be"
+  },
+  "zones": [
+    {
+      "id": "be-vbr",
+      "name": "Brussels-Capital",
+      "level": "state",
+      "parent": "be",
+      "hasChildren": false,
+      "geo": {
+        "lat": 50.85,
+        "lng": 4.35,
+        "flag": "🏴",
+        "region": "Europe"
+      },
+      "accessTier": "locked",
+      "biome": "Financial Citadel",
+      "lore": "Brussels-Capital is a strategic regional zone within Belgium.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 2850,
+          "annual_usd": 34200
+        },
+        "language": {
+          "primary": "Dutch/French",
+          "others": [
+            "German",
+            "English"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "EU Affairs",
+            "Logistics",
+            "Pharma",
+            "Tech"
+          ],
+          "degreeRequired": true
+        },
+        "health": "insurance_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local conditions",
+          "detail": "Local employer demand and settlement logistics materially affect outcomes.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 66,
+        "cost": 76,
+        "safety": 78,
+        "quality": 88,
+        "language": 42,
+        "security": 42
+      },
+      "population": 1200000,
+      "currency": "EUR"
+    },
+    {
+      "id": "be-vov",
+      "name": "East Flanders",
+      "level": "state",
+      "parent": "be",
+      "hasChildren": false,
+      "geo": {
+        "lat": 51.05,
+        "lng": 3.72,
+        "flag": "🏴",
+        "region": "Europe"
+      },
+      "accessTier": "restricted",
+      "biome": "Industrial Heartland",
+      "lore": "East Flanders is a strategic regional zone within Belgium.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 2250,
+          "annual_usd": 27000
+        },
+        "language": {
+          "primary": "Dutch/French",
+          "others": [
+            "German",
+            "English"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "EU Affairs",
+            "Logistics",
+            "Pharma",
+            "Tech"
+          ],
+          "degreeRequired": true
+        },
+        "health": "insurance_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local conditions",
+          "detail": "Local employer demand and settlement logistics materially affect outcomes.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 48,
+        "cost": 54,
+        "safety": 82,
+        "quality": 82,
+        "language": 48,
+        "security": 50
+      },
+      "population": 1500000,
+      "currency": "EUR"
+    }
+  ]
+}

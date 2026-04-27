@@ -1,0 +1,134 @@
+{
+  "meta": {
+    "schemaVersion": 2,
+    "parent": "bf"
+  },
+  "zones": [
+    {
+      "id": "bf-kad",
+      "name": "Kadiogo",
+      "level": "state",
+      "parent": "bf",
+      "hasChildren": false,
+      "geo": {
+        "lat": 12.37,
+        "lng": -1.53,
+        "flag": "🏴",
+        "region": "Africa"
+      },
+      "accessTier": "open",
+      "biome": "Urban Outpost",
+      "lore": "Kadiogo is a curated regional zone in Burkina Faso.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 315,
+          "annual_usd": 3780
+        },
+        "language": {
+          "primary": "French",
+          "others": [
+            "Mossi"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Agriculture",
+            "Trade",
+            "Logistics",
+            "Public Health"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local settlement",
+          "detail": "Local permits, safety, and labor demand shape progression speed.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 36,
+        "cost": 14,
+        "safety": 46,
+        "quality": 42,
+        "language": 42,
+        "security": 66
+      },
+      "population": 3000000,
+      "currency": "XOF"
+    },
+    {
+      "id": "bf-hou",
+      "name": "Houet",
+      "level": "state",
+      "parent": "bf",
+      "hasChildren": false,
+      "geo": {
+        "lat": 11.18,
+        "lng": -4.3,
+        "flag": "🏴",
+        "region": "Africa"
+      },
+      "accessTier": "open",
+      "biome": "Steppe Frontier",
+      "lore": "Houet is a curated regional zone in Burkina Faso.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 315,
+          "annual_usd": 3780
+        },
+        "language": {
+          "primary": "French",
+          "others": [
+            "Mossi"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Agriculture",
+            "Trade",
+            "Logistics",
+            "Public Health"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local settlement",
+          "detail": "Local permits, safety, and labor demand shape progression speed.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 22,
+        "cost": 8,
+        "safety": 52,
+        "quality": 34,
+        "language": 46,
+        "security": 76
+      },
+      "population": 1800000,
+      "currency": "XOF"
+    }
+  ]
+}

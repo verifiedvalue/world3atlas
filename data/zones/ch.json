@@ -1,0 +1,162 @@
+{
+  "meta": {
+    "schemaVersion": 2,
+    "parent": "ch"
+  },
+  "zones": [
+    {
+      "id": "ch-zh",
+      "name": "Zurich Region",
+      "level": "state",
+      "parent": "ch",
+      "hasChildren": false,
+      "geo": {
+        "lat": 47.376,
+        "lng": 8.541,
+        "flag": "🏴",
+        "region": "Europe"
+      },
+      "accessTier": "locked",
+      "biome": "Financial Citadel",
+      "lore": "Zurich Region acts as a major progression zone inside Switzerland, with region-specific economy and entry friction.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 5664,
+          "annual_usd": 67968
+        },
+        "language": {
+          "primary": "German",
+          "others": [
+            "French",
+            "Italian",
+            "Romansh"
+          ],
+          "test": "Goethe / DELF / CELI",
+          "level": "B1"
+        },
+        "skills": {
+          "preferred": [
+            "Finance",
+            "Pharma",
+            "Engineering",
+            "Research",
+            "Hospitality"
+          ],
+          "degreeRequired": true
+        },
+        "health": "insurance_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "regional_path",
+          "type": "hard",
+          "label": "Switzerland national immigration route",
+          "detail": "Regional entry relies on national rules plus local employer or economic fit.",
+          "options": [
+            "B Permit (1-year renewable)",
+            "L Permit (short-term)",
+            "C Permit (after 5-10 years)"
+          ]
+        },
+        {
+          "id": "local_settlement",
+          "type": "soft",
+          "label": "Local settlement readiness",
+          "detail": "Housing search, registration, and language adaptation significantly affect first-year outcomes.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 86,
+        "cost": 98,
+        "safety": 94,
+        "quality": 98,
+        "language": 56,
+        "security": 16
+      },
+      "population": 2610000,
+      "currency": "CHF"
+    },
+    {
+      "id": "ch-ge",
+      "name": "Geneva Arc",
+      "level": "state",
+      "parent": "ch",
+      "hasChildren": false,
+      "geo": {
+        "lat": 46.204,
+        "lng": 6.143,
+        "flag": "🏴",
+        "region": "Europe"
+      },
+      "accessTier": "locked",
+      "biome": "Cultural Heartland",
+      "lore": "Geneva Arc acts as a major progression zone inside Switzerland, with region-specific economy and entry friction.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 4224,
+          "annual_usd": 50688
+        },
+        "language": {
+          "primary": "German",
+          "others": [
+            "French",
+            "Italian",
+            "Romansh"
+          ],
+          "test": "Goethe / DELF / CELI",
+          "level": "B1"
+        },
+        "skills": {
+          "preferred": [
+            "Finance",
+            "Pharma",
+            "Engineering",
+            "Research",
+            "Hospitality"
+          ],
+          "degreeRequired": true
+        },
+        "health": "insurance_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "regional_path",
+          "type": "hard",
+          "label": "Switzerland national immigration route",
+          "detail": "Regional entry relies on national rules plus local employer or economic fit.",
+          "options": [
+            "B Permit (1-year renewable)",
+            "L Permit (short-term)",
+            "C Permit (after 5-10 years)"
+          ]
+        },
+        {
+          "id": "local_settlement",
+          "type": "soft",
+          "label": "Local settlement readiness",
+          "detail": "Housing search, registration, and language adaptation significantly affect first-year outcomes.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 76,
+        "cost": 89,
+        "safety": 90,
+        "quality": 91,
+        "language": 50,
+        "security": 16
+      },
+      "population": 1566000,
+      "currency": "CHF"
+    }
+  ]
+}

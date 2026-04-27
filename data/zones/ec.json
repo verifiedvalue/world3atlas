@@ -1,0 +1,134 @@
+{
+  "meta": {
+    "schemaVersion": 2,
+    "parent": "ec"
+  },
+  "zones": [
+    {
+      "id": "ec-p",
+      "name": "Pichincha",
+      "level": "state",
+      "parent": "ec",
+      "hasChildren": false,
+      "geo": {
+        "lat": -0.181,
+        "lng": -78.467,
+        "flag": "🏴",
+        "region": "Americas"
+      },
+      "accessTier": "restricted",
+      "biome": "Mountain Stronghold",
+      "lore": "Pichincha is a curated regional zone in Ecuador.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 765,
+          "annual_usd": 9180
+        },
+        "language": {
+          "primary": "Spanish",
+          "others": [
+            "Quechua"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Tourism",
+            "Agriculture",
+            "Logistics",
+            "Services"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local setup",
+          "detail": "Local demand, docs, and settlement friction determine onboarding speed.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 36,
+        "cost": 30,
+        "safety": 50,
+        "quality": 62,
+        "language": 36,
+        "security": 70
+      },
+      "population": 3300000,
+      "currency": "USD"
+    },
+    {
+      "id": "ec-g",
+      "name": "Guayas",
+      "level": "state",
+      "parent": "ec",
+      "hasChildren": false,
+      "geo": {
+        "lat": -2.17,
+        "lng": -79.922,
+        "flag": "🏴",
+        "region": "Americas"
+      },
+      "accessTier": "open",
+      "biome": "Coastal Haven",
+      "lore": "Guayas is a curated regional zone in Ecuador.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 765,
+          "annual_usd": 9180
+        },
+        "language": {
+          "primary": "Spanish",
+          "others": [
+            "Quechua"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Tourism",
+            "Agriculture",
+            "Logistics",
+            "Services"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local setup",
+          "detail": "Local demand, docs, and settlement friction determine onboarding speed.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 22,
+        "cost": 18,
+        "safety": 54,
+        "quality": 56,
+        "language": 40,
+        "security": 76
+      },
+      "population": 4300000,
+      "currency": "USD"
+    }
+  ]
+}

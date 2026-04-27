@@ -1,0 +1,148 @@
+{
+  "meta": {
+    "schemaVersion": 2,
+    "parent": "ua"
+  },
+  "zones": [
+    {
+      "id": "ua-30",
+      "name": "Kyiv Region",
+      "level": "state",
+      "parent": "ua",
+      "hasChildren": false,
+      "geo": {
+        "lat": 50.45,
+        "lng": 30.523,
+        "flag": "🏴",
+        "region": "Europe"
+      },
+      "accessTier": "fortress",
+      "biome": "Border Territory",
+      "lore": "Kyiv Region acts as a major progression zone inside Ukraine, with region-specific economy and entry friction.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 590,
+          "annual_usd": 7080
+        },
+        "language": {
+          "primary": "Ukrainian",
+          "others": [
+            "Russian"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Reconstruction",
+            "Healthcare",
+            "IT",
+            "Humanitarian"
+          ],
+          "degreeRequired": false
+        },
+        "health": "proof_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "regional_path",
+          "type": "hard",
+          "label": "Ukraine national immigration route",
+          "detail": "Regional entry relies on national rules plus local employer or economic fit.",
+          "options": []
+        },
+        {
+          "id": "local_settlement",
+          "type": "soft",
+          "label": "Local settlement readiness",
+          "detail": "Housing search, registration, and language adaptation significantly affect first-year outcomes.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 98,
+        "cost": 28,
+        "safety": 7,
+        "quality": 34,
+        "language": 62,
+        "security": 4
+      },
+      "population": 13050000,
+      "currency": "UAH"
+    },
+    {
+      "id": "ua-46",
+      "name": "Lviv Region",
+      "level": "state",
+      "parent": "ua",
+      "hasChildren": false,
+      "geo": {
+        "lat": 49.839,
+        "lng": 24.029,
+        "flag": "🏴",
+        "region": "Europe"
+      },
+      "accessTier": "fortress",
+      "biome": "Cultural Heartland",
+      "lore": "Lviv Region acts as a major progression zone inside Ukraine, with region-specific economy and entry friction.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 440,
+          "annual_usd": 5280
+        },
+        "language": {
+          "primary": "Ukrainian",
+          "others": [
+            "Russian"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Reconstruction",
+            "Healthcare",
+            "IT",
+            "Humanitarian"
+          ],
+          "degreeRequired": false
+        },
+        "health": "proof_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "regional_path",
+          "type": "hard",
+          "label": "Ukraine national immigration route",
+          "detail": "Regional entry relies on national rules plus local employer or economic fit.",
+          "options": []
+        },
+        {
+          "id": "local_settlement",
+          "type": "soft",
+          "label": "Local settlement readiness",
+          "detail": "Housing search, registration, and language adaptation significantly affect first-year outcomes.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 91,
+        "cost": 14,
+        "safety": 3,
+        "quality": 26,
+        "language": 56,
+        "security": 4
+      },
+      "population": 7830000,
+      "currency": "UAH"
+    }
+  ]
+}

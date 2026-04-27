@@ -1,0 +1,266 @@
+{
+  "meta": {
+    "schemaVersion": 2,
+    "parent": "jp"
+  },
+  "zones": [
+    {
+      "id": "jp-13",
+      "name": "Tokyo",
+      "level": "state",
+      "parent": "jp",
+      "hasChildren": false,
+      "geo": {
+        "lat": 35.676,
+        "lng": 139.65,
+        "flag": "🏴",
+        "region": "Asia"
+      },
+      "accessTier": "locked",
+      "biome": "Urban Megacity",
+      "lore": "Japan's premier megacity zone with unmatched density of finance, media, and global HQ quests.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 3200,
+          "annual_usd": 38400
+        },
+        "language": {
+          "primary": "Japanese",
+          "others": [
+            "English"
+          ],
+          "test": "JLPT",
+          "level": "N2"
+        },
+        "skills": {
+          "preferred": [
+            "Finance",
+            "Tech",
+            "Consulting",
+            "Media"
+          ],
+          "degreeRequired": true
+        },
+        "health": "insurance_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "visa",
+          "type": "hard",
+          "label": "Engineer/HSP work status",
+          "detail": "Most roles require employer sponsorship under standard work statuses.",
+          "options": [
+            "Engineer/Specialist",
+            "Highly Skilled Professional"
+          ]
+        }
+      ],
+      "difficulty": {
+        "overall": 70,
+        "cost": 78,
+        "safety": 96,
+        "quality": 88,
+        "language": 92,
+        "security": 34
+      },
+      "population": 14000000,
+      "currency": "JPY"
+    },
+    {
+      "id": "jp-27",
+      "name": "Osaka",
+      "level": "state",
+      "parent": "jp",
+      "hasChildren": false,
+      "geo": {
+        "lat": 34.694,
+        "lng": 135.502,
+        "flag": "🏴",
+        "region": "Asia"
+      },
+      "accessTier": "restricted",
+      "biome": "Industrial Heartland",
+      "lore": "Commercial core of Kansai with strong manufacturing, trade, and startup guilds.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 2400,
+          "annual_usd": 28800
+        },
+        "language": {
+          "primary": "Japanese",
+          "others": [],
+          "test": "JLPT",
+          "level": "N3"
+        },
+        "skills": {
+          "preferred": [
+            "Manufacturing",
+            "Trade",
+            "Healthcare",
+            "Tech"
+          ],
+          "degreeRequired": true
+        },
+        "health": "insurance_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "visa",
+          "type": "hard",
+          "label": "Employer-sponsored work visa",
+          "detail": "Regional employers frequently sponsor skilled roles in manufacturing and services.",
+          "options": [
+            "Engineer/Specialist",
+            "Skilled Labor"
+          ]
+        }
+      ],
+      "difficulty": {
+        "overall": 54,
+        "cost": 55,
+        "safety": 93,
+        "quality": 80,
+        "language": 86,
+        "security": 40
+      },
+      "population": 8800000,
+      "currency": "JPY"
+    },
+    {
+      "id": "jp-23",
+      "name": "Aichi",
+      "level": "state",
+      "parent": "jp",
+      "hasChildren": false,
+      "geo": {
+        "lat": 35.181,
+        "lng": 136.906,
+        "flag": "🏴",
+        "region": "Asia"
+      },
+      "accessTier": "restricted",
+      "biome": "Industrial Heartland",
+      "lore": "Automotive and robotics stronghold centered on Nagoya; excellent for engineering classes.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 2200,
+          "annual_usd": 26400
+        },
+        "language": {
+          "primary": "Japanese",
+          "others": [],
+          "test": "JLPT",
+          "level": "N3"
+        },
+        "skills": {
+          "preferred": [
+            "Automotive",
+            "Robotics",
+            "Engineering",
+            "Logistics"
+          ],
+          "degreeRequired": true
+        },
+        "health": "insurance_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "visa",
+          "type": "hard",
+          "label": "Skilled worker sponsorship",
+          "detail": "Industrial employers seek experienced engineers and technicians.",
+          "options": [
+            "Engineer/Specialist",
+            "Specified Skilled Worker"
+          ]
+        }
+      ],
+      "difficulty": {
+        "overall": 52,
+        "cost": 48,
+        "safety": 92,
+        "quality": 78,
+        "language": 84,
+        "security": 42
+      },
+      "population": 7500000,
+      "currency": "JPY"
+    },
+    {
+      "id": "jp-01",
+      "name": "Hokkaido",
+      "level": "state",
+      "parent": "jp",
+      "hasChildren": false,
+      "geo": {
+        "lat": 43.064,
+        "lng": 141.346,
+        "flag": "🏴",
+        "region": "Asia"
+      },
+      "accessTier": "open",
+      "biome": "Alpine Fortress",
+      "lore": "Cool-climate frontier with lower costs, tourism demand, and strong food/agriculture production.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 1700,
+          "annual_usd": 20400
+        },
+        "language": {
+          "primary": "Japanese",
+          "others": [],
+          "test": "JLPT",
+          "level": "N4"
+        },
+        "skills": {
+          "preferred": [
+            "Tourism",
+            "Agriculture",
+            "Logistics",
+            "Hospitality"
+          ],
+          "degreeRequired": false
+        },
+        "health": "insurance_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "visa",
+          "type": "hard",
+          "label": "Standard residence/work status",
+          "detail": "Regional employers may sponsor hospitality and service roles seasonally.",
+          "options": [
+            "Specified Skilled Worker",
+            "Engineer/Specialist"
+          ]
+        }
+      ],
+      "difficulty": {
+        "overall": 42,
+        "cost": 36,
+        "safety": 95,
+        "quality": 74,
+        "language": 78,
+        "security": 48
+      },
+      "population": 5100000,
+      "currency": "JPY"
+    }
+  ]
+}

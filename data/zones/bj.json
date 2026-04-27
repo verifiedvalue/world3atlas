@@ -1,0 +1,134 @@
+{
+  "meta": {
+    "schemaVersion": 2,
+    "parent": "bj"
+  },
+  "zones": [
+    {
+      "id": "bj-aq",
+      "name": "Littoral (Cotonou)",
+      "level": "state",
+      "parent": "bj",
+      "hasChildren": false,
+      "geo": {
+        "lat": 6.37,
+        "lng": 2.43,
+        "flag": "🏴",
+        "region": "Africa"
+      },
+      "accessTier": "open",
+      "biome": "Coastal Haven",
+      "lore": "Littoral (Cotonou) is a curated regional zone in Benin.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 405,
+          "annual_usd": 4860
+        },
+        "language": {
+          "primary": "French",
+          "others": [
+            "Fon"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Trade",
+            "Logistics",
+            "Agriculture",
+            "Services"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local settlement",
+          "detail": "Local permits, safety, and labor demand shape progression speed.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 32,
+        "cost": 16,
+        "safety": 56,
+        "quality": 48,
+        "language": 36,
+        "security": 72
+      },
+      "population": 1000000,
+      "currency": "XOF"
+    },
+    {
+      "id": "bj-bo",
+      "name": "Borgou",
+      "level": "state",
+      "parent": "bj",
+      "hasChildren": false,
+      "geo": {
+        "lat": 9.34,
+        "lng": 2.63,
+        "flag": "🏴",
+        "region": "Africa"
+      },
+      "accessTier": "open",
+      "biome": "Steppe Frontier",
+      "lore": "Borgou is a curated regional zone in Benin.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 405,
+          "annual_usd": 4860
+        },
+        "language": {
+          "primary": "French",
+          "others": [
+            "Fon"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Trade",
+            "Logistics",
+            "Agriculture",
+            "Services"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local settlement",
+          "detail": "Local permits, safety, and labor demand shape progression speed.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 18,
+        "cost": 8,
+        "safety": 60,
+        "quality": 40,
+        "language": 40,
+        "security": 80
+      },
+      "population": 1200000,
+      "currency": "XOF"
+    }
+  ]
+}

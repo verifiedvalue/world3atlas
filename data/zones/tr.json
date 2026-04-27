@@ -1,0 +1,130 @@
+{
+  "meta": {
+    "schemaVersion": 2,
+    "parent": "tr"
+  },
+  "zones": [
+    {
+      "id": "tr-34",
+      "name": "Istanbul",
+      "level": "state",
+      "parent": "tr",
+      "hasChildren": false,
+      "geo": {
+        "lat": 41.008,
+        "lng": 28.978,
+        "flag": "🏴",
+        "region": "Middle East"
+      },
+      "accessTier": "restricted",
+      "biome": "Urban Megacity",
+      "lore": "Istanbul is a strategic regional zone within Turkey.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 810,
+          "annual_usd": 9720
+        },
+        "language": {
+          "primary": "Turkish",
+          "others": [],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Manufacturing",
+            "Logistics",
+            "Tourism",
+            "Construction"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local conditions",
+          "detail": "Local employer demand and settlement logistics materially affect outcomes.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 50,
+        "cost": 40,
+        "safety": 48,
+        "quality": 70,
+        "language": 54,
+        "security": 56
+      },
+      "population": 15800000,
+      "currency": "TRY"
+    },
+    {
+      "id": "tr-06",
+      "name": "Ankara",
+      "level": "state",
+      "parent": "tr",
+      "hasChildren": false,
+      "geo": {
+        "lat": 39.933,
+        "lng": 32.859,
+        "flag": "🏴",
+        "region": "Middle East"
+      },
+      "accessTier": "open",
+      "biome": "Cultural Heartland",
+      "lore": "Ankara is a strategic regional zone within Turkey.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 810,
+          "annual_usd": 9720
+        },
+        "language": {
+          "primary": "Turkish",
+          "others": [],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Manufacturing",
+            "Logistics",
+            "Tourism",
+            "Construction"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local conditions",
+          "detail": "Local employer demand and settlement logistics materially affect outcomes.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 34,
+        "cost": 26,
+        "safety": 56,
+        "quality": 62,
+        "language": 50,
+        "security": 66
+      },
+      "population": 5800000,
+      "currency": "TRY"
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "meta": {
+    "schemaVersion": 2,
+    "parent": "in"
+  },
+  "zones": [
+    {
+      "id": "in-mh",
+      "name": "Maharashtra",
+      "level": "state",
+      "parent": "in",
+      "hasChildren": false,
+      "geo": {
+        "lat": 19.07,
+        "lng": 72.88,
+        "flag": "🏴",
+        "region": "Asia"
+      },
+      "accessTier": "restricted",
+      "biome": "Financial Citadel",
+      "lore": "Maharashtra is a primary progression route within India.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 630,
+          "annual_usd": 7560
+        },
+        "language": {
+          "primary": "Hindi",
+          "others": [
+            "English"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "IT Services",
+            "Manufacturing",
+            "Healthcare",
+            "Finance"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_permit",
+          "type": "hard",
+          "label": "National pathway + local fit",
+          "detail": "Most outcomes depend on national eligibility plus local labor demand.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 42,
+        "cost": 36,
+        "safety": 46,
+        "quality": 64,
+        "language": 36,
+        "security": 60
+      },
+      "population": 124000000,
+      "currency": "INR"
+    },
+    {
+      "id": "in-ka",
+      "name": "Karnataka",
+      "level": "state",
+      "parent": "in",
+      "hasChildren": false,
+      "geo": {
+        "lat": 12.97,
+        "lng": 77.59,
+        "flag": "🏴",
+        "region": "Asia"
+      },
+      "accessTier": "restricted",
+      "biome": "Tech Nexus",
+      "lore": "Karnataka is a primary progression route within India.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 630,
+          "annual_usd": 7560
+        },
+        "language": {
+          "primary": "Hindi",
+          "others": [
+            "English"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "IT Services",
+            "Manufacturing",
+            "Healthcare",
+            "Finance"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_permit",
+          "type": "hard",
+          "label": "National pathway + local fit",
+          "detail": "Most outcomes depend on national eligibility plus local labor demand.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 38,
+        "cost": 30,
+        "safety": 52,
+        "quality": 68,
+        "language": 34,
+        "security": 62
+      },
+      "population": 68000000,
+      "currency": "INR"
+    }
+  ]
+}

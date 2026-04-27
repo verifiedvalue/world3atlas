@@ -1,0 +1,130 @@
+{
+  "meta": {
+    "schemaVersion": 2,
+    "parent": "ni"
+  },
+  "zones": [
+    {
+      "id": "ni-mn",
+      "name": "Managua",
+      "level": "state",
+      "parent": "ni",
+      "hasChildren": false,
+      "geo": {
+        "lat": 12.114,
+        "lng": -86.236,
+        "flag": "🏴",
+        "region": "Americas"
+      },
+      "accessTier": "open",
+      "biome": "Urban Megacity",
+      "lore": "Managua is a curated regional zone in Nicaragua.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 495,
+          "annual_usd": 5940
+        },
+        "language": {
+          "primary": "Spanish",
+          "others": [],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Agriculture",
+            "Trade",
+            "Tourism",
+            "Services"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local settlement",
+          "detail": "Local labor demand and compliance shape early progression.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 34,
+        "cost": 20,
+        "safety": 40,
+        "quality": 50,
+        "language": 36,
+        "security": 70
+      },
+      "population": 1100000,
+      "currency": "NIO"
+    },
+    {
+      "id": "ni-ri",
+      "name": "Rivas",
+      "level": "state",
+      "parent": "ni",
+      "hasChildren": false,
+      "geo": {
+        "lat": 11.4,
+        "lng": -85.83,
+        "flag": "🏴",
+        "region": "Americas"
+      },
+      "accessTier": "open",
+      "biome": "Coastal Haven",
+      "lore": "Rivas is a curated regional zone in Nicaragua.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 495,
+          "annual_usd": 5940
+        },
+        "language": {
+          "primary": "Spanish",
+          "others": [],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Agriculture",
+            "Trade",
+            "Tourism",
+            "Services"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local settlement",
+          "detail": "Local labor demand and compliance shape early progression.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 18,
+        "cost": 10,
+        "safety": 46,
+        "quality": 44,
+        "language": 40,
+        "security": 78
+      },
+      "population": 190000,
+      "currency": "NIO"
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "meta": {
+    "schemaVersion": 2,
+    "parent": "cm"
+  },
+  "zones": [
+    {
+      "id": "cm-ce",
+      "name": "Centre Region",
+      "level": "state",
+      "parent": "cm",
+      "hasChildren": false,
+      "geo": {
+        "lat": 3.848,
+        "lng": 11.502,
+        "flag": "🏴",
+        "region": "Africa"
+      },
+      "accessTier": "open",
+      "biome": "Cultural Heartland",
+      "lore": "Centre Region is a curated regional zone in Cameroon.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 450,
+          "annual_usd": 5400
+        },
+        "language": {
+          "primary": "French",
+          "others": [
+            "English"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Logistics",
+            "Energy",
+            "Agriculture",
+            "Construction"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local setup",
+          "detail": "Local demand, docs, and settlement friction determine onboarding speed.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 34,
+        "cost": 20,
+        "safety": 44,
+        "quality": 52,
+        "language": 30,
+        "security": 68
+      },
+      "population": 4500000,
+      "currency": "XAF"
+    },
+    {
+      "id": "cm-lt",
+      "name": "Littoral Region",
+      "level": "state",
+      "parent": "cm",
+      "hasChildren": false,
+      "geo": {
+        "lat": 4.05,
+        "lng": 9.7,
+        "flag": "🏴",
+        "region": "Africa"
+      },
+      "accessTier": "open",
+      "biome": "Coastal Haven",
+      "lore": "Littoral Region is a curated regional zone in Cameroon.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 450,
+          "annual_usd": 5400
+        },
+        "language": {
+          "primary": "French",
+          "others": [
+            "English"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Logistics",
+            "Energy",
+            "Agriculture",
+            "Construction"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local setup",
+          "detail": "Local demand, docs, and settlement friction determine onboarding speed.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 22,
+        "cost": 14,
+        "safety": 50,
+        "quality": 46,
+        "language": 34,
+        "security": 74
+      },
+      "population": 4200000,
+      "currency": "XAF"
+    }
+  ]
+}

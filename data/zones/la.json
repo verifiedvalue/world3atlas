@@ -1,0 +1,136 @@
+{
+  "meta": {
+    "schemaVersion": 2,
+    "parent": "la"
+  },
+  "zones": [
+    {
+      "id": "la-vt",
+      "name": "Vientiane Prefecture",
+      "level": "state",
+      "parent": "la",
+      "hasChildren": false,
+      "geo": {
+        "lat": 17.98,
+        "lng": 102.63,
+        "flag": "🏴",
+        "region": "Asia"
+      },
+      "accessTier": "open",
+      "biome": "Urban Outpost",
+      "lore": "Vientiane Prefecture is a curated regional zone in Laos.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 540,
+          "annual_usd": 6480
+        },
+        "language": {
+          "primary": "Lao",
+          "others": [
+            "French",
+            "English"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Logistics",
+            "Hydropower",
+            "Tourism",
+            "Trade"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local settlement",
+          "detail": "Local compliance and labor demand shape onboarding speed.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 30,
+        "cost": 16,
+        "safety": 64,
+        "quality": 50,
+        "language": 52,
+        "security": 74
+      },
+      "population": 1000000,
+      "currency": "LAK"
+    },
+    {
+      "id": "la-lp",
+      "name": "Luang Prabang Province",
+      "level": "state",
+      "parent": "la",
+      "hasChildren": false,
+      "geo": {
+        "lat": 19.88,
+        "lng": 102.13,
+        "flag": "🏴",
+        "region": "Asia"
+      },
+      "accessTier": "open",
+      "biome": "Cultural Heartland",
+      "lore": "Luang Prabang Province is a curated regional zone in Laos.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 540,
+          "annual_usd": 6480
+        },
+        "language": {
+          "primary": "Lao",
+          "others": [
+            "French",
+            "English"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Logistics",
+            "Hydropower",
+            "Tourism",
+            "Trade"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local settlement",
+          "detail": "Local compliance and labor demand shape onboarding speed.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 18,
+        "cost": 8,
+        "safety": 68,
+        "quality": 44,
+        "language": 56,
+        "security": 80
+      },
+      "population": 480000,
+      "currency": "LAK"
+    }
+  ]
+}

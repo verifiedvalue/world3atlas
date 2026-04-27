@@ -1,0 +1,134 @@
+{
+  "meta": {
+    "schemaVersion": 2,
+    "parent": "ba"
+  },
+  "zones": [
+    {
+      "id": "ba-sa",
+      "name": "Sarajevo Canton",
+      "level": "state",
+      "parent": "ba",
+      "hasChildren": false,
+      "geo": {
+        "lat": 43.86,
+        "lng": 18.41,
+        "flag": "🏴",
+        "region": "Europe"
+      },
+      "accessTier": "restricted",
+      "biome": "Cultural Heartland",
+      "lore": "Sarajevo Canton is a curated regional zone in Bosnia and Herzegovina.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 900,
+          "annual_usd": 10800
+        },
+        "language": {
+          "primary": "Bosnian/Croatian/Serbian",
+          "others": [
+            "English"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Manufacturing",
+            "Services",
+            "Tourism",
+            "IT Support"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local settlement",
+          "detail": "Local compliance and labor demand shape onboarding speed.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 40,
+        "cost": 34,
+        "safety": 66,
+        "quality": 64,
+        "language": 46,
+        "security": 64
+      },
+      "population": 420000,
+      "currency": "BAM"
+    },
+    {
+      "id": "ba-tz",
+      "name": "Tuzla Canton",
+      "level": "state",
+      "parent": "ba",
+      "hasChildren": false,
+      "geo": {
+        "lat": 44.53,
+        "lng": 18.68,
+        "flag": "🏴",
+        "region": "Europe"
+      },
+      "accessTier": "open",
+      "biome": "Industrial Heartland",
+      "lore": "Tuzla Canton is a curated regional zone in Bosnia and Herzegovina.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 900,
+          "annual_usd": 10800
+        },
+        "language": {
+          "primary": "Bosnian/Croatian/Serbian",
+          "others": [
+            "English"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Manufacturing",
+            "Services",
+            "Tourism",
+            "IT Support"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local settlement",
+          "detail": "Local compliance and labor demand shape onboarding speed.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 26,
+        "cost": 22,
+        "safety": 70,
+        "quality": 56,
+        "language": 50,
+        "security": 72
+      },
+      "population": 450000,
+      "currency": "BAM"
+    }
+  ]
+}

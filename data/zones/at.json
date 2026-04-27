@@ -1,0 +1,134 @@
+{
+  "meta": {
+    "schemaVersion": 2,
+    "parent": "at"
+  },
+  "zones": [
+    {
+      "id": "at-9",
+      "name": "Vienna",
+      "level": "state",
+      "parent": "at",
+      "hasChildren": false,
+      "geo": {
+        "lat": 48.208,
+        "lng": 16.373,
+        "flag": "🏴",
+        "region": "Europe"
+      },
+      "accessTier": "restricted",
+      "biome": "Urban Megacity",
+      "lore": "Vienna is a strategic regional zone within Austria.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 2964,
+          "annual_usd": 35568
+        },
+        "language": {
+          "primary": "German",
+          "others": [
+            "English"
+          ],
+          "test": "OSD",
+          "level": "B1"
+        },
+        "skills": {
+          "preferred": [
+            "Engineering",
+            "Tourism",
+            "Manufacturing",
+            "Healthcare"
+          ],
+          "degreeRequired": true
+        },
+        "health": "insurance_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local conditions",
+          "detail": "Local employer demand and settlement logistics materially affect outcomes.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 60,
+        "cost": 70,
+        "safety": 86,
+        "quality": 92,
+        "language": 56,
+        "security": 46
+      },
+      "population": 2000000,
+      "currency": "EUR"
+    },
+    {
+      "id": "at-6",
+      "name": "Styria",
+      "level": "state",
+      "parent": "at",
+      "hasChildren": false,
+      "geo": {
+        "lat": 47.07,
+        "lng": 15.44,
+        "flag": "🏴",
+        "region": "Europe"
+      },
+      "accessTier": "restricted",
+      "biome": "Industrial Heartland",
+      "lore": "Styria is a strategic regional zone within Austria.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 2340,
+          "annual_usd": 28080
+        },
+        "language": {
+          "primary": "German",
+          "others": [
+            "English"
+          ],
+          "test": "OSD",
+          "level": "B1"
+        },
+        "skills": {
+          "preferred": [
+            "Engineering",
+            "Tourism",
+            "Manufacturing",
+            "Healthcare"
+          ],
+          "degreeRequired": true
+        },
+        "health": "insurance_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local conditions",
+          "detail": "Local employer demand and settlement logistics materially affect outcomes.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 48,
+        "cost": 56,
+        "safety": 90,
+        "quality": 84,
+        "language": 60,
+        "security": 50
+      },
+      "population": 1250000,
+      "currency": "EUR"
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "meta": {
+    "schemaVersion": 2,
+    "parent": "nl"
+  },
+  "zones": [
+    {
+      "id": "nl-nh",
+      "name": "North Holland",
+      "level": "state",
+      "parent": "nl",
+      "hasChildren": false,
+      "geo": {
+        "lat": 52.52,
+        "lng": 4.79,
+        "flag": "🏴",
+        "region": "Europe"
+      },
+      "accessTier": "restricted",
+      "biome": "Urban Megacity",
+      "lore": "North Holland acts as a major progression zone inside Netherlands, with region-specific economy and entry friction.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 3540,
+          "annual_usd": 42480
+        },
+        "language": {
+          "primary": "Dutch",
+          "others": [
+            "English"
+          ],
+          "test": "NT2",
+          "level": "A2"
+        },
+        "skills": {
+          "preferred": [
+            "Tech",
+            "Finance",
+            "Logistics",
+            "Engineering",
+            "Life Sciences"
+          ],
+          "degreeRequired": true
+        },
+        "health": "insurance_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "regional_path",
+          "type": "hard",
+          "label": "Netherlands national immigration route",
+          "detail": "Regional entry relies on national rules plus local employer or economic fit.",
+          "options": [
+            "Highly Skilled Migrant (HSM)",
+            "EU Blue Card",
+            "Orientation Visa (1 year)"
+          ]
+        },
+        {
+          "id": "local_settlement",
+          "type": "soft",
+          "label": "Local settlement readiness",
+          "detail": "Housing search, registration, and language adaptation significantly affect first-year outcomes.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 66,
+        "cost": 80,
+        "safety": 84,
+        "quality": 89,
+        "language": 19,
+        "security": 47
+      },
+      "population": 5370000,
+      "currency": "EUR"
+    },
+    {
+      "id": "nl-zh",
+      "name": "South Holland",
+      "level": "state",
+      "parent": "nl",
+      "hasChildren": false,
+      "geo": {
+        "lat": 52.01,
+        "lng": 4.36,
+        "flag": "🏴",
+        "region": "Europe"
+      },
+      "accessTier": "restricted",
+      "biome": "Financial Citadel",
+      "lore": "South Holland acts as a major progression zone inside Netherlands, with region-specific economy and entry friction.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 2640,
+          "annual_usd": 31680
+        },
+        "language": {
+          "primary": "Dutch",
+          "others": [
+            "English"
+          ],
+          "test": "NT2",
+          "level": "A2"
+        },
+        "skills": {
+          "preferred": [
+            "Tech",
+            "Finance",
+            "Logistics",
+            "Engineering",
+            "Life Sciences"
+          ],
+          "degreeRequired": true
+        },
+        "health": "insurance_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "regional_path",
+          "type": "hard",
+          "label": "Netherlands national immigration route",
+          "detail": "Regional entry relies on national rules plus local employer or economic fit.",
+          "options": [
+            "Highly Skilled Migrant (HSM)",
+            "EU Blue Card",
+            "Orientation Visa (1 year)"
+          ]
+        },
+        {
+          "id": "local_settlement",
+          "type": "soft",
+          "label": "Local settlement readiness",
+          "detail": "Housing search, registration, and language adaptation significantly affect first-year outcomes.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 56,
+        "cost": 66,
+        "safety": 80,
+        "quality": 81,
+        "language": 13,
+        "security": 47
+      },
+      "population": 3222000,
+      "currency": "EUR"
+    }
+  ]
+}

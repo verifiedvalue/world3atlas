@@ -1,0 +1,134 @@
+{
+  "meta": {
+    "schemaVersion": 2,
+    "parent": "ph"
+  },
+  "zones": [
+    {
+      "id": "ph-00",
+      "name": "Metro Manila",
+      "level": "state",
+      "parent": "ph",
+      "hasChildren": false,
+      "geo": {
+        "lat": 14.6,
+        "lng": 120.98,
+        "flag": "🏴",
+        "region": "Asia"
+      },
+      "accessTier": "restricted",
+      "biome": "Urban Megacity",
+      "lore": "Metro Manila is a strategic regional zone within Philippines.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 630,
+          "annual_usd": 7560
+        },
+        "language": {
+          "primary": "Filipino",
+          "others": [
+            "English"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "BPO",
+            "Healthcare",
+            "Logistics",
+            "Tourism"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local conditions",
+          "detail": "Local employer demand and settlement logistics materially affect outcomes.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 38,
+        "cost": 32,
+        "safety": 44,
+        "quality": 62,
+        "language": 18,
+        "security": 66
+      },
+      "population": 13500000,
+      "currency": "PHP"
+    },
+    {
+      "id": "ph-07",
+      "name": "Central Visayas",
+      "level": "state",
+      "parent": "ph",
+      "hasChildren": false,
+      "geo": {
+        "lat": 10.32,
+        "lng": 123.9,
+        "flag": "🏴",
+        "region": "Asia"
+      },
+      "accessTier": "open",
+      "biome": "Coastal Haven",
+      "lore": "Central Visayas is a strategic regional zone within Philippines.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 630,
+          "annual_usd": 7560
+        },
+        "language": {
+          "primary": "Filipino",
+          "others": [
+            "English"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "BPO",
+            "Healthcare",
+            "Logistics",
+            "Tourism"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local conditions",
+          "detail": "Local employer demand and settlement logistics materially affect outcomes.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 24,
+        "cost": 18,
+        "safety": 56,
+        "quality": 56,
+        "language": 22,
+        "security": 72
+      },
+      "population": 8200000,
+      "currency": "PHP"
+    }
+  ]
+}

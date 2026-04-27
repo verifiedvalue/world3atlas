@@ -1,0 +1,136 @@
+{
+  "meta": {
+    "schemaVersion": 2,
+    "parent": "pk"
+  },
+  "zones": [
+    {
+      "id": "pk-sd",
+      "name": "Sindh",
+      "level": "state",
+      "parent": "pk",
+      "hasChildren": false,
+      "geo": {
+        "lat": 24.86,
+        "lng": 67.01,
+        "flag": "🏴",
+        "region": "Asia"
+      },
+      "accessTier": "restricted",
+      "biome": "Urban Megacity",
+      "lore": "Sindh is a curated regional zone in Pakistan.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 450,
+          "annual_usd": 5400
+        },
+        "language": {
+          "primary": "Urdu",
+          "others": [
+            "English",
+            "Punjabi"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Textiles",
+            "IT Services",
+            "Agriculture",
+            "Logistics"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local settlement",
+          "detail": "Local labor demand and administrative requirements shape progression speed.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 44,
+        "cost": 20,
+        "safety": 30,
+        "quality": 52,
+        "language": 44,
+        "security": 60
+      },
+      "population": 55000000,
+      "currency": "PKR"
+    },
+    {
+      "id": "pk-pb",
+      "name": "Punjab",
+      "level": "state",
+      "parent": "pk",
+      "hasChildren": false,
+      "geo": {
+        "lat": 31.52,
+        "lng": 74.35,
+        "flag": "🏴",
+        "region": "Asia"
+      },
+      "accessTier": "open",
+      "biome": "Cultural Heartland",
+      "lore": "Punjab is a curated regional zone in Pakistan.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 450,
+          "annual_usd": 5400
+        },
+        "language": {
+          "primary": "Urdu",
+          "others": [
+            "English",
+            "Punjabi"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Textiles",
+            "IT Services",
+            "Agriculture",
+            "Logistics"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local settlement",
+          "detail": "Local labor demand and administrative requirements shape progression speed.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 28,
+        "cost": 14,
+        "safety": 38,
+        "quality": 48,
+        "language": 46,
+        "security": 68
+      },
+      "population": 127000000,
+      "currency": "PKR"
+    }
+  ]
+}

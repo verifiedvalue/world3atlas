@@ -1,0 +1,164 @@
+{
+  "meta": {
+    "schemaVersion": 2,
+    "parent": "es"
+  },
+  "zones": [
+    {
+      "id": "es-md",
+      "name": "Community of Madrid",
+      "level": "state",
+      "parent": "es",
+      "hasChildren": false,
+      "geo": {
+        "lat": 40.416,
+        "lng": -3.703,
+        "flag": "🏴",
+        "region": "Europe"
+      },
+      "accessTier": "restricted",
+      "biome": "Urban Megacity",
+      "lore": "Community of Madrid acts as a major progression zone inside Spain, with region-specific economy and entry friction.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 2124,
+          "annual_usd": 25488
+        },
+        "language": {
+          "primary": "Spanish",
+          "others": [
+            "Catalan",
+            "Basque",
+            "Galician"
+          ],
+          "test": "DELE",
+          "level": "A2"
+        },
+        "skills": {
+          "preferred": [
+            "Remote Work",
+            "Tourism",
+            "Healthcare",
+            "Education",
+            "Tech"
+          ],
+          "degreeRequired": false
+        },
+        "health": "insurance_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "regional_path",
+          "type": "hard",
+          "label": "Spain national immigration route",
+          "detail": "Regional entry relies on national rules plus local employer or economic fit.",
+          "options": [
+            "Non-Lucrative Visa (NLV)",
+            "Digital Nomad Visa",
+            "Highly Qualified Professional Visa",
+            "EU Citizen (no visa)"
+          ]
+        },
+        {
+          "id": "local_settlement",
+          "type": "soft",
+          "label": "Local settlement readiness",
+          "detail": "Housing search, registration, and language adaptation significantly affect first-year outcomes.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 48,
+        "cost": 53,
+        "safety": 82,
+        "quality": 82,
+        "language": 42,
+        "security": 57
+      },
+      "population": 14220000,
+      "currency": "EUR"
+    },
+    {
+      "id": "es-ct",
+      "name": "Catalonia",
+      "level": "state",
+      "parent": "es",
+      "hasChildren": false,
+      "geo": {
+        "lat": 41.385,
+        "lng": 2.173,
+        "flag": "🏴",
+        "region": "Europe"
+      },
+      "accessTier": "restricted",
+      "biome": "Cultural Heartland",
+      "lore": "Catalonia acts as a major progression zone inside Spain, with region-specific economy and entry friction.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 1584,
+          "annual_usd": 19008
+        },
+        "language": {
+          "primary": "Spanish",
+          "others": [
+            "Catalan",
+            "Basque",
+            "Galician"
+          ],
+          "test": "DELE",
+          "level": "A2"
+        },
+        "skills": {
+          "preferred": [
+            "Remote Work",
+            "Tourism",
+            "Healthcare",
+            "Education",
+            "Tech"
+          ],
+          "degreeRequired": false
+        },
+        "health": "insurance_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "regional_path",
+          "type": "hard",
+          "label": "Spain national immigration route",
+          "detail": "Regional entry relies on national rules plus local employer or economic fit.",
+          "options": [
+            "Non-Lucrative Visa (NLV)",
+            "Digital Nomad Visa",
+            "Highly Qualified Professional Visa",
+            "EU Citizen (no visa)"
+          ]
+        },
+        {
+          "id": "local_settlement",
+          "type": "soft",
+          "label": "Local settlement readiness",
+          "detail": "Housing search, registration, and language adaptation significantly affect first-year outcomes.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 38,
+        "cost": 39,
+        "safety": 78,
+        "quality": 74,
+        "language": 36,
+        "security": 57
+      },
+      "population": 8532000,
+      "currency": "EUR"
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "meta": {
+    "schemaVersion": 2,
+    "parent": "eg"
+  },
+  "zones": [
+    {
+      "id": "eg-c",
+      "name": "Cairo Governorate",
+      "level": "state",
+      "parent": "eg",
+      "hasChildren": false,
+      "geo": {
+        "lat": 30.044,
+        "lng": 31.236,
+        "flag": "🏴",
+        "region": "Africa"
+      },
+      "accessTier": "restricted",
+      "biome": "Urban Megacity",
+      "lore": "Cairo Governorate is a curated regional zone in Egypt.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 585,
+          "annual_usd": 7020
+        },
+        "language": {
+          "primary": "Arabic",
+          "others": [
+            "English"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Tourism",
+            "Logistics",
+            "Construction",
+            "Services"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local settlement",
+          "detail": "Local labor demand and administrative requirements shape progression speed.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 42,
+        "cost": 28,
+        "safety": 42,
+        "quality": 60,
+        "language": 50,
+        "security": 60
+      },
+      "population": 10200000,
+      "currency": "EGP"
+    },
+    {
+      "id": "eg-alx",
+      "name": "Alexandria",
+      "level": "state",
+      "parent": "eg",
+      "hasChildren": false,
+      "geo": {
+        "lat": 31.2,
+        "lng": 29.918,
+        "flag": "🏴",
+        "region": "Africa"
+      },
+      "accessTier": "open",
+      "biome": "Coastal Haven",
+      "lore": "Alexandria is a curated regional zone in Egypt.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 585,
+          "annual_usd": 7020
+        },
+        "language": {
+          "primary": "Arabic",
+          "others": [
+            "English"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Tourism",
+            "Logistics",
+            "Construction",
+            "Services"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local settlement",
+          "detail": "Local labor demand and administrative requirements shape progression speed.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 26,
+        "cost": 16,
+        "safety": 52,
+        "quality": 56,
+        "language": 46,
+        "security": 70
+      },
+      "population": 5600000,
+      "currency": "EGP"
+    }
+  ]
+}

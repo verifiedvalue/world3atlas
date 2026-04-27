@@ -1,0 +1,134 @@
+{
+  "meta": {
+    "schemaVersion": 2,
+    "parent": "by"
+  },
+  "zones": [
+    {
+      "id": "by-mi",
+      "name": "Minsk Region",
+      "level": "state",
+      "parent": "by",
+      "hasChildren": false,
+      "geo": {
+        "lat": 53.9,
+        "lng": 27.56,
+        "flag": "🏴",
+        "region": "Europe"
+      },
+      "accessTier": "fortress",
+      "biome": "Urban Megacity",
+      "lore": "Minsk Region is a curated regional zone in Belarus.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 900,
+          "annual_usd": 10800
+        },
+        "language": {
+          "primary": "Belarusian",
+          "others": [
+            "Russian"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Manufacturing",
+            "IT",
+            "Logistics",
+            "Public Services"
+          ],
+          "degreeRequired": false
+        },
+        "health": "proof_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local settlement",
+          "detail": "Local compliance and labor demand shape onboarding speed.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 84,
+        "cost": 28,
+        "safety": 46,
+        "quality": 58,
+        "language": 50,
+        "security": 20
+      },
+      "population": 2000000,
+      "currency": "BYN"
+    },
+    {
+      "id": "by-br",
+      "name": "Brest Region",
+      "level": "state",
+      "parent": "by",
+      "hasChildren": false,
+      "geo": {
+        "lat": 52.1,
+        "lng": 23.7,
+        "flag": "🏴",
+        "region": "Europe"
+      },
+      "accessTier": "restricted",
+      "biome": "Border Territory",
+      "lore": "Brest Region is a curated regional zone in Belarus.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 900,
+          "annual_usd": 10800
+        },
+        "language": {
+          "primary": "Belarusian",
+          "others": [
+            "Russian"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Manufacturing",
+            "IT",
+            "Logistics",
+            "Public Services"
+          ],
+          "degreeRequired": false
+        },
+        "health": "proof_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local settlement",
+          "detail": "Local compliance and labor demand shape onboarding speed.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 68,
+        "cost": 20,
+        "safety": 52,
+        "quality": 50,
+        "language": 54,
+        "security": 34
+      },
+      "population": 1300000,
+      "currency": "BYN"
+    }
+  ]
+}

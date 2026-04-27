@@ -1,0 +1,340 @@
+{
+  "meta": {
+    "schemaVersion": 2,
+    "parent": "ca"
+  },
+  "zones": [
+    {
+      "id": "ca-on",
+      "name": "Ontario",
+      "level": "state",
+      "parent": "ca",
+      "hasChildren": false,
+      "geo": {
+        "lat": 50,
+        "lng": -86,
+        "flag": "🏴",
+        "region": "Americas"
+      },
+      "accessTier": "restricted",
+      "biome": "Urban Megacity",
+      "lore": "Toronto-Waterloo tech corridor competes globally; winters are a serious survival stat check.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 3000,
+          "annual_usd": 36000
+        },
+        "language": {
+          "primary": "English",
+          "others": [
+            "French"
+          ],
+          "test": "IELTS / CELPIP",
+          "level": "CLB 7"
+        },
+        "skills": {
+          "preferred": [
+            "Tech",
+            "Finance",
+            "Healthcare",
+            "Manufacturing"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": 45
+        }
+      },
+      "quests": [
+        {
+          "id": "pr_work",
+          "type": "hard",
+          "label": "Federal PR or Ontario PNP",
+          "detail": "Express Entry and Ontario Immigrant Nominee Program (OINP) are dominant quest lines.",
+          "options": [
+            "Express Entry",
+            "OINP",
+            "Employer LMIA work permit"
+          ]
+        }
+      ],
+      "difficulty": {
+        "overall": 56,
+        "cost": 68,
+        "safety": 80,
+        "quality": 84,
+        "language": 10,
+        "security": 48
+      },
+      "population": 14800000,
+      "currency": "CAD"
+    },
+    {
+      "id": "ca-bc",
+      "name": "British Columbia",
+      "level": "state",
+      "parent": "ca",
+      "hasChildren": false,
+      "geo": {
+        "lat": 53.73,
+        "lng": -127.65,
+        "flag": "🏴",
+        "region": "Americas"
+      },
+      "accessTier": "restricted",
+      "biome": "Coastal Haven",
+      "lore": "Vancouver's cost-of-living boss fight is legendary; Victoria and interior zones offer different tradeoffs.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 3200,
+          "annual_usd": 38400
+        },
+        "language": {
+          "primary": "English",
+          "others": [
+            "Mandarin",
+            "Punjabi"
+          ],
+          "test": "IELTS",
+          "level": "CLB 7"
+        },
+        "skills": {
+          "preferred": [
+            "Film",
+            "Tech",
+            "Forestry",
+            "Tourism"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": 45
+        }
+      },
+      "quests": [
+        {
+          "id": "bc_pnp",
+          "type": "hard",
+          "label": "BC PNP or Federal Pathways",
+          "detail": "Skills Immigration and Express Entry BC streams target in-demand NOCs.",
+          "options": [
+            "BC PNP Skills Immigration",
+            "Express Entry linked BC"
+          ]
+        }
+      ],
+      "difficulty": {
+        "overall": 58,
+        "cost": 78,
+        "safety": 82,
+        "quality": 88,
+        "language": 8,
+        "security": 50
+      },
+      "population": 5400000,
+      "currency": "CAD"
+    },
+    {
+      "id": "ca-qc",
+      "name": "Quebec",
+      "level": "state",
+      "parent": "ca",
+      "hasChildren": false,
+      "geo": {
+        "lat": 52.94,
+        "lng": -73.55,
+        "flag": "🏴",
+        "region": "Americas"
+      },
+      "accessTier": "restricted",
+      "biome": "Cultural Heartland",
+      "lore": "Distinct civil-law immigration track (Arrima / CSQ) — French language buffs dramatically improve outcomes.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 2400,
+          "annual_usd": 28800
+        },
+        "language": {
+          "primary": "French",
+          "others": [
+            "English"
+          ],
+          "test": "TEF / TCF",
+          "level": "B2"
+        },
+        "skills": {
+          "preferred": [
+            "Aerospace",
+            "Games",
+            "AI",
+            "Healthcare"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "csq",
+          "type": "hard",
+          "label": "Quebec Selection Certificate (CSQ)",
+          "detail": "Quebec runs its own skilled worker programs before federal admission.",
+          "options": [
+            "Regular Skilled Worker Program",
+            "PEQ",
+            "Pilot programs"
+          ]
+        }
+      ],
+      "difficulty": {
+        "overall": 60,
+        "cost": 55,
+        "safety": 78,
+        "quality": 82,
+        "language": 55,
+        "security": 42
+      },
+      "population": 8600000,
+      "currency": "CAD"
+    },
+    {
+      "id": "ca-ab",
+      "name": "Alberta",
+      "level": "state",
+      "parent": "ca",
+      "hasChildren": false,
+      "geo": {
+        "lat": 53.933,
+        "lng": -116.577,
+        "flag": "🏴",
+        "region": "Americas"
+      },
+      "accessTier": "restricted",
+      "biome": "Prairie Expanse",
+      "lore": "Energy-driven economy with growing Calgary and Edmonton tech corridors.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 2800,
+          "annual_usd": 33600
+        },
+        "language": {
+          "primary": "English",
+          "others": [],
+          "test": "IELTS / CELPIP",
+          "level": "CLB 7"
+        },
+        "skills": {
+          "preferred": [
+            "Energy",
+            "Engineering",
+            "Trades",
+            "Healthcare"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": 45
+        }
+      },
+      "quests": [
+        {
+          "id": "aaip",
+          "type": "hard",
+          "label": "Alberta Advantage Immigration Program",
+          "detail": "Provincial nomination routes support priority occupations and federal alignment.",
+          "options": [
+            "AAIP",
+            "Express Entry",
+            "Employer work permit"
+          ]
+        }
+      ],
+      "difficulty": {
+        "overall": 50,
+        "cost": 54,
+        "safety": 76,
+        "quality": 78,
+        "language": 8,
+        "security": 54
+      },
+      "population": 4700000,
+      "currency": "CAD"
+    },
+    {
+      "id": "ca-mb",
+      "name": "Manitoba",
+      "level": "state",
+      "parent": "ca",
+      "hasChildren": false,
+      "geo": {
+        "lat": 53.7609,
+        "lng": -98.8139,
+        "flag": "🏴",
+        "region": "Americas"
+      },
+      "accessTier": "open",
+      "biome": "Steppe Frontier",
+      "lore": "Lower-cost prairie route with strong nominee programs for skilled and family-linked applicants.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 2000,
+          "annual_usd": 24000
+        },
+        "language": {
+          "primary": "English",
+          "others": [
+            "French"
+          ],
+          "test": "IELTS / CELPIP",
+          "level": "CLB 6"
+        },
+        "skills": {
+          "preferred": [
+            "Agriculture",
+            "Logistics",
+            "Manufacturing",
+            "Healthcare"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": 45
+        }
+      },
+      "quests": [
+        {
+          "id": "mpnp",
+          "type": "hard",
+          "label": "Manitoba Provincial Nominee Program",
+          "detail": "Community and employer-backed routes are common progression paths.",
+          "options": [
+            "MPNP Skilled Worker",
+            "Express Entry linked MPNP"
+          ]
+        }
+      ],
+      "difficulty": {
+        "overall": 40,
+        "cost": 38,
+        "safety": 78,
+        "quality": 72,
+        "language": 10,
+        "security": 60
+      },
+      "population": 1400000,
+      "currency": "CAD"
+    }
+  ]
+}

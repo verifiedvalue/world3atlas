@@ -1,0 +1,154 @@
+{
+  "meta": {
+    "schemaVersion": 2,
+    "parent": "cr"
+  },
+  "zones": [
+    {
+      "id": "cr-sj",
+      "name": "San Jose Valley",
+      "level": "state",
+      "parent": "cr",
+      "hasChildren": false,
+      "geo": {
+        "lat": 9.928,
+        "lng": -84.09,
+        "flag": "🏴",
+        "region": "Americas"
+      },
+      "accessTier": "open",
+      "biome": "Rainforest Enclave",
+      "lore": "San Jose Valley acts as a major progression zone inside Costa Rica, with region-specific economy and entry friction.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 1298,
+          "annual_usd": 15576
+        },
+        "language": {
+          "primary": "Spanish",
+          "others": [],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Remote Work",
+            "Tourism",
+            "Tech",
+            "Agriculture"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "regional_path",
+          "type": "hard",
+          "label": "Costa Rica national immigration route",
+          "detail": "Regional entry relies on national rules plus local employer or economic fit.",
+          "options": [
+            "Rentista Visa ($2,500/month)",
+            "Pensionado Visa ($1,000/month pension)",
+            "Digital Nomad Visa (1 year)",
+            "Inversionista (Investor)"
+          ]
+        },
+        {
+          "id": "local_settlement",
+          "type": "soft",
+          "label": "Local settlement readiness",
+          "detail": "Housing search, registration, and language adaptation significantly affect first-year outcomes.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 38,
+        "cost": 43,
+        "safety": 67,
+        "quality": 74,
+        "language": 44,
+        "security": 74
+      },
+      "population": 1560000,
+      "currency": "CRC"
+    },
+    {
+      "id": "cr-gu",
+      "name": "Guanacaste",
+      "level": "state",
+      "parent": "cr",
+      "hasChildren": false,
+      "geo": {
+        "lat": 10.626,
+        "lng": -85.443,
+        "flag": "🏴",
+        "region": "Americas"
+      },
+      "accessTier": "open",
+      "biome": "Tropical Sanctuary",
+      "lore": "Guanacaste acts as a major progression zone inside Costa Rica, with region-specific economy and entry friction.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 968,
+          "annual_usd": 11616
+        },
+        "language": {
+          "primary": "Spanish",
+          "others": [],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Remote Work",
+            "Tourism",
+            "Tech",
+            "Agriculture"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "regional_path",
+          "type": "hard",
+          "label": "Costa Rica national immigration route",
+          "detail": "Regional entry relies on national rules plus local employer or economic fit.",
+          "options": [
+            "Rentista Visa ($2,500/month)",
+            "Pensionado Visa ($1,000/month pension)",
+            "Digital Nomad Visa (1 year)",
+            "Inversionista (Investor)"
+          ]
+        },
+        {
+          "id": "local_settlement",
+          "type": "soft",
+          "label": "Local settlement readiness",
+          "detail": "Housing search, registration, and language adaptation significantly affect first-year outcomes.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 28,
+        "cost": 29,
+        "safety": 63,
+        "quality": 66,
+        "language": 38,
+        "security": 74
+      },
+      "population": 936000,
+      "currency": "CRC"
+    }
+  ]
+}

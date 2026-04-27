@@ -1,0 +1,134 @@
+{
+  "meta": {
+    "schemaVersion": 2,
+    "parent": "ro"
+  },
+  "zones": [
+    {
+      "id": "ro-b",
+      "name": "Bucharest-Ilfov",
+      "level": "state",
+      "parent": "ro",
+      "hasChildren": false,
+      "geo": {
+        "lat": 44.43,
+        "lng": 26.1,
+        "flag": "🏴",
+        "region": "Europe"
+      },
+      "accessTier": "restricted",
+      "biome": "Urban Megacity",
+      "lore": "Bucharest-Ilfov is a curated sub-region within Romania.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 1170,
+          "annual_usd": 14040
+        },
+        "language": {
+          "primary": "Romanian",
+          "others": [
+            "English"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Tech",
+            "BPO",
+            "Manufacturing",
+            "Construction"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local labor fit",
+          "detail": "Local demand and housing/settlement dynamics impact progression speed.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 42,
+        "cost": 36,
+        "safety": 64,
+        "quality": 72,
+        "language": 54,
+        "security": 62
+      },
+      "population": 2300000,
+      "currency": "RON"
+    },
+    {
+      "id": "ro-cj",
+      "name": "Cluj",
+      "level": "state",
+      "parent": "ro",
+      "hasChildren": false,
+      "geo": {
+        "lat": 46.77,
+        "lng": 23.59,
+        "flag": "🏴",
+        "region": "Europe"
+      },
+      "accessTier": "open",
+      "biome": "Tech Nexus",
+      "lore": "Cluj is a curated sub-region within Romania.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 1170,
+          "annual_usd": 14040
+        },
+        "language": {
+          "primary": "Romanian",
+          "others": [
+            "English"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Tech",
+            "BPO",
+            "Manufacturing",
+            "Construction"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local labor fit",
+          "detail": "Local demand and housing/settlement dynamics impact progression speed.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 30,
+        "cost": 26,
+        "safety": 72,
+        "quality": 70,
+        "language": 56,
+        "security": 68
+      },
+      "population": 740000,
+      "currency": "RON"
+    }
+  ]
+}

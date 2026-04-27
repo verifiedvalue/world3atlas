@@ -1,0 +1,136 @@
+{
+  "meta": {
+    "schemaVersion": 2,
+    "parent": "hu"
+  },
+  "zones": [
+    {
+      "id": "hu-bu",
+      "name": "Budapest",
+      "level": "state",
+      "parent": "hu",
+      "hasChildren": false,
+      "geo": {
+        "lat": 47.497,
+        "lng": 19.04,
+        "flag": "🏴",
+        "region": "Europe"
+      },
+      "accessTier": "restricted",
+      "biome": "Urban Megacity",
+      "lore": "Budapest is a curated sub-region within Hungary.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 1260,
+          "annual_usd": 15120
+        },
+        "language": {
+          "primary": "Hungarian",
+          "others": [
+            "English",
+            "German"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Manufacturing",
+            "Automotive",
+            "Tech",
+            "Finance Ops"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local labor fit",
+          "detail": "Local demand and housing/settlement dynamics impact progression speed.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 46,
+        "cost": 42,
+        "safety": 72,
+        "quality": 76,
+        "language": 68,
+        "security": 54
+      },
+      "population": 1700000,
+      "currency": "HUF"
+    },
+    {
+      "id": "hu-gs",
+      "name": "Gyor-Moson-Sopron",
+      "level": "state",
+      "parent": "hu",
+      "hasChildren": false,
+      "geo": {
+        "lat": 47.687,
+        "lng": 17.65,
+        "flag": "🏴",
+        "region": "Europe"
+      },
+      "accessTier": "restricted",
+      "biome": "Industrial Heartland",
+      "lore": "Gyor-Moson-Sopron is a curated sub-region within Hungary.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 1260,
+          "annual_usd": 15120
+        },
+        "language": {
+          "primary": "Hungarian",
+          "others": [
+            "English",
+            "German"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Manufacturing",
+            "Automotive",
+            "Tech",
+            "Finance Ops"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local labor fit",
+          "detail": "Local demand and housing/settlement dynamics impact progression speed.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 34,
+        "cost": 30,
+        "safety": 78,
+        "quality": 72,
+        "language": 70,
+        "security": 58
+      },
+      "population": 470000,
+      "currency": "HUF"
+    }
+  ]
+}

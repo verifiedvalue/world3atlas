@@ -1,0 +1,136 @@
+{
+  "meta": {
+    "schemaVersion": 2,
+    "parent": "ug"
+  },
+  "zones": [
+    {
+      "id": "ug-c",
+      "name": "Kampala Capital",
+      "level": "state",
+      "parent": "ug",
+      "hasChildren": false,
+      "geo": {
+        "lat": 0.347,
+        "lng": 32.582,
+        "flag": "🏴",
+        "region": "Africa"
+      },
+      "accessTier": "open",
+      "biome": "Cultural Heartland",
+      "lore": "Kampala Capital is a curated regional zone in Uganda.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 405,
+          "annual_usd": 4860
+        },
+        "language": {
+          "primary": "English",
+          "others": [
+            "Luganda",
+            "Swahili"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Agriculture",
+            "Trade",
+            "Healthcare",
+            "Education"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local setup",
+          "detail": "Local demand, docs, and settlement friction determine onboarding speed.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 30,
+        "cost": 18,
+        "safety": 50,
+        "quality": 50,
+        "language": 24,
+        "security": 70
+      },
+      "population": 1900000,
+      "currency": "UGX"
+    },
+    {
+      "id": "ug-w",
+      "name": "Western Region",
+      "level": "state",
+      "parent": "ug",
+      "hasChildren": false,
+      "geo": {
+        "lat": -0.52,
+        "lng": 30.65,
+        "flag": "🏴",
+        "region": "Africa"
+      },
+      "accessTier": "open",
+      "biome": "Steppe Frontier",
+      "lore": "Western Region is a curated regional zone in Uganda.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 405,
+          "annual_usd": 4860
+        },
+        "language": {
+          "primary": "English",
+          "others": [
+            "Luganda",
+            "Swahili"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Agriculture",
+            "Trade",
+            "Healthcare",
+            "Education"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local setup",
+          "detail": "Local demand, docs, and settlement friction determine onboarding speed.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 18,
+        "cost": 10,
+        "safety": 56,
+        "quality": 44,
+        "language": 26,
+        "security": 78
+      },
+      "population": 12000000,
+      "currency": "UGX"
+    }
+  ]
+}

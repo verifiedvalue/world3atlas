@@ -1,0 +1,136 @@
+{
+  "meta": {
+    "schemaVersion": 2,
+    "parent": "lt"
+  },
+  "zones": [
+    {
+      "id": "lt-vl",
+      "name": "Vilnius County",
+      "level": "state",
+      "parent": "lt",
+      "hasChildren": false,
+      "geo": {
+        "lat": 54.687,
+        "lng": 25.279,
+        "flag": "🏴",
+        "region": "Europe"
+      },
+      "accessTier": "restricted",
+      "biome": "Tech Nexus",
+      "lore": "Vilnius County is a curated sub-region within Lithuania.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 1440,
+          "annual_usd": 17280
+        },
+        "language": {
+          "primary": "Lithuanian",
+          "others": [
+            "English",
+            "Russian"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Fintech",
+            "IT",
+            "Logistics",
+            "Shared Services"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local labor fit",
+          "detail": "Local demand and housing/settlement dynamics impact progression speed.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 42,
+        "cost": 42,
+        "safety": 82,
+        "quality": 78,
+        "language": 56,
+        "security": 64
+      },
+      "population": 840000,
+      "currency": "EUR"
+    },
+    {
+      "id": "lt-ku",
+      "name": "Kaunas County",
+      "level": "state",
+      "parent": "lt",
+      "hasChildren": false,
+      "geo": {
+        "lat": 54.898,
+        "lng": 23.903,
+        "flag": "🏴",
+        "region": "Europe"
+      },
+      "accessTier": "open",
+      "biome": "Industrial Heartland",
+      "lore": "Kaunas County is a curated sub-region within Lithuania.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 1440,
+          "annual_usd": 17280
+        },
+        "language": {
+          "primary": "Lithuanian",
+          "others": [
+            "English",
+            "Russian"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Fintech",
+            "IT",
+            "Logistics",
+            "Shared Services"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local labor fit",
+          "detail": "Local demand and housing/settlement dynamics impact progression speed.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 30,
+        "cost": 30,
+        "safety": 84,
+        "quality": 72,
+        "language": 58,
+        "security": 68
+      },
+      "population": 560000,
+      "currency": "EUR"
+    }
+  ]
+}

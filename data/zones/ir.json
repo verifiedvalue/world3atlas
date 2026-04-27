@@ -1,0 +1,130 @@
+{
+  "meta": {
+    "schemaVersion": 2,
+    "parent": "ir"
+  },
+  "zones": [
+    {
+      "id": "ir-07",
+      "name": "Tehran Province",
+      "level": "state",
+      "parent": "ir",
+      "hasChildren": false,
+      "geo": {
+        "lat": 35.69,
+        "lng": 51.39,
+        "flag": "🏴",
+        "region": "Middle East"
+      },
+      "accessTier": "fortress",
+      "biome": "Urban Megacity",
+      "lore": "Tehran Province is a curated regional zone in Iran.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 720,
+          "annual_usd": 8640
+        },
+        "language": {
+          "primary": "Persian",
+          "others": [],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Engineering",
+            "Energy",
+            "Healthcare",
+            "Manufacturing"
+          ],
+          "degreeRequired": false
+        },
+        "health": "proof_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local settlement",
+          "detail": "Local permitting and labor demand determine onboarding pace.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 88,
+        "cost": 24,
+        "safety": 28,
+        "quality": 48,
+        "language": 54,
+        "security": 18
+      },
+      "population": 14000000,
+      "currency": "IRR"
+    },
+    {
+      "id": "ir-26",
+      "name": "Isfahan Province",
+      "level": "state",
+      "parent": "ir",
+      "hasChildren": false,
+      "geo": {
+        "lat": 32.65,
+        "lng": 51.67,
+        "flag": "🏴",
+        "region": "Middle East"
+      },
+      "accessTier": "restricted",
+      "biome": "Industrial Heartland",
+      "lore": "Isfahan Province is a curated regional zone in Iran.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 720,
+          "annual_usd": 8640
+        },
+        "language": {
+          "primary": "Persian",
+          "others": [],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Engineering",
+            "Energy",
+            "Healthcare",
+            "Manufacturing"
+          ],
+          "degreeRequired": false
+        },
+        "health": "proof_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local settlement",
+          "detail": "Local permitting and labor demand determine onboarding pace.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 68,
+        "cost": 16,
+        "safety": 36,
+        "quality": 44,
+        "language": 58,
+        "security": 34
+      },
+      "population": 5300000,
+      "currency": "IRR"
+    }
+  ]
+}

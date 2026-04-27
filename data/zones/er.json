@@ -1,0 +1,136 @@
+{
+  "meta": {
+    "schemaVersion": 2,
+    "parent": "er"
+  },
+  "zones": [
+    {
+      "id": "er-ma",
+      "name": "Maekel Region",
+      "level": "state",
+      "parent": "er",
+      "hasChildren": false,
+      "geo": {
+        "lat": 15.33,
+        "lng": 38.93,
+        "flag": "🏴",
+        "region": "Africa"
+      },
+      "accessTier": "fortress",
+      "biome": "Urban Outpost",
+      "lore": "Maekel Region is a curated regional zone in Eritrea.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 315,
+          "annual_usd": 3780
+        },
+        "language": {
+          "primary": "Tigrinya",
+          "others": [
+            "Arabic",
+            "English"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Public Services",
+            "Logistics",
+            "Agriculture",
+            "Healthcare"
+          ],
+          "degreeRequired": false
+        },
+        "health": "proof_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local settlement",
+          "detail": "Local permits, safety, and labor demand shape progression speed.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 96,
+        "cost": 14,
+        "safety": 16,
+        "quality": 20,
+        "language": 42,
+        "security": 8
+      },
+      "population": 700000,
+      "currency": "ERN"
+    },
+    {
+      "id": "er-an",
+      "name": "Anseba Region",
+      "level": "state",
+      "parent": "er",
+      "hasChildren": false,
+      "geo": {
+        "lat": 16.47,
+        "lng": 37.42,
+        "flag": "🏴",
+        "region": "Africa"
+      },
+      "accessTier": "fortress",
+      "biome": "Desert Outpost",
+      "lore": "Anseba Region is a curated regional zone in Eritrea.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 315,
+          "annual_usd": 3780
+        },
+        "language": {
+          "primary": "Tigrinya",
+          "others": [
+            "Arabic",
+            "English"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Public Services",
+            "Logistics",
+            "Agriculture",
+            "Healthcare"
+          ],
+          "degreeRequired": false
+        },
+        "health": "proof_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local settlement",
+          "detail": "Local permits, safety, and labor demand shape progression speed.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 92,
+        "cost": 10,
+        "safety": 20,
+        "quality": 16,
+        "language": 46,
+        "security": 12
+      },
+      "population": 500000,
+      "currency": "ERN"
+    }
+  ]
+}

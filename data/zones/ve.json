@@ -1,0 +1,130 @@
+{
+  "meta": {
+    "schemaVersion": 2,
+    "parent": "ve"
+  },
+  "zones": [
+    {
+      "id": "ve-dc",
+      "name": "Capital District",
+      "level": "state",
+      "parent": "ve",
+      "hasChildren": false,
+      "geo": {
+        "lat": 10.48,
+        "lng": -66.9,
+        "flag": "🏴",
+        "region": "Americas"
+      },
+      "accessTier": "fortress",
+      "biome": "Urban Megacity",
+      "lore": "Capital District is a curated regional zone in Venezuela.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 450,
+          "annual_usd": 5400
+        },
+        "language": {
+          "primary": "Spanish",
+          "others": [],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Energy",
+            "Healthcare",
+            "Humanitarian",
+            "Logistics"
+          ],
+          "degreeRequired": false
+        },
+        "health": "proof_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local settlement",
+          "detail": "Local labor demand and compliance shape early progression.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 94,
+        "cost": 20,
+        "safety": 16,
+        "quality": 26,
+        "language": 36,
+        "security": 12
+      },
+      "population": 2100000,
+      "currency": "VES"
+    },
+    {
+      "id": "ve-z",
+      "name": "Zulia",
+      "level": "state",
+      "parent": "ve",
+      "hasChildren": false,
+      "geo": {
+        "lat": 10.65,
+        "lng": -71.64,
+        "flag": "🏴",
+        "region": "Americas"
+      },
+      "accessTier": "fortress",
+      "biome": "Industrial Heartland",
+      "lore": "Zulia is a curated regional zone in Venezuela.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 450,
+          "annual_usd": 5400
+        },
+        "language": {
+          "primary": "Spanish",
+          "others": [],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Energy",
+            "Healthcare",
+            "Humanitarian",
+            "Logistics"
+          ],
+          "degreeRequired": false
+        },
+        "health": "proof_required",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local settlement",
+          "detail": "Local labor demand and compliance shape early progression.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 86,
+        "cost": 16,
+        "safety": 20,
+        "quality": 22,
+        "language": 40,
+        "security": 20
+      },
+      "population": 4100000,
+      "currency": "VES"
+    }
+  ]
+}

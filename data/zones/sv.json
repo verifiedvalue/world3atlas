@@ -1,0 +1,130 @@
+{
+  "meta": {
+    "schemaVersion": 2,
+    "parent": "sv"
+  },
+  "zones": [
+    {
+      "id": "sv-sa",
+      "name": "San Salvador",
+      "level": "state",
+      "parent": "sv",
+      "hasChildren": false,
+      "geo": {
+        "lat": 13.693,
+        "lng": -89.218,
+        "flag": "🏴",
+        "region": "Americas"
+      },
+      "accessTier": "restricted",
+      "biome": "Urban Megacity",
+      "lore": "San Salvador is a curated regional zone in El Salvador.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 765,
+          "annual_usd": 9180
+        },
+        "language": {
+          "primary": "Spanish",
+          "others": [],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Services",
+            "Logistics",
+            "Tech",
+            "Manufacturing"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local settlement",
+          "detail": "Local labor demand and compliance shape early progression.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 42,
+        "cost": 30,
+        "safety": 32,
+        "quality": 56,
+        "language": 34,
+        "security": 68
+      },
+      "population": 1700000,
+      "currency": "USD"
+    },
+    {
+      "id": "sv-li",
+      "name": "La Libertad",
+      "level": "state",
+      "parent": "sv",
+      "hasChildren": false,
+      "geo": {
+        "lat": 13.49,
+        "lng": -89.32,
+        "flag": "🏴",
+        "region": "Americas"
+      },
+      "accessTier": "open",
+      "biome": "Coastal Haven",
+      "lore": "La Libertad is a curated regional zone in El Salvador.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 765,
+          "annual_usd": 9180
+        },
+        "language": {
+          "primary": "Spanish",
+          "others": [],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Services",
+            "Logistics",
+            "Tech",
+            "Manufacturing"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local settlement",
+          "detail": "Local labor demand and compliance shape early progression.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 26,
+        "cost": 18,
+        "safety": 40,
+        "quality": 50,
+        "language": 36,
+        "security": 76
+      },
+      "population": 900000,
+      "currency": "USD"
+    }
+  ]
+}

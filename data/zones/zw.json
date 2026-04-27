@@ -1,0 +1,136 @@
+{
+  "meta": {
+    "schemaVersion": 2,
+    "parent": "zw"
+  },
+  "zones": [
+    {
+      "id": "zw-ha",
+      "name": "Harare Province",
+      "level": "state",
+      "parent": "zw",
+      "hasChildren": false,
+      "geo": {
+        "lat": -17.83,
+        "lng": 31.05,
+        "flag": "🏴",
+        "region": "Africa"
+      },
+      "accessTier": "open",
+      "biome": "Urban Megacity",
+      "lore": "Harare Province is a curated regional zone in Zimbabwe.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 450,
+          "annual_usd": 5400
+        },
+        "language": {
+          "primary": "English",
+          "others": [
+            "Shona",
+            "Ndebele"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Mining",
+            "Agriculture",
+            "Tourism",
+            "Trade"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local settlement",
+          "detail": "Local administration and labor demand influence progression speed.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 38,
+        "cost": 20,
+        "safety": 44,
+        "quality": 46,
+        "language": 16,
+        "security": 64
+      },
+      "population": 2500000,
+      "currency": "USD"
+    },
+    {
+      "id": "zw-bu",
+      "name": "Bulawayo Province",
+      "level": "state",
+      "parent": "zw",
+      "hasChildren": false,
+      "geo": {
+        "lat": -20.16,
+        "lng": 28.58,
+        "flag": "🏴",
+        "region": "Africa"
+      },
+      "accessTier": "open",
+      "biome": "Cultural Heartland",
+      "lore": "Bulawayo Province is a curated regional zone in Zimbabwe.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 450,
+          "annual_usd": 5400
+        },
+        "language": {
+          "primary": "English",
+          "others": [
+            "Shona",
+            "Ndebele"
+          ],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Mining",
+            "Agriculture",
+            "Tourism",
+            "Trade"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local settlement",
+          "detail": "Local administration and labor demand influence progression speed.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 24,
+        "cost": 12,
+        "safety": 52,
+        "quality": 40,
+        "language": 20,
+        "security": 74
+      },
+      "population": 760000,
+      "currency": "USD"
+    }
+  ]
+}

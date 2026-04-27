@@ -1,0 +1,130 @@
+{
+  "meta": {
+    "schemaVersion": 2,
+    "parent": "uy"
+  },
+  "zones": [
+    {
+      "id": "uy-mo",
+      "name": "Montevideo",
+      "level": "state",
+      "parent": "uy",
+      "hasChildren": false,
+      "geo": {
+        "lat": -34.901,
+        "lng": -56.164,
+        "flag": "🏴",
+        "region": "Americas"
+      },
+      "accessTier": "restricted",
+      "biome": "Urban Megacity",
+      "lore": "Montevideo is a curated regional zone in Uruguay.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 1870,
+          "annual_usd": 22440
+        },
+        "language": {
+          "primary": "Spanish",
+          "others": [],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Services",
+            "Tech",
+            "Agribusiness",
+            "Finance"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local settlement",
+          "detail": "Local labor demand and compliance shape early progression.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 48,
+        "cost": 62,
+        "safety": 78,
+        "quality": 82,
+        "language": 32,
+        "security": 62
+      },
+      "population": 1400000,
+      "currency": "UYU"
+    },
+    {
+      "id": "uy-ca",
+      "name": "Canelones",
+      "level": "state",
+      "parent": "uy",
+      "hasChildren": false,
+      "geo": {
+        "lat": -34.52,
+        "lng": -56.28,
+        "flag": "🏴",
+        "region": "Americas"
+      },
+      "accessTier": "open",
+      "biome": "Coastal Haven",
+      "lore": "Canelones is a curated regional zone in Uruguay.",
+      "stats": {
+        "wealth": {
+          "monthly_usd": 1530,
+          "annual_usd": 18360
+        },
+        "language": {
+          "primary": "Spanish",
+          "others": [],
+          "test": "none",
+          "level": "none"
+        },
+        "skills": {
+          "preferred": [
+            "Services",
+            "Tech",
+            "Agribusiness",
+            "Finance"
+          ],
+          "degreeRequired": false
+        },
+        "health": "basic",
+        "age": {
+          "min": null,
+          "max": null
+        }
+      },
+      "quests": [
+        {
+          "id": "local_path",
+          "type": "hard",
+          "label": "National pathway + local settlement",
+          "detail": "Local labor demand and compliance shape early progression.",
+          "options": []
+        }
+      ],
+      "difficulty": {
+        "overall": 28,
+        "cost": 40,
+        "safety": 82,
+        "quality": 74,
+        "language": 36,
+        "security": 72
+      },
+      "population": 600000,
+      "currency": "UYU"
+    }
+  ]
+}
